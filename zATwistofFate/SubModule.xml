@@ -1,7 +1,7 @@
 ﻿<Module>
   <Name value="A Twist of Fate"/>
   <Id value="zATwistofFate"/>
-  <Version value="v1.0.0"/>
+  <Version value="a1.0.1"/>
 <DefaultModule value="false"/>
 <SingleplayerModule value="true"/>
 <MultiplayerModule value="false"/>
@@ -34,6 +34,14 @@
     </XmlNode>
     <XmlNode>
       <XmlName id="NPCCharacters" path="caravans_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="spnpccharacters_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
         <GameType value = "CampaignStoryMode"/>

@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters> 
+<!-- Tier 1 Troops -->
+<!-- Northern Recruit -->
+  <NPCCharacter id="northern_recruit"
+                default_group="Infantry"
+                level="6"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Recruit"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="5" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="10" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="leather_bound_kite_shield" />
+      <equipment slot="Body" id="Item.northern_tunic" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <upgrade_targets>
+        <upgrade_target id="NPCCharacter.northern_militia" />
+        <upgrade_target id="NPCCharacter.northern_woodsman" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Tier 2 Troops -->
+<!-- Northern Militia -->
+<NPCCharacter id="northern_militia"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Militia"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Body" id="Item.battania_civil_c" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.northern_fighter" />
+      <upgrade_target id="NPCCharacter.northern_sentry" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!--Northern Woodsman-->
+<NPCCharacter id="northern_woodsman"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Woodsman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="15" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.northern_scout" />
+      <upgrade_target id="NPCCharacter.northern_hunter" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Tier 3 -->
+<!-- Northern Fighter -->
+<NPCCharacter id="northern_fighter"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Fighter"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Body" id="Item.vlandia_chainmail" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.northern_warrior" />
+      <upgrade_target id="NPCCharacter.northern_guard" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Sentry -->
+<NPCCharacter id="northern_sentry"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Sentry"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.simple_pike_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Body" id="Item.vlandia_chainmail" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+    </equipmentSet>
+    <upgrade_targets>
+        <upgrade_target id="NPCCharacter.northern_spearman" />
+        <upgrade_target id="NPCCharacter.northern_watchman" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Scout -->
+<NPCCharacter id="northern_scout"
+                default_group="Cavalry"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Scout"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="15" />
+      <skill id="Riding" value="70" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="70" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="10" />
+      <skill id="Scouting" value="20" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Body" id="Item.leather_coat" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.vlandia_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.northern_cavalry" />
+      <upgrade_target id="NPCCharacter.northern_spotter" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Hunter -->
+<NPCCharacter id="northern_hunter"
+                default_group="Ranged"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Hunter"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="10" />
+      <skill id="Bow" value="70" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="70" />
+      <skill id="Scouting" value="20" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.leather_coat" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.northern_bowman" />
+      <upgrade_target id="NPCCharacter.northern_tracker" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Tier 4 -->
+<!-- Northern Warrior -->
+<NPCCharacter id="northern_warrior"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Warrior"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="110" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
+      <equipment slot="Body" id="Item.battania_mercenary_armor" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+    </equipmentSet>
+    <upgrade_targets>
+      <!--<upgrade_target id="NPCCharacter.sturgian_warrior" /> -->
+      <!--<upgrade_target id="NPCCharacter.sturgian_woodsman" /> -->
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Guard -->
+<NPCCharacter id="northern_guard"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Guard"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="110" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_mercenary_armor" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+    </equipmentSet>
+    <upgrade_targets>
+      <!--<upgrade_target id="NPCCharacter.sturgian_warrior" /> -->
+      <!--<upgrade_target id="NPCCharacter.sturgian_woodsman" /> -->
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Spearman -->
+<NPCCharacter id="northern_spearman"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Spearman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="110" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.simple_pike_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Cape" id="Item.bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+    </equipmentSet>
+    <upgrade_targets>
+      <!--<upgrade_target id="NPCCharacter.sturgian_warrior" /> -->
+      <!--<upgrade_target id="NPCCharacter.sturgian_woodsman" /> -->
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Watchman -->
+<NPCCharacter id="northern_watchman"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Watchman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="110" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.simple_pike_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Cape" id="Item.bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+    </equipmentSet>
+    <upgrade_targets>
+      <!--<upgrade_target id="NPCCharacter.sturgian_warrior" /> -->
+      <!--<upgrade_target id="NPCCharacter.sturgian_woodsman" /> -->
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Cavalry -->
+<NPCCharacter id="northern_cavalry"
+                default_group="Cavalry"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Cavalry"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="65" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.vlandia_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+      <!--<upgrade_target id="NPCCharacter.northern_cavalry" /> -->
+      <!--<upgrade_target id="NPCCharacter.northern_spotter" /> -->
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Northern Spotter -->
+<NPCCharacter id="northern_spotter"
+                default_group="HorseArcher"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Spotter"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="15" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="15" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="110" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="110" />
+      <skill id="Scouting" value="40" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.vlandia_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+      <!--<upgrade_target id="NPCCharacter.northern_cavalry" />-->
+      <!--<upgrade_target id="NPCCharacter.northern_spotter" />-->
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Northern Bowman -->
+<NPCCharacter id="northern_bowman"
+                default_group="Ranged"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Bowman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="15" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="110" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="110" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <upgrade_targets>
+          <upgrade_target id="NPCCharacter.northern_archer" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Tracker -->
+<!---->
+<!--<NPCCharacter id="northern_tracker"
+                default_group="Ranged"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Tracker"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="110" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter> -->
+<!-- Tier 5 -->
+<!-- Northern Veteran -->
+<!-- Northern Houseguard -->
+<!-- Northern Pikeman -->
+<!-- Northern Defender -->
+<!-- Northern Charger -->
+<!-- Northern Outrider -->
+<!-- Northern Archer -->
+<NPCCharacter id="northern_archer"
+                default_group="Ranged"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Archer"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="130" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="130" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.northern_longbowman" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Ranger -->
+<!-- Tier 6 -->
+<!-- Northern Sworn Sword -->
+<!-- Northern Warden -->
+<!-- Northern Halberdier-->
+<!-- Northern Sentinel -->
+<!-- Northern Vanguard -->
+<!-- Northern Freerider -->
+<!-- Northern Longbowman -->
+<NPCCharacter id="northern_longbowman"
+                default_group="Ranged"
+                level="31"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="Northern Longbowman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+      <BodyProperties version="4" age="32.08" weight="0.2016" build="0.2993"
+                      key="000000088000000F000000000003000F000F00000000000000000000000000000004300400000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.3348" build="0.2993"
+                         key="0011FC0E403C36CFFFF99BFFAAA5FFFFFFFFFFFEEFF0FFFFFFFF6FFFFFFFFFFF00045FD608FFFFFF000000000000000000000000000000000000000000F09141" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="225" />
+      <skill id="Riding" value="25" />
+      <skill id="OneHanded" value="220" />
+      <skill id="TwoHanded" value="25" />
+      <skill id="Polearm" value="25" />
+      <skill id="Bow" value="220" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="220" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.woodland_longbow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <upgrade_targets>
+      <!--<upgrade_target id="NPCCharacter.sturgian_warrior" /> -->
+      <!--<upgrade_target id="NPCCharacter.sturgian_woodsman" /> -->
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Northern Pathfinder -->
+</NPCCharacters>
