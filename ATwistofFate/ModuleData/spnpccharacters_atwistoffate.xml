@@ -689,14 +689,12 @@
       <equipment slot="Item0" id="Item.woodland_longbow" />
       <equipment slot="Item1" id="Item.steppe_arrows" />
       <equipment slot="Head" id="Item.battania_civil_hood" />
-      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Body" id="Item.rough_fur_over_chain" />
       <equipment slot="Gloves" id="Item.highland_gloves" />
       <equipment slot="Leg" id="Item.battania_woodland_boots" />
       <equipment slot="Cape" id="Item.battania_woodland_cloak" />
     </equipmentSet>
     <upgrade_targets>
-      <!--<upgrade_target id="NPCCharacter.sturgian_warrior" /> -->
-      <!--<upgrade_target id="NPCCharacter.sturgian_woodsman" /> -->
     </upgrade_targets>
   </NPCCharacter>
 <!-- Northern Pathfinder -->

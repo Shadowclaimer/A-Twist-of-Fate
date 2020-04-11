@@ -1,7 +1,7 @@
 ﻿<Module>
   <Name value="A Twist of Fate"/>
-  <Id value="zATwistofFate"/>
-  <Version value="a1.0.1"/>
+  <Id value="ATwistofFate"/>
+  <Version value="a1.0.2"/>
 <DefaultModule value="false"/>
 <SingleplayerModule value="true"/>
 <MultiplayerModule value="false"/>

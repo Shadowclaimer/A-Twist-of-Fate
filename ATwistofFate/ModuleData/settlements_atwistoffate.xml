@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Settlements>
   <!-- Varcheg, far-flung on peninsula. Probably Sturgian version of Nordic 'Varjag,' sworn companion -->
-  <Settlement id="town_S1" name="Winterfell" owner="Faction.clan_stark_1" posX="361.256" posY="554.313" culture="Culture.sturgia" prosperity="3100" gate_posX="357.3419" gate_posY="551.6558">
+  <Settlement id="town_S1" name="Winterfell" owner="Faction.clan_stark_1" posX="361.256" posY="554.313" culture="Culture.northern" prosperity="3100" gate_posX="357.3419" gate_posY="551.6558">
     <Components>
       <Town id="town_comp_S1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.608" />
     </Components>
@@ -18,9 +18,9 @@
     <CommonAreas>
     </CommonAreas>
   </Settlement>
-<!--<Settlement id="village_Z1_1" name="Winter's Village" posX="389.676" posY="547.789" culture="Culture.sturgia" text="Winter's Village.">
+<Settlement id="village_S1_1" name="Winter's Village" posX="389.676" posY="547.789" culture="Culture.northern" text="Winter's Village.">
     <Components>
-      <Village id="village_comp_Z1_1" village_type="VillageType.flax_plant" hearth="311" gate_rotation="0.008" trade_bound="Settlement.town_Z1" bound="Settlement.town_Z1" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+      <Village id="village_comp_S1_1" village_type="VillageType.flax_plant" hearth="311" gate_rotation="0.008" trade_bound="Settlement.town_Z1" bound="Settlement.town_S1" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="sturgia_village_j" />
@@ -31,7 +31,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_S1_3" name="{=Settlements.Settlement.name.village_S1_3}Kargrev" posX="344.755" posY="541.842" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_S1_3}Kargrev sits on a rocky promontory on the Bay of Varcheg. The fishermen of these village take advantage of the relatively sheltered waters of the bay, where fish of many kinds come to spawn.">
+  <Settlement id="village_S1_3" name="Winter's Other Village" posX="344.755" posY="541.842" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S1_3}Kargrev sits on a rocky promontory on the Bay of Varcheg. The fishermen of these village take advantage of the relatively sheltered waters of the bay, where fish of many kinds come to spawn.">
     <Components>
       <Village id="village_comp_S1_3" village_type="VillageType.fisherman" hearth="197" trade_bound="Settlement.town_S1" bound="Settlement.town_S1" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
     </Components>
@@ -43,5 +43,5 @@
       <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
-  </Settlement>-->
+  </Settlement>
 </Settlements>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="caravan_leader_northern" default_group="Infantry" is_hero="false" is_mercenary="true" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" culture="Culture.northern" occupation="Merchant" name="{=EsJ3Drv7}Sturgia Mercenaries Leader">
+    <face>
+      <!--face_key value="00064c0c903c128d3378764a99782952967a8467a7a87bd7d7496cb5b3775ca50006833095b39736000000000000000000000000000000000000000000006000"/-->
+      <BodyProperties version="4" age="43.18" weight="0.4591" build="0.4635" key="00064C0CD03C128D3378764A99772952967A8467A7A87BD7D7496CB5B3775CA50007733507B39736000000000000000000000000000000000000000000C86000" />
+    </face>
+    <skills></skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.narrow_sword_t3" />
+    </equipmentSet>
+    <equipment slot="Body" id="Item.fur_armor_with_strap" />
+    <equipment slot="Leg" id="Item.strapped_leather_boots" />
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_northern_1" name="{=5nthUXyw}Sturgian land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_9" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="RusHair" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_northern_0" name="{=yr5pa0hs}Willowbark" voice="softspoken" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="BalancedFightingSkills" value="2" />
+      <Trait id="WoodsScoutSkills" value="1" />
+      <Trait id="Surgeon" value="3" />
+      <!-- maybe have the WoodsScoutSkills/surgeon combo give herbalist perk -->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+<NPCCharacter id="spc_notable_northern_0" name="{=IaMyN5yr}Cautious Sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_0" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.nordic_ancestral_sword" />-->
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Body" id="Item.nordic_tunic" />
+      <equipment slot="Leg" id="Item.leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_northernpreacher_0" name="{=pbcUnQS9}Sturgian seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Preacher">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.nordic_ancestral_sword" />-->
+      <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+      <equipment slot="Body" id="Item.nordic_tunic" />
+      <equipment slot="Leg" id="Item.leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+<NPCCharacter id="spc_notable_northerngangleader" name="{=K27WpkiE}Sturgian gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="GangLeader">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_6" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.nordic_ancestral_sword" />-->
+      <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+      <equipment slot="Body" id="Item.nordic_tunic" />
+      <equipment slot="Leg" id="Item.leather_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.wrapped_axe" />-->
+      <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+      <equipment slot="Body" id="Item.northern_padded_gambeson" />
+      <equipment slot="Leg" id="Item.leather_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.wrapped_axe" />-->
+      <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+      <equipment slot="Body" id="Item.tundra_tunic" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Cape" id="Item.scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+      <equipment slot="Body" id="Item.northern_padded_gambeson" />
+      <equipment slot="Leg" id="Item.battania_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+<NPCCharacter id="spc_notable_northernartisan_0" name="{=RJ3WezQ9}Sturgian artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Artisan">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_8" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.nordic_ancestral_sword" />-->
+      <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+      <equipment slot="Body" id="Item.nordic_tunic" />
+      <equipment slot="Leg" id="Item.leather_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.wrapped_axe" />-->
+      <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+      <equipment slot="Body" id="Item.northern_padded_gambeson" />
+      <equipment slot="Leg" id="Item.leather_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.wrapped_axe" />-->
+      <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+      <equipment slot="Body" id="Item.tundra_tunic" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Cape" id="Item.scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+      <equipment slot="Body" id="Item.northern_padded_gambeson" />
+      <equipment slot="Leg" id="Item.battania_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="spc_northern_outlaw_1" name="{=HXqZbme3}Sturgia bold outlaw" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Outlaw">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_sturgia_outlaw_1" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <NPCCharacter id="spc_northern_headman_1" name="{=bVBu4bRa}sturgia rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+  </NPCCharacter>
+</NPCCharacters>

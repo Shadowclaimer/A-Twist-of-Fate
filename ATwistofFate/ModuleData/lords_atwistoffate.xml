@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<!--             -->
+<!-- HOUSE STARK -->
+<!--             -->
+<!-- Lord - Benjen Stark -->
+  <NPCCharacter id="starklord_1" name="Benjen Stark" age="33" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.sturgia_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+      <BodyProperties version="4" weight="0.5" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+  <!-- Lady - Catelyn Stark -->
+  <NPCCharacter id="starklord_2" name="Catelyn Stark " age="35" voice="curt" is_hero="true" is_female="true" default_group="Infantry" battleTemplate="NPCCharacter.sturgia_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="000B0807008830047859865877878940675C767663783508C753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000038EC2083"  />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+  <!-- Heir - Edwyle Stark -->
+  <NPCCharacter id="starklord_3" name="Edwyle Stark" age="16" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.sturgia_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+      <BodyProperties version="4" key="0000500140BC19029E3B66C84492388893A369B8B287576979538AC46B678B94000E08B30EC6B384000000000000000000000000000000000000000000F05180" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- Castellan - Rodrik Cassel -->
+  <NPCCharacter id="starklord_4" name="Rodrik Cassel" age="52" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.sturgia_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+      <BodyProperties version="4" key="0000500140BC19029E3B66C84492388893A369B8B287576979538AC46B678B94000E08B30EC6B384000000000000000000000000000000000000000000F05180" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- Jory Cassel -->
+  <NPCCharacter id="starklord_5" name="Jory Cassel" age="27" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.sturgia_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+      <BodyProperties version="4" key="0000500140BC19029E3B66C84492388893A369B8B287576979538AC46B678B94000E08B30EC6B384000000000000000000000000000000000000000000F05180" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- Maester Luwin -->
+  <NPCCharacter id="starklord_6" name="Maester Luwin" age="72" voice="curt" is_hero="false" default_group="Infantry" battleTemplate="NPCCharacter.sturgia_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+      <BodyProperties version="4" key="0000500140BC19029E3B66C84492388893A369B8B287576979538AC46B678B94000E08B30EC6B384000000000000000000000000000000000000000000F05180" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+</NPCCharacters>

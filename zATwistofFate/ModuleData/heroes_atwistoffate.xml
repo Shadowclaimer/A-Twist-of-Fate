@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Heroes>
-  <Hero id="starklord_1" is_noble="true" faction="Faction.clan_stark_1" text="The current lord of House Stark, should be the Neddard." />
-  <Hero id="starklord_2" is_noble="true" faction="Faction.clan_stark_1" text="Benjen Stark." />
-  <Hero id="starklord_3" is_noble="false" faction="Faction.clan_stark_1" text="Rodrik Cassel." />
-</Heroes>
