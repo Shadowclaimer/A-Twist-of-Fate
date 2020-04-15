@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Kingdoms>
-  <Kingdom id="thenorth" owner="Hero.starklord_1" banner_key="11.149.20.1836.1836.768.788.1.0.-30.145.112.116.442.400.764.764.1.0.0" primary_banner_color="0xff6B6B6B" secondary_banner_color="0xffCFCFCF" label_color="FF1856A1" color="FF1C2A50" color2="FF949CCC" alternative_color="FFFFFFFF" alternative_color2="FF2A4B78" culture="Culture.northern" settlement_banner_mesh="encounter_flag_b" flag_mesh="info_screen_flags_c" name="The North" short_name="Northerners" title="The North" ruler_title="King in the North" text="This is the Northern Kingdom Data.">
-    <relationships>
-    </relationships>
-    <policies>
-    </policies>
-  </Kingdom>
-</Kingdoms>

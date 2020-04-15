@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+  <Kingdom id="thenorth" owner="Hero.starklord_1" culture="Culture.northern" settlement_banner_mesh="encounter_flag_a" label_color="FF453e38" color="FF111111" color2="FF666666" alternative_color="FF453e38" alternative_color2="FFf5f5f5" flag_mesh="info_screen_flags_a" name="The North" short_name="Northerners" title="The North" ruler_title="King in the North" text="This is the Northern Kingdom Data.">
+    <relationships>
+    </relationships>
+    <policies>
+    </policies>
+  </Kingdom>
+</Kingdoms>

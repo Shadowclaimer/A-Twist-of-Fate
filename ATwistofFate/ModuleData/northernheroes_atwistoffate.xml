@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+<!--             -->
+<!-- HOUSE STARK -->
+<!--             -->
+<!-- Lord - Benjen Stark -->
+  <Hero id="starklord_1" is_noble="true" faction="Faction.clan_stark_1" text="The current lord of House Stark, Benjen Stark." />
+<!-- Lady - Catelyn Stark -->
+  <Hero id="starklord_2" is_noble="true" faction="Faction.clan_stark_1" text="Catelyn Stark." />
+<!-- Heir - Edwyle Stark -->
+  <Hero id="starklord_3" is_noble="true" faction="Faction.clan_stark_1" text="Edwyle Stark." />
+<!-- Castellan - Rodrik Cassel -->
+  <Hero id="starklord_4" is_noble="false" faction="Faction.clan_stark_1" text="Rodrik Cassel." />
+<!-- Jory Cassel -->
+  <Hero id="starklord_5" is_noble="false" faction="Faction.clan_stark_1" text="Jory Cassel." />
+<!-- Maester Luwin -->
+  <Hero id="starklord_6" is_noble="false" faction="Faction.clan_stark_1" text="Maester Luwin." />
+<!--             -->
+<!-- HOUSE UMBER -->
+<!--             -->
+<!-- Lord - Jon "Greatjon" Umber -->
+  <Hero id="umberlord_1" is_noble="true" faction="Faction.clan_umber_1" text="The current lord of House Umber, Jon 'Greatjon' Umber." />
+<!--             -->
+<!-- HOUSE TALLHART -->
+<!--             -->
+<!-- Lord - Benfred Tallhart -->
+  <Hero id="tallhartlord_1" is_noble="true" faction="Faction.clan_tallhart_1" text="The current lord of House Tallhart, Benfred Tallhart." />
+<!--              -->
+<!-- HOUSE BOLTON -->
+<!--              -->
+<!-- Lord - Roose Bolton -->
+  <Hero id="boltonlord_1" is_noble="true" faction="Faction.clan_bolton_1" text="The current lord of House Bolton, Roose Bolton." />
+<!--              -->
+<!-- HOUSE GLOVER -->
+<!--              -->
+<!-- Lord - Galbart Glover -->
+  <Hero id="gloverlord_1" is_noble="true" faction="Faction.clan_glover_1" text="The current lord of House Glover, Galbert Glover." />
+<!--              -->
+<!-- HOUSE MANDERLY -->
+<!--              -->
+<!-- Lord - Wyman Manderly -->
+  <Hero id="manderlylord_1" is_noble="true" faction="Faction.clan_manderly_1" text="The current lord of House Manderly, Wyman Manderly." />
+
+</Heroes>

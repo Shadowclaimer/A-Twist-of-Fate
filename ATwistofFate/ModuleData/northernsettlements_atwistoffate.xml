@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+<Settlement id="town_S6" name="Winterfell" owner="Faction.clan_stark_1" posX="549.77" posY="586.259" culture="Culture.northern" prosperity="1900" gate_posX="554.0275" gate_posY="584.1961">
+    <Components>
+      <Town id="town_comp_S6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="sturgia_town_c" scene_name_1="sturgia_town_c" scene_name_2="sturgia_town_c" scene_name_3="sturgia_town_c" />
+      <Location id="arena" scene_name="arena_sturgia_a" />
+      <Location id="tavern" scene_name="sturgia_house_b_interior_tavern" />
+      <Location id="lordshall" scene_name_1="sturgia_castle_keep_a_l3_interior" scene_name_2="sturgia_castle_keep_a_l3_interior" scene_name_3="sturgia_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="sturgia_dungeon_a" />
+      <Location id="house_1" scene_name="sturgia_town_house_d1_interior_b_house" />
+      <Location id="house_2" scene_name="sturgia_town_house_d1_interior_b_house" />
+      <Location id="house_3" scene_name="sturgia_town_house_d1_interior_b_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_EN4" name="Last Hearth" owner="Faction.clan_umber_1" posX="534.622" posY="495.804" culture="Culture.northern" prosperity="2800" gate_posX="532.6489" gate_posY="494.7029">
+    <Components>
+      <Town id="town_comp_EN4" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_empire_seaside_1" wait_mesh="wait_empire_town" gate_rotation="0.408" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h" scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
+      <Location id="arena" scene_name="arena_empire_a" />
+      <Location id="tavern" scene_name="empire_house_c_tavern_a" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+      <Location id="house_1" scene_name="empire_house_d_interior_house" />
+      <Location id="house_2" scene_name="empire_house_d_interior_house" />
+      <Location id="house_3" scene_name="empire_house_d_interior_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+<Settlement id="castle_S8" name="{=Settlements.Settlement.name.castle_S8}Vladiv Castle" owner="Faction.clan_stark_1" posX="612.399" posY="573.747" culture="Culture.northern" prosperity="990" gate_posX="610.8224" gate_posY="573.5645">
+    <Components>
+      <Town id="castle_comp_S8" is_castle="true" level="2" background_crop_position="0.0" background_mesh="gui_bg_castle_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="sturgia_castle_siege_001" scene_name_1="sturgia_castle_siege_001" scene_name_2="sturgia_castle_siege_001" scene_name_3="sturgia_castle_siege_001" />
+      <Location id="lordshall" scene_name_1="sturgia_castle_keep_a_l3_interior" scene_name_2="sturgia_castle_keep_a_l3_interior" scene_name_3="sturgia_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="sturgia_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_EN5" name="{=Settlements.Settlement.name.castle_EN5}Atrion Castle" owner="Faction.clan_umber_1" posX="526.21" posY="464.23" culture="Culture.northern" prosperity="560" gate_posX="527.915" gate_posY="462.3666">
+    <Components>
+      <Town id="castle_comp_EN5" is_castle="true" level="2" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_EN2" name="{=Settlements.Settlement.name.castle_EN2}Lochana Castle" owner="Faction.clan_umber_1" posX="601.88" posY="503.195" culture="Culture.northern" prosperity="500" gate_posX="604.3249" gate_posY="502.647">
+    <Components>
+      <Town id="castle_comp_EN2" is_castle="true" level="3" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="village_EN4_2" name="{=Settlements.Settlement.name.village_EN4_2}Alatys" posX="523.468" posY="506.288" culture="Culture.northern" text="{=Settlements.Settlement.text.village_EN4_2}Alatys lies on the flat southeast end of Lake Laconys. The shallow waters of the lake here are well-stocked with flounder, while trout can be fished from nearby streams.">
+    <Components>
+      <Village id="village_comp_EN4_2" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.008" trade_bound="Settlement.town_EN4" bound="Settlement.town_EN4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_x" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_EN2_2" name="{=Settlements.Settlement.name.castle_village_EN2_2}Nortanisa" posX="573.953" posY="503.563" culture="Culture.northern" text="{=Settlements.Settlement.text.village_EN4_3}Nortanisa is a fishing village on the eastern shores of Lake Laconys, placing nets and cages in the shallow edges of the lake to catch roach, bream, perch, and crayfish.">
+    <Components>
+      <Village id="castle_village_comp_EN2_2" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.008" trade_bound="Settlement.castle_EN2" bound="Settlement.castle_EN2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_x" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_EN4_4" name="{=Settlements.Settlement.name.village_EN4_4}Hetania" posX="561.817" posY="487.846" culture="Culture.northern" text="{=Settlements.Settlement.text.village_EN4_4}Hetania sits in a deep valley in Visilia, a highland region in the eastern empire. As in many villages around here, the foresters of this region still speak the Palaic languages of the tribes who lived here before the Empire came.">
+    <Components>
+      <Village id="village_comp_EN4_4" village_type="VillageType.lumberjack" hearth="346" gate_rotation="0.008" trade_bound="Settlement.town_EN4" bound="Settlement.town_EN4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_008" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_S8_1" name="{=Settlements.Settlement.name.castle_village_S8_1}Vladiv" posX="618.42" posY="590.216" culture="Culture.northern" text="{=Settlements.Settlement.text.castle_village_S8_1}Vladiv lies at the foot of the bleak Chernyg moors that form the border between the Sturgian and imperial lands. Villagers graze cattle on the moors, and sometimes venture forth into the mists to raid imperial herds on the far side.">
+    <Components>
+      <Village id="castle_village_comp_S8_1" village_type="VillageType.cattle_farm" hearth="152" gate_rotation="0.308" trade_bound="Settlement.castle_S8" bound="Settlement.castle_S8" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+ <Settlement id="village_S3_2" name="{=Settlements.Settlement.name.village_S3_2}Skorin" posX="455.437" posY="497.693" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_S3_2}Skorin sits on the Skorniva, a stream running out of the northern forests. Like other villages on the river, the people here trade in the salmon who migrate up and down with the seasons.">
+    <Components>
+      <Village id="village_comp_S3_2" village_type="VillageType.fisherman" hearth="161" gate_rotation="0.908" trade_bound="Settlement.town_S3" bound="Settlement.town_S3" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_h" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_S8_2" name="{=Settlements.Settlement.name.castle_village_S8_2}Glavstrom" posX="620.089" posY="559.767" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S4_2}Glavstrom sits on a rocky inlet of Lake Laconys. The village lives off pike, sturgeon, trout and other fish from the mildly salty deeper waters of the lake.">
+    <Components>
+      <Village id="castle_village_comp_S8_2" village_type="VillageType.trapper" hearth="283" gate_rotation="0.408" trade_bound="Settlement.castle_S8" bound="Settlement.castle_S8" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_S7_2" name="{=Settlements.Settlement.name.castle_village_S7_2}Alov" posX="654.264" posY="540.041" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_S5_3}Alov sits amid the forests of northern Sturgia. The villagers of this isolated region, who include Vanni woodspeople as well as Sturgian and Nord migrants, are known for their long silences and general distrust of outside authority.">
+    <Components>
+      <Village id="castle_village_comp_S7_2" village_type="VillageType.wheat_farm" hearth="157" trade_bound="Settlement.castle_S7" bound="Settlement.castle_S7" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_h" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_S6_1" name="{=Settlements.Settlement.name.village_S6_1}Kvol" posX="573.026" posY="585.666" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S6_1}The villagers of Kvol raise small, sturdy cattle on the foothills of Mount Iltan. They include the descendants of refugees and malcontents from across Calradia, seeking isolation in the cold northern forests.">
+    <Components>
+      <Village id="village_comp_S6_1" village_type="VillageType.cattle_farm" hearth="508" trade_bound="Settlement.town_S6" bound="Settlement.town_S6" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_e" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_S6_2" name="{=Settlements.Settlement.name.village_S6_2}Radakmed" posX="551.725" posY="572.339" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S6_2}Radakmed sits on the misty eastern slopes of Mount Iltan. The people here are cattle-herders, raising small sturdy beasts, bred to withstand cold, who even in winter can dig through snow to find grass.">
+    <Components>
+      <Village id="village_comp_S6_2" village_type="VillageType.cattle_farm" hearth="339" trade_bound="Settlement.town_S6" bound="Settlement.town_S6" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_e" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_S6_3" name="{=Settlements.Settlement.name.village_S6_3}Alebat" posX="529.84" posY="581.846" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S6_3}Alebat sits deep in the forests of northeastern Sturgia. This isolated region has long been a refuge for those fleeing oppression or debt or bloodfeud across the northlands, and the dialect is strongly influenced by Khuzait, and the tongue of the Vanni woodspeople.">
+    <Components>
+      <Village id="village_comp_S6_3" village_type="VillageType.lumberjack" hearth="201" trade_bound="Settlement.town_S6" bound="Settlement.town_S6" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_h" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_EN5" name="Torrhen's Square" owner="Faction.clan_tallhart_1" posX="604.146" posY="426.119" culture="Culture.northern" prosperity="3900" gate_posX="604.5169" gate_posY="423.2607">
+    <Components>
+      <Town id="town_comp_EN5" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_empire_town" gate_rotation="0.608" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="empire_town_j_siege" scene_name_1="empire_town_j_siege" scene_name_2="empire_town_j_siege" scene_name_3="empire_town_j_siege" />
+      <Location id="arena" scene_name="arena_empire_a" />
+      <Location id="tavern" scene_name="empire_house_c_tavern_a" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+      <Location id="house_1" scene_name="empire_house_d_interior_house" />
+      <Location id="house_2" scene_name="empire_house_d_interior_house" />
+      <Location id="house_3" scene_name="empire_house_d_interior_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+    <Settlement id="village_EN5_1" name="{=Settlements.Settlement.name.village_EN5_1}Vealos" posX="574.82" posY="453.289" culture="Culture.northern" text="{=Settlements.Settlement.text.village_EN5_1}Vealos sits in the slowly rising eastern slopes of the Hametic mountains in the heartland of the empire. Although mostly covered with beech and oak woods, the mountain slopes provide good grazing for horses and has traditionally been home to stud farms for the imperial cavalry.">
+    <Components>
+      <Village id="village_comp_EN5_1" village_type="VillageType.europe_horse_ranch" hearth="221" trade_bound="Settlement.town_EN5" bound="Settlement.town_EN5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_002" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_EN5_2" name="{=Settlements.Settlement.name.village_EN5_2}Orthra" posX="570.369" posY="420.634" culture="Culture.northern" text="{=Settlements.Settlement.text.village_EN5_2}Orthra lies in the Myzeiad, a richly wooded valley in the central piedmont that has been part of imperial territory for as long as anyone can remember. Fine pasture for horses can be cleared when the forests are cut back.">
+    <Components>
+      <Village id="village_comp_EN5_2" village_type="VillageType.europe_horse_ranch" hearth="305" gate_rotation="0.008" trade_bound="Settlement.town_EN5" bound="Settlement.town_EN5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_004" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_EN5_4" name="{=Settlements.Settlement.name.village_EN5_4}Samatha" posX="621.611" posY="432.645" culture="Culture.northern" text="{=Settlements.Settlement.text.village_EN5_4}Samatha sits in the foothills of the Dryatic mountains, overlooking a steep canyon. The hillsides have been terraced to allow the growing of crops and mulberry plants on which to raise silkworms.">
+    <Components>
+      <Village id="village_comp_EN5_4" village_type="VillageType.silk_plant" hearth="170" trade_bound="Settlement.town_EN5" bound="Settlement.town_EN5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_007" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_ES7" name="{=Settlements.Settlement.name.castle_ES7}Jogurys Castle" owner="Faction.clan_tallhart_1" posX="654.539" posY="434.006" culture="Culture.northern" prosperity="1050" gate_posX="651.8367" gate_posY="432.7817">
+    <Components>
+      <Town id="castle_comp_ES7" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_ES7_1" name="{=Settlements.Settlement.name.castle_village_ES7_1}Jogurys" posX="640.457" posY="415.094" culture="Culture.northern" text="{=Settlements.Settlement.text.castle_village_ES7_1}Jogurys lies on the southern slope of Mount Tanon, an extinct volcano over looking Lake Perasos. The black soil is well-suited to the growing of wheat.">
+    <Components>
+      <Village id="castle_village_comp_ES7_1" village_type="VillageType.olive_trees" hearth="303" gate_rotation="0.008" trade_bound="Settlement.castle_ES7" bound="Settlement.castle_ES7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_004" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_ES7_2" name="{=Settlements.Settlement.name.castle_village_ES7_2}Eunalica" posX="659.415" posY="419.419" culture="Culture.northern" text="{=Settlements.Settlement.text.village_ES7_3}Eunalica is the center of a rural district on the southern shores of Lake Tanaesis, located amid oak scrub and woodland suitable for the cultivation of mulberry trees used in silk production.">
+    <Components>
+      <Village id="castle_village_ES7_2" village_type="VillageType.salt_mine" hearth="256" gate_rotation="0.008" trade_bound="Settlement.castle_ES7" bound="Settlement.castle_ES7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_003" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_S2" name="The Dreadfort" owner="Faction.clan_bolton_1" posX="467.158" posY="570.245" culture="Culture.northern" prosperity="2300" gate_posX="468.2623" gate_posY="565.6448">
+    <Components>
+      <Town id="town_comp_S2" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="sturgia_town_b" scene_name_1="sturgia_town_b" scene_name_2="sturgia_town_b" scene_name_3="sturgia_town_b" />
+      <Location id="arena" scene_name="arena_sturgia_a" />
+      <Location id="tavern" scene_name="sturgia_house_b_interior_tavern" />
+      <Location id="lordshall" scene_name_1="sturgia_castle_keep_a_l3_interior" scene_name_2="sturgia_castle_keep_a_l3_interior" scene_name_3="sturgia_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="sturgia_dungeon_a" />
+      <Location id="house_1" scene_name="sturgia_town_house_d1_interior_b_house" />
+      <Location id="house_2" scene_name="sturgia_town_house_d1_interior_b_house" />
+      <Location id="house_3" scene_name="sturgia_town_house_d1_interior_b_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_S2_1" name="{=Settlements.Settlement.name.village_S2_1}Safna" posX="468.963" posY="556.267" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S2_1}Safna sits on the middle reaches of the Dvora river. Villagers raise cattle here, watching out for Battanian raiders venturing over the low rolling hills to the south.">
+    <Components>
+      <Village id="village_comp_S2_1" village_type="VillageType.flax_plant" hearth="112" gate_rotation="0.008" trade_bound="Settlement.town_S2" bound="Settlement.town_S2" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_j" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_S2_2" name="{=Settlements.Settlement.name.village_S2_2}Marabrot" posX="453.523" posY="592.929" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S2_2}Marabrot sits on a crossing over the Dvora river. The gentle hills of these wet, cold lowlands support the growing of flax.">
+    <Components>
+      <Village id="village_comp_S2_2" village_type="VillageType.flax_plant" hearth="322" gate_rotation="0.168" trade_bound="Settlement.town_S2" bound="Settlement.town_S2" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_j" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_S6" name="{=Settlements.Settlement.name.castle_S6}Takor Castle" owner="Faction.clan_bolton_1" posX="493.389" posY="551.866" culture="Culture.northern" prosperity="680" gate_posX="491.7607" gate_posY="551.7776">
+    <Components>
+      <Town id="castle_comp_S6" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_castle_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="sturgia_castle_003" scene_name_1="sturgia_castle_003" scene_name_2="sturgia_castle_003" scene_name_3="sturgia_castle_003" />
+      <Location id="lordshall" scene_name_1="sturgia_castle_keep_a_l3_interior" scene_name_2="sturgia_castle_keep_a_l3_interior" scene_name_3="sturgia_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="sturgia_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_S6_1" name="{=Settlements.Settlement.name.castle_village_S6_1}Takor" posX="492.859" posY="567.844" culture="Culture.northern" text="{=Settlements.Settlement.text.castle_village_S6_1}Takor is a cattle raising village at the pass that the Battanians call Mynad Rhyfel, the mountain of war, and their imperial and Sturgian neighbors call Minador. It is one of the main trading and raiding routes between the wild north and the more settled imperial lands.">
+    <Components>
+      <Village id="castle_village_comp_S6_1" village_type="VillageType.cattle_farm" hearth="544" gate_rotation="0.908" trade_bound="Settlement.castle_S6" bound="Settlement.castle_S6" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_S6_2" name="{=Settlements.Settlement.name.castle_village_S6_2}Dvorusta" posX="475.506" posY="547.402" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S2_3}Dvorusta is a fishing village at the mouth of the Dvora river. Rocky cliffs shelter it from the storms of the Byalic Gulf. Away from shore the seabottom drops swiftly, and the waters, though cold, are rich in herring and cod.">
+    <Components>
+      <Village id="castle_village_comp_S6_2" village_type="VillageType.fisherman" hearth="219" gate_rotation="0.008" trade_bound="Settlement.castle_S6" bound="Settlement.castle_S6" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_h" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_EN6" name="Deepwood Motte" owner="Faction.clan_empire_north_4" posX="620.342" posY="483.919" culture="Culture.northern" prosperity="2300" gate_posX="624.6627" gate_posY="483.38">
+    <Components>
+      <Town id="town_comp_EN6" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="empire_town_j_siege" scene_name_1="empire_town_j_siege" scene_name_2="empire_town_j_siege" scene_name_3="empire_town_j_siege" />
+      <Location id="arena" scene_name="arena_empire_a" />
+      <Location id="tavern" scene_name="empire_house_c_tavern_a" />
+      <Location id="lordshall" scene_name_1="empire_lords_hall" scene_name_2="empire_lords_hall" scene_name_3="empire_lords_hall" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+      <Location id="house_1" scene_name="empire_house_d_interior_house" />
+      <Location id="house_2" scene_name="empire_house_d_interior_house" />
+      <Location id="house_3" scene_name="empire_house_d_interior_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_EN6_2" name="{=Settlements.Settlement.name.village_EN6_2}Acragora" posX="632.44" posY="498.726" culture="Culture.northern" text="{=Settlements.Settlement.text.village_EN6_2}Acragora sits in a low valley overlooking the wooded highlands of Ircara. The forests grow thinner here, allowing them to be cleared for grasslands and grazing.">
+    <Components>
+      <Village id="village_comp_EN6_2" village_type="VillageType.flax_plant" hearth="411" trade_bound="Settlement.town_EN6" bound="Settlement.town_EN6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_003" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_EN6_1" name="{=Settlements.Settlement.name.village_EN6_1}Avasinton" posX="647.195" posY="488.268" culture="Culture.northern" text="{=Settlements.Settlement.text.village_EN6_1}Avasinton sits in the thick woods of Ircara, the wild highlands between the lakes Laconys and Tanaesys. The land here is suited to the growing of mulberry trees, home to silkworms.">
+    <Components>
+      <Village id="village_comp_EN6_1" village_type="VillageType.silk_plant" hearth="340" gate_rotation="0.008" trade_bound="Settlement.town_EN6" bound="Settlement.town_EN6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_003" max_prosperity="70" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_EN8" name="{=Settlements.Settlement.name.castle_EN8}Syratos Castle" owner="Faction.clan_glover_1" posX="663.562" posY="477.951" culture="Culture.northern" prosperity="560" gate_posX="661.7092" gate_posY="475.9247">
+    <Components>
+      <Town id="castle_comp_EN8" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_EN8_1" name="{=Settlements.Settlement.name.castle_village_EN8_1}Syratos" posX="653.055" posY="472.717" culture="Culture.northern" text="{=Settlements.Settlement.text.castle_village_EN8_1}Syratos sits at the base of a key pass over the Carassic massif, the highest mountains in the Empire. It sits atop a narrow ravine, in the sides of which are fine seams of iron ore.">
+    <Components>
+      <Village id="castle_village_comp_EN8_1" village_type="VillageType.iron_mine" hearth="422" trade_bound="Settlement.castle_EN8" bound="Settlement.castle_EN8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_004" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_EN8_2" name="{=Settlements.Settlement.name.castle_village_EN8_2}Temhem" posX="647.507" posY="463.876" culture="Culture.northern" text="{=Settlements.Settlement.text.castle_village_EN8_1}Temhem sits at the base of a key pass over the Carassic massif, the highest mountains in the Empire. It sits atop a narrow ravine, in the sides of which are fine seams of iron ore.">
+    <Components>
+      <Village id="castle_village_comp_EN8_2" village_type="VillageType.lumberjack" hearth="422" trade_bound="Settlement.castle_EN8" bound="Settlement.castle_EN8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_004" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_EN7" name="{=Settlements.Settlement.name.castle_EN7}Epinosa Castle" owner="Faction.clan_glover_1" posX="652.684" posY="512.049" culture="Culture.northern" prosperity="990" gate_posX="650.2717" gate_posY="512.7138">
+    <Components>
+      <Town id="castle_comp_EN7" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_EN7_1" name="{=Settlements.Settlement.name.castle_village_EN7_1}Epinosa" posX="663.217" posY="496.621" culture="Culture.northern" text="{=Settlements.Settlement.text.castle_village_EN7_1}Epinosa sits in gentle rolling hills east of Lake Laconys. The region is relatively thinly populated, but large herds of cattle graze on the green downs.">
+    <Components>
+      <Village id="castle_village_comp_EN7_1" village_type="VillageType.cattle_farm" hearth="222" trade_bound="Settlement.castle_EN7" bound="Settlement.castle_EN7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_008" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_EN7_2" name="{=Settlements.Settlement.name.castle_village_EN7_2}Pons" posX="644.343" posY="511.862" culture="Culture.northern" text="{=Settlements.Settlement.text.castle_village_EN7_1}Pons sits in gentle rolling hills east of Lake Laconys. The region is relatively thinly populated, but large herds of cattle graze on the green downs.">
+    <Components>
+      <Village id="castle_village_comp_EN7_2" village_type="VillageType.cattle_farm" hearth="222" trade_bound="Settlement.castle_EN7" bound="Settlement.castle_EN7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_007" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_S4" name="White Harbor" owner="Faction.clan_manderly_1" posX="540.416" posY="548.273" culture="Culture.northern" prosperity="3300" gate_posX="537.909" gate_posY="549.673">
+    <Components>
+      <Town id="town_comp_S4" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.808" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="sturgia_town_b" scene_name_1="sturgia_town_b" scene_name_2="sturgia_town_b" scene_name_3="sturgia_town_b" />
+      <Location id="arena" scene_name="arena_sturgia_a" />
+      <Location id="tavern" scene_name="sturgia_house_b_interior_tavern" />
+      <Location id="lordshall" scene_name_1="sturgia_castle_keep_a_l3_interior" scene_name_2="sturgia_castle_keep_a_l3_interior" scene_name_3="sturgia_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="sturgia_dungeon_a" />
+      <Location id="house_1" scene_name="sturgia_town_house_d1_interior_b_house" />
+      <Location id="house_2" scene_name="sturgia_town_house_d1_interior_b_house" />
+      <Location id="house_3" scene_name="sturgia_town_house_d1_interior_b_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_S4_4" name="{=Settlements.Settlement.name.village_S4_4}Yangutum" posX="515.753" posY="551.25" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S4_4}Yangutum sits on a small plateau north of Lake Laconys. The thick soils here, though poorly drained, make it good land for flax.">
+    <Components>
+      <Village id="village_comp_S4_4" village_type="VillageType.iron_mine" hearth="333" gate_rotation="0.408" trade_bound="Settlement.town_S4" bound="Settlement.town_S4" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_S4_3" name="{=Settlements.Settlement.name.village_S4_3}Omkany" posX="534.628" posY="557.699" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S4_3}Omkany lies in a nook of the hills near the eastern end of Lake Laconys. The rocky shore here is rich in iron, exposed by the small streams running down to the streams.">
+    <Components>
+      <Village id="village_comp_S4_3" village_type="VillageType.swine_farm" hearth="283" gate_rotation="0.408" trade_bound="Settlement.town_S4" bound="Settlement.town_S4" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_S4_1" name="{=Settlements.Settlement.name.village_S4_1}Borchovagorka" posX="574.539" posY="551.736" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S4_1}Borchovagorka is a relatively recent Sturgian settlement near the headwaters of the Shava, a mountain stream flowing into Lake Laconys. Trout and other fish from the lake swim upstream here to spawn, providing a good catch for the local fishermen.">
+    <Components>
+      <Village id="village_comp_S4_1" village_type="VillageType.fisherman" hearth="440" gate_rotation="0.758" trade_bound="Settlement.town_S4" bound="Settlement.town_S4" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

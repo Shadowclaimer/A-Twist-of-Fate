@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="caravan_leader_northern" default_group="Infantry" is_hero="false" is_mercenary="true" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" culture="Culture.northern" occupation="Merchant" name="{=EsJ3Drv7}Sturgia Mercenaries Leader">
+  <NPCCharacter id="caravan_leader_northern" default_group="Infantry" is_hero="false" is_mercenary="true" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" culture="Culture.northern" occupation="Merchant" name="Northern Mercenaries Leader">
     <face>
       <!--face_key value="00064c0c903c128d3378764a99782952967a8467a7a87bd7d7496cb5b3775ca50006833095b39736000000000000000000000000000000000000000000006000"/-->
       <BodyProperties version="4" age="43.18" weight="0.4591" build="0.4635" key="00064C0CD03C128D3378764A99772952967A8467A7A87BD7D7496CB5B3775CA50007733507B39736000000000000000000000000000000000000000000C86000" />
@@ -12,7 +12,7 @@
     <equipment slot="Body" id="Item.fur_armor_with_strap" />
     <equipment slot="Leg" id="Item.strapped_leather_boots" />
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_1" name="{=5nthUXyw}Sturgian land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="RuralNotable">
+  <NPCCharacter id="spc_notable_northern_1" name="Northern land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="RuralNotable">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -37,7 +37,7 @@
       <Trait id="Mercy" value="1" />
     </Traits>
   </NPCCharacter>
-<NPCCharacter id="spc_notable_northern_0" name="{=IaMyN5yr}Cautious Sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Merchant">
+<NPCCharacter id="spc_notable_northern_0" name="Cautious Northern merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Merchant">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -56,7 +56,7 @@
       <equipment slot="Leg" id="Item.leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northernpreacher_0" name="{=pbcUnQS9}Sturgian seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Preacher">
+  <NPCCharacter id="spc_notable_northernpreacher_0" name="Northern seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Preacher">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -72,7 +72,7 @@
       <equipment slot="Leg" id="Item.leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-<NPCCharacter id="spc_notable_northerngangleader" name="{=K27WpkiE}Sturgian gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="GangLeader">
+<NPCCharacter id="spc_notable_northerngangleader" name="Northern gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="GangLeader">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -107,7 +107,7 @@
       <equipment slot="Leg" id="Item.battania_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-<NPCCharacter id="spc_notable_northernartisan_0" name="{=RJ3WezQ9}Sturgian artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Artisan">
+<NPCCharacter id="spc_notable_northernartisan_0" name="Northern artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Artisan">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -141,7 +141,7 @@
       <equipment slot="Leg" id="Item.battania_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_outlaw_1" name="{=HXqZbme3}Sturgia bold outlaw" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Outlaw">
+  <NPCCharacter id="spc_northern_outlaw_1" name="Northern bold outlaw" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Outlaw">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -153,7 +153,7 @@
       <Trait id="Generosity" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_headman_1" name="{=bVBu4bRa}sturgia rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Headman">
+  <NPCCharacter id="spc_northern_headman_1" name="Northern rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_sturgia" occupation="Headman">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
