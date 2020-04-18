@@ -7,7 +7,7 @@
   <NPCCharacter id="starklord_1" name="Benjen Stark" age="33" voice="curt" is_hero="true" spouse="Hero.starklord_2" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.5" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+      <BodyProperties version="4" weight="0.4" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -88,8 +88,7 @@
   <NPCCharacter id="starklord_4" name="Rodrik Cassel" age="52" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.5" build="0.5" key="00162401405822C2A9883589C761687A8776445669AB46A68857B5B9684B66570147761304B38FB9000000000000000000000000000000000000000024945082"  />
-    </face>
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="000B3C0CC05802C55B8673A4620A874647767848A68772E177374696AB7A66850177761307D54C9A000000000000000000000000000000000000000028F43004"  /></face>
     <skills>
       <skill id="Athletics"
              value="60" />
@@ -115,7 +114,7 @@
   <NPCCharacter id="starklord_5" name="Jory Cassel" age="27" father="Hero.starklord_4" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.5" build="0.5"  key="0016240CC0582642A988358DC762787A8776445669AB46A68857B5B9684B66570147761304B38FB9000000000000000000000000000000000000000024945082"  />
+       <BodyProperties version="4" weight="0.4" build="0.5"  key="0000AC0B4000060979892B797397B7FA7676866655A296647441DA8986DBE6300177761307A7B7A500000000000000000000000000000000000000003CFC1002"  />
     </face>
     <skills>
       <skill id="Athletics"
@@ -142,7 +141,7 @@
   <NPCCharacter id="starklord_6" name="Maester Luwin" age="72" voice="curt" is_hero="false" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.5" build="0.5"  key="0016640000582004C46755973A3A557A84AB98A8B7C5813B8857B5B9B5E656780147761304B38FB9000000000000000000000000000000000000000024941082"  />
+      <BodyProperties version="4" weight="0.5" build="0.2"  key="0016640000582004C46755973A3A557A84AB98A8B7C5813B8857B5B9B5E656780147761304B38FB9000000000000000000000000000000000000000024941082"  />
     </face>
     <skills>
       <skill id="Athletics"
@@ -175,8 +174,7 @@
   <NPCCharacter id="umberlord_1" name="Jon 'Greatjon' Umber" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.5" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
-    </face>
+       <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
     <skills>
       <skill id="Athletics"
              value="60" />
@@ -205,7 +203,7 @@
   <NPCCharacter id="tallhartlord_1" name="Benfred Tallhart" age="21" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.5" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+       <BodyProperties version="4" weight="0.5" build="0.4"  key="00056402C0B406486B5822669649D8C660358D56A3B4735CAB65D6AB5768742A0167761306D3BBA700000000000000000000000000000000000000004AC44104"  />
     </face>
     <skills>
       <skill id="Athletics"
@@ -235,7 +233,7 @@
   <NPCCharacter id="boltonlord_1" name="Roose Bolton" age="40" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.5" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+       <BodyProperties version="4" weight="0.4" build="0.4"  key="00004C0CC00020028176643447609E33134E7602B845090550073164717780130197761309C7A70500000000000000000000000000000000000000003D343002"  />
     </face>
     <skills>
       <skill id="Athletics"
@@ -265,7 +263,7 @@
   <NPCCharacter id="gloverlord_1" name="Galbert Glover" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.5" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+      <BodyProperties version="4" weight="0.5" build="0.5"  key="00114C0700CC33424B75A887777777763E662D5B4744D7C76AC78427B77D8794017776130747A75C000000000000000000000000000000000000000020F43044"  />
     </face>
     <skills>
       <skill id="Athletics"
@@ -295,8 +293,7 @@
   <NPCCharacter id="manderlylord_1" name="Wyman Manderly" age="60" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.sturgia_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.5" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
-    </face>
+       <BodyProperties version="4" weight="1.0" build="0.5"  key="00058001400033CDD7989591EECFE78FCAAB8798A45A9C7576BD8BFDB3A6D6870167761306B67696000000000000000000000000000000000000000056C41104"  /></face>
     <skills>
       <skill id="Athletics"
              value="60" />

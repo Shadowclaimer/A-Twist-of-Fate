@@ -122,7 +122,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
- <Settlement id="village_S3_2" name="{=Settlements.Settlement.name.village_S3_2}Skorin" posX="455.437" posY="497.693" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_S3_2}Skorin sits on the Skorniva, a stream running out of the northern forests. Like other villages on the river, the people here trade in the salmon who migrate up and down with the seasons.">
+ <Settlement id="village_S3_2" name="{=Settlements.Settlement.name.village_S3_2}Skorin" posX="455.437" posY="497.693" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S3_2}Skorin sits on the Skorniva, a stream running out of the northern forests. Like other villages on the river, the people here trade in the salmon who migrate up and down with the seasons.">
     <Components>
       <Village id="village_comp_S3_2" village_type="VillageType.fisherman" hearth="161" gate_rotation="0.908" trade_bound="Settlement.town_S3" bound="Settlement.town_S3" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
     </Components>
@@ -148,7 +148,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_S7_2" name="{=Settlements.Settlement.name.castle_village_S7_2}Alov" posX="654.264" posY="540.041" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_S5_3}Alov sits amid the forests of northern Sturgia. The villagers of this isolated region, who include Vanni woodspeople as well as Sturgian and Nord migrants, are known for their long silences and general distrust of outside authority.">
+  <Settlement id="castle_village_S7_2" name="{=Settlements.Settlement.name.castle_village_S7_2}Alov" posX="654.264" posY="540.041" culture="Culture.northern" text="{=Settlements.Settlement.text.village_S5_3}Alov sits amid the forests of northern Sturgia. The villagers of this isolated region, who include Vanni woodspeople as well as Sturgian and Nord migrants, are known for their long silences and general distrust of outside authority.">
     <Components>
       <Village id="castle_village_comp_S7_2" village_type="VillageType.wheat_farm" hearth="157" trade_bound="Settlement.castle_S7" bound="Settlement.castle_S7" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
     </Components>

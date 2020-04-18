@@ -166,4 +166,3376 @@
       <Trait id="Calculating" value="-1" />
     </Traits>
   </NPCCharacter>
+  <NPCCharacter id="prison_guard_northern"
+                default_group="Infantry"
+                level="4"
+                culture="Culture.northern"
+                occupation="PrisonGuard"
+                name="{=XgjXfmM1}Prison Guard"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <equipmentSet civilian="true">
+      <!--<equipment slot="Item0" id="Item.highland_war_spear" />-->
+      <!-- <equipment slot="Item1" id="Item.vlandia_mace_1_t2" /> -->
+      <equipment slot="Item1"
+                 id="Item.wide_leaf_spear_t4" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+    <equipmentSet>
+      <!--<equipment slot="Item0" id="Item.highland_war_spear" />-->
+      <!-- <equipment slot="Item1" id="Item.vlandia_mace_1_t2" /> -->
+      <equipment slot="Item1"
+                 id="Item.wide_leaf_spear_t4" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+    <!---<equipment slot="Leg" id="Item.cape" />-->
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="guard_northern"
+                default_group="Infantry"
+                level="4"
+                occupation="Soldier"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                name="{=1sJcKkVP}Guard"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Item1"
+                 id="Item.highland_riders_shield" />
+      <equipment slot="Body"
+                 id="Item.battania_noble_armor" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Head"
+                 id="Item.leather_studdedhelm_over_roughscale" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_furr" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="blacksmith_northern"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Blacksmith"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                name="{=bNnQt4jN}Blacksmith"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="weaponsmith_northern"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Weaponsmith"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                name="{=UaN2lfwi}Weaponsmith"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_4_t4" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_4_t4" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_4_t4" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="ransom_broker_northern"
+                default_group="Infantry"
+                is_hero="false"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                name="{=W2WXkiAh}Ransom Broker"
+                occupation="RansomBroker"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="steward_northern"
+                default_group="Infantry"
+                level="21"
+                occupation="Judge"
+                culture="Culture.northern"
+                name="{=ZRkceJx3}Judge">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.empire_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.eastern_silk_clothing" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.eastern_silk_clothing" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.eastern_silk_clothing" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Body"
+                 id="Item.eastern_silk_clothing" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="gangleader_bodyguard_northern"
+                default_group="Infantry"
+                name="{=LNNXiPyV}Gang Leader Bodyguard"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.highland_cloth" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.long_fur_coat" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.burlap_waistcoat" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_mace_1_t2" />
+      <equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_mace_2_t2" />
+      <equipment slot="Body"
+                 id="Item.long_fur_coat" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Body"
+                 id="Item.ragged_robes" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Body"
+                 id="Item.highland_cloth" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Body"
+                 id="Item.long_fur_coat" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.falchion_sword_t2" />
+      <equipment slot="Body"
+                 id="Item.burlap_waistcoat" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.armwraps" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.falchion_sword_t2" />
+      <equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.falchion_sword_t2" />
+      <equipment slot="Body"
+                 id="Item.long_fur_coat" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.falchion_sword_t2" />
+      <equipment slot="Body"
+                 id="Item.ragged_robes" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="merchant_notary_northern"
+                default_group="Infantry"
+                name="{=reoVAtrE}Merchant Notary"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="artisan_notary_northern"
+                default_group="Infantry"
+                name="{=ECxiXTbF}Artisan Notary"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <hair_tags>
+        <hair_tag name="Short" />
+        <hair_tag name="SlickedLong" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="DroopyMustache" />
+        <beard_tag name="MediumMustache" />
+      </beard_tags>
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="preacher_notary_northern"
+                default_group="Infantry"
+                name="{=bLMGbLF8}PreacherNotary"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <hair_tags>
+        <hair_tag name="Short" />
+        <hair_tag name="SlickedLong" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="DroopyMustache" />
+        <beard_tag name="MediumMustache" />
+      </beard_tags>
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="rural_notable_notary_northern"
+                default_group="Infantry"
+                name="{=AlmaRAib}RuralNotableNotary"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <hair_tags>
+        <hair_tag name="Short" />
+        <hair_tag name="SlickedLong" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="DroopyMustache" />
+        <beard_tag name="MediumMustache" />
+      </beard_tags>
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_infant_northern"
+                name="{=9Di0NfG2}Infant"
+                age="3"
+                is_female="false"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Townsfolk"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_child_northern"
+                name="{=pOCOS8um}Child"
+                age="6"
+                is_female="false"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Townsfolk"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_teenager_northern"
+                name="{=o077j2j5}Teenager"
+                age="14"
+                is_female="false"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Townsfolk"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_northern"
+                default_group="Infantry"
+                name="{=muu5cofb}Townsman"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <hair_tags>
+        <hair_tag name="Short" />
+        <hair_tag name="SlickedLong" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="DroopyMustache" />
+        <beard_tag name="MediumMustache" />
+      </beard_tags>
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="shop_worker_northern"
+                default_group="Infantry"
+                name="{=275LD0Gh}Shop Worker"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="ShopWorker"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Body"
+                 id="Item.cloth_apron" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <equipment slot="Body"
+                 id="Item.half_apron" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cloth_apron" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.half_apron" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="tavernkeeper_northern"
+                default_group="Infantry"
+                is_hero="false"
+                name="{=CsjtWt1g}Tavern Keeper"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="Tavernkeeper"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Body"
+                 id="Item.cloth_apron" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.half_apron" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="taverngamehost_northern"
+                default_group="Infantry"
+                is_hero="false"
+                name="{=twCIejxn}Game Host"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_empire"
+                occupation="TavernGameHost"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="musician_northern"
+                default_group="Infantry"
+                is_hero="false"
+                name="{=zfCoeglY}Musician"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_empire"
+                occupation="Musician"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="armorer_northern"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Armorer"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                name="{=jx8ohENz}Armorer"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.leather_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="horseMerchant_northern"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="HorseTrader"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                name="{=79ElOr2x}Horse Trader"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.merchants_fur_coat" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.merchants_fur_coat" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="merchant_northern"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="GoodsTrader"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                name="{=thbcgVVO}Trader"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.leather_apron" />
+      <equipment slot="Leg"
+                 id="Item.ragged_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.cloth_apron" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.merchants_fur_coat" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="tournament_master_northern"
+                default_group="Infantry"
+                is_hero="false"
+                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="ArenaMaster"
+                culture="Culture.northern"
+                name="{=IHKXNP9H}Tournament Master"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.short_sword_t3" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="villager_infant_northern"
+                name="{=9Di0NfG2}Infant"
+                age="3"
+                is_female="false"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Villager"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.burlap_waistcoat" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="villager_child_northern"
+                name="{=pOCOS8um}Child"
+                age="6"
+                is_female="false"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Villager"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="villager_teenager_northern"
+                name="{=o077j2j5}Teenager"
+                age="14"
+                is_female="false"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Villager"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_master_northern"
+                default_group="Infantry"
+                level="26"
+                name="Northern Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level26_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="130" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="130" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Head"
+                 id="Item.ridged_northernhelm" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_furr" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.battania_mercenary_armor" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Cape"
+                 id="Item.bearskin" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Head"
+                 id="Item.ridged_northernhelm" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_furr" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="armed_trader_northern"
+                default_group="Ranged"
+                level="16"
+                name="Northern Armed Trader"
+                occupation="CaravanGuard"
+                culture="Culture.northern"
+                is_basic_troop="true"
+                skill_template="NPCCharacter.ranged_skirmisher_level6_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="90" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="OneHanded"
+             value="120" />
+      <skill id="Polearm"
+             value="120" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="Throwing"
+             value="60" />
+      <skill id="TwoHanded"
+             value="120" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_woodland_cloak" />
+      <equipment slot="Head"
+                 id="Item.tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.range_arrows" />
+      <equipment slot="Item2"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.range_arrows" />
+      <equipment slot="Item2"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Head"
+                 id="Item.tall_helmet" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.range_arrows" />
+      <equipment slot="Item2"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Head"
+                 id="Item.tall_helmet" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.range_arrows" />
+      <equipment slot="Item2"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_guard_northern"
+                default_group="Cavalry"
+                level="21"
+                name="Northern Caravan Guard"
+                upgrade_requires="ItemCategory.horse"
+                occupation="CaravanGuard"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="45" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="45" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.woodland_axe_t3" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.studded_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.triangluar_spear_t3" />
+      <equipment slot="Item2"
+                 id="Item.woodland_axe_t3" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.studded_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.woodland_axe_t3" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.ridged_northernhelm" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Gloves"
+                 id="Item.studded_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.woodland_axe_t3" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.ridged_northernhelm" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Gloves"
+                 id="Item.studded_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.woodland_axe_t3" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.studded_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+    <equipment slot="Horse"
+               id="Item.battania_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.battania_horse_harness" />
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="veteran_caravan_guard_northern"
+                default_group="Cavalry"
+                level="26"
+                name="Northern Veteran Caravan Guard"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="CaravanGuard"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.cavalry_lightcavalry_heavycavalry_level26_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_3_t4" />
+      <equipment slot="Item2"
+                 id="Item.battania_sword_4_t4" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.ridged_northernhelm" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_3_t4" />
+      <equipment slot="Item2"
+                 id="Item.battania_sword_4_t4" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_3_t4" />
+      <equipment slot="Item2"
+                 id="Item.battania_sword_4_t4" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.ridged_northernhelm" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+    <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_3_t4" />
+      <equipment slot="Item2"
+                 id="Item.battania_sword_4_t4" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.ridged_northernhelm" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.highland_throwing_axe_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.northern_spear_3_t4" />
+      <equipment slot="Item2"
+                 id="Item.battania_sword_4_t4" />
+      <equipment slot="Item3"
+                 id="Item.desert_round_shield" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.ranger_mail" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipment slot="Horse"
+               id="Item.battania_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.battania_horse_harness" />
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="northern_militia_archer"
+                default_group="Ranged"
+                level="11"
+                name="Northern Militia Archer"
+                occupation="Soldier"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.ranged_skirmisher_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.peasant_hammer_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.peasant_pickaxe_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.mountain_hunting_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.peasant_hammer_2_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.mountain_hunting_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.peasant_hammer_2_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="northern_militia_veteran_archer"
+                default_group="Ranged"
+                level="21"
+                name="Northern Militia Veteran Archer"
+                occupation="Soldier"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.composite_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.woodland_axe_t3" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.lowland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.woodland_axe_t3" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.lowland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.lowland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.default_arrows" />
+      <equipment slot="Item3"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="northern_militia_spearman"
+                default_group="Infantry"
+                level="11"
+                name="Northern Militia Spearman"
+                occupation="Soldier"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level11_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.northern_spear_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.battania_sword_1_t2" />
+      <equipment slot="Item2"
+                 id="Item.desert_oval_shield" />
+      <equipment slot="Head"
+                 id="Item.leather_studdedhelm_over_thinhide" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.northern_spear_1_t2" />
+      <equipment slot="Item1"
+                 id="Item.battania_mace_1_t2" />
+      <equipment slot="Item2"
+                 id="Item.desert_oval_shield" />
+      <equipment slot="Head"
+                 id="Item.leather_studdedhelm_over_thinhide" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.military_fork_t2" />
+      <equipment slot="Item1"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Item2"
+                 id="Item.desert_oval_shield" />
+      <equipment slot="Head"
+                 id="Item.leather_studdedhelm_over_headcloth" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.military_fork_t2" />
+      <equipment slot="Item1"
+                 id="Item.battania_axe_1_t2" />
+      <equipment slot="Item2"
+                 id="Item.desert_oval_shield" />
+      <equipment slot="Head"
+                 id="Item.leather_studdedhelm_over_headcloth" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="northern_militia_veteran_spearman"
+                default_group="Infantry"
+                level="21"
+                name="Northern Militia Veteran Spearman"
+                occupation="Soldier"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.triangluar_spear_t3" />
+      <equipment slot="Item1"
+                 id="Item.woodland_axe_t3" />
+      <equipment slot="Item2"
+                 id="Item.emirs_oval_shield" />
+      <equipment slot="Head"
+                 id="Item.ridged_northernhelm" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.triangluar_spear_t3" />
+      <equipment slot="Item1"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.emirs_oval_shield" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.triangluar_spear_t3" />
+      <equipment slot="Item1"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.emirs_oval_shield" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+     <equipment slot="Item0"
+                 id="Item.triangluar_spear_t3" />
+      <equipment slot="Item1"
+                 id="Item.battania_sword_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.emirs_oval_shield" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_strap_cloak" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_infant_northern"
+                name="{=9Di0NfG2}Infant"
+                age="6"
+                is_female="true"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Townsfolk"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_child_northern"
+                name="{=pOCOS8um}Child"
+                age="6"
+                is_female="true"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Townsfolk"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_c" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_teenager_northern"
+                name="{=o077j2j5}Teenager"
+                age="14"
+                is_female="true"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Townsfolk"
+                battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.leather_studdedhelm" />
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Cape"
+                 id="Item.female_scarf" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_a" />
+      <equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="tavern_wench_northern"
+                default_group="Infantry"
+                name="{=z6RMWTaA}Tavern Maid"
+                is_female="true"
+                is_hero="false"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="TavernWench"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cut_dress" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cut_dress_with_pouch" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cut_dress" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cut_dress_with_pouch" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="female_beggar_northern"
+                default_group="Infantry"
+                is_female="true"
+                level="1"
+                name="{=HZRKBDyB}Beggar"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.torn_bandit_clothes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.plain_dress" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.aserai_villager_female_headdress" />
+      <equipment slot="Body"
+                 id="Item.bandit_envelope_dress_v1" />
+    </equipmentSet>
+    <!-- Uses village hair -->
+  </NPCCharacter>
+  <NPCCharacter id="female_dancer_northern"
+                default_group="Infantry"
+                name="{=X3KYysuv}Dancer"
+                is_female="true"
+                is_hero="false"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cut_dress" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cut_dress_with_pouch" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_infant_norther"
+                name="{=9Di0NfG2}Infant"
+                age="3"
+                is_female="true"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Villager"
+                battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.burlap_waistcoat" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_child_northern"
+                name="{=pOCOS8um}Child"
+                age="6"
+                is_female="true"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Villager"
+                battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_teenager_northern"
+                name="{=o077j2j5}Teenager"
+                age="14"
+                is_female="true"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Villager"
+                battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.battania_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_northern"
+                default_group="Infantry"
+                is_female="true"
+                level="1"
+                name="{=BmYpwIYi}Northern Peasant"
+                occupation="Villager"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_a" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_c" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_b" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_a" />
+      <equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_c" />
+      <equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_b" />
+      <equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_a" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_c" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_dress_b" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Body"
+                 id="Item.battania_female_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="beggar_northern"
+                default_group="Infantry"
+                name="{=HZRKBDyB}Beggar"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
+                occupation="Townsfolk"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--face_key value="000507400600141300000000000000100000000000000000000000000000000000010bacf10000000000000000000000000000000000000000000000000000c1" max_value="001cffffd50034d4fffffffffff0fffffffffffffffffffffffffeffffffffff00010baff1ffffff000000000000000000000000000000000000000000008101" /-->
+      <BodyProperties version="4"
+                      age="59.28"
+                      weight="0.4502"
+                      build="0.6767"
+                      key="0005040006001413000000000007001000000000000000000000000000000000000A7BA701000000000000000000000000000000000000000000000000F000C1" />
+      <BodyPropertiesMax version="4"
+                         age="84.25"
+                         weight="0.6234"
+                         build="0.6767"
+                         key="001CFC0FD50034D4FFFFFFFFFFF9FFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFF000A9BAA01FFFFFF000000000000000000000000000000000000000000C88101" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Body"
+                 id="Item.torn_bandit_clothes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Body"
+                 id="Item.torn_bandit_clothes" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.bandit_envelope_dress_v1" />
+    </equipmentSet>
+    <!-- Uses village hair -->
+  </NPCCharacter>
+  <NPCCharacter id="villager_northern"
+                default_group="Infantry"
+                level="1"
+                name="Northern Peasant"
+                occupation="Villager"
+                culture="Culture.northern"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--face_key value="0000014440fc1000171771708710887070071888108071070017100010010110000a06550000001000000000000000000000000000000000fffffffffc740000" max_value="000b7ff880fc3914efefe7ffff6feefff77fffee67f6feeff7ef6ffffeffffff000ff65fffefffff000000000000000000000000000000000000000001f41140" /-->
+      <BodyProperties    version="4" 
+                         age="24.29" 
+                         weight="0.162" 
+                         build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" 
+                         age="52.82" 
+                         weight="0.6104" 
+                         build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />
+      <!--<hair_tags>
+        <hair_tag name="Short" />
+        <hair_tag name="SlickedLong" />
+        <hair_tag name="LongAndBushy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="DroopyMustache" />
+        <beard_tag name="MediumMustache" />
+      </beard_tags>-->
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Head"
+                 id="Item.battania_civil_hood" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.peasant_2haxe_1_t1" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.peasant_2haxe_1_t1" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.peasant_2haxe_1_t1" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.peasant_polearm_1_t1" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Body"
+                 id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.peasant_polearm_1_t1" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_a" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.peasant_polearm_1_t1" />
+      <equipment slot="Item1"
+                 id="Item.throwing_stone" />
+      <equipment slot="Body"
+                 id="Item.battania_civil_b" />
+      <equipment slot="Cape"
+                 id="Item.battania_civil_cape" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.mercenary_1" />
+    </upgrade_targets>
+  </NPCCharacter>
 </NPCCharacters>
