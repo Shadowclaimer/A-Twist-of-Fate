@@ -1,7 +1,7 @@
 ﻿<Module>
   <Name value="A Twist of Fate"/>
   <Id value="ATwistofFate"/>
-  <Version value="a1.0.5"/>
+  <Version value="a1.0.6"/>
 <DefaultModule value="false"/>
 <SingleplayerModule value="true"/>
 <MultiplayerModule value="false"/>
@@ -25,8 +25,9 @@
           <GameType value = "CustomGame"/>
         </IncludedGameTypes>
     </XmlNode>
+
     <XmlNode>
-      <XmlName id="NPCCharacters" path="northerntroops_atwistoffate"/>
+      <XmlName id="SPCultures" path="northerncultures_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
         <GameType value = "CampaignStoryMode"/>
@@ -34,7 +35,7 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="SPCultures" path="northerncultures_atwistoffate"/>
+      <XmlName id="NPCCharacters" path="northerncharactertemplates_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
         <GameType value = "CampaignStoryMode"/>
@@ -50,7 +51,7 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="NPCCharacters" path="northerncharactertemplates_atwistoffate"/>
+      <XmlName id="NPCCharacters" path="northerntroops_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
         <GameType value = "CampaignStoryMode"/>
