@@ -5,7 +5,7 @@
            is_main_culture="false"
            color="FF453e38"
            color2="FFf5f5f5"
-           elite_basic_troop="NPCCharacter.sturgian_warrior_son"
+           elite_basic_troop="NPCCharacter.stark_youth"
            basic_troop="NPCCharacter.northern_recruit"
            melee_militia_troop="NPCCharacter.northern_militia_spearman"
            ranged_militia_troop="NPCCharacter.northern_militia_archer"
@@ -59,11 +59,11 @@
            beggar="NPCCharacter.beggar_northern"
            female_beggar="NPCCharacter.female_beggar_northern"
            female_dancer="NPCCharacter.female_dancer_northern"
-           gear_practice_dummy="NPCCharacter.gear_practice_dummy_sturgia"
-           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_sturgia"
-           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_sturgia"
-           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_sturgia"
-           gear_dummy="NPCCharacter.gear_dummy_sturgia">
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_northern"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_northern"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_northern"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_northern"
+           gear_dummy="NPCCharacter.gear_dummy_northern">
     <male_names>
       <name name="Alyn" />
       <name name="Arnold" />

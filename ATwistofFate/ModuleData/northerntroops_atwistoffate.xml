@@ -30,7 +30,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.wrapped_headcloth" />
       <equipment slot="Body" id="Item.northern_tunic" />
       <equipment slot="Leg" id="Item.battania_woodland_boots" />
@@ -72,7 +72,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battania_civil_hood" />
       <equipment slot="Body" id="Item.bandit_gambeson" />
       <equipment slot="Leg" id="Item.battania_woodland_boots" />
@@ -113,6 +113,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.wrapped_headcloth" />
       <equipment slot="Body" id="Item.long_hemp_tunic" />
       <equipment slot="Leg" id="Item.battania_woodland_boots" />
@@ -154,7 +155,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Leg" id="Item.battania_woodland_boots" />
@@ -195,7 +196,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.simple_pike_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Leg" id="Item.battania_woodland_boots" />
@@ -235,6 +236,8 @@
     </skills>
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item1" id="western_javelin_1_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.scale_armor" />
       <equipment slot="Leg" id="Item.battania_woodland_boots" />
@@ -318,7 +321,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.ranger_mail" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -358,7 +361,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -398,7 +401,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.simple_pike_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.ranger_mail" />
       <equipment slot="Cape" id="Item.bearskin" />
@@ -438,7 +441,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.simple_pike_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Cape" id="Item.bearskin" />
@@ -476,6 +479,7 @@
     </skills>
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item1" id="Item.highland_riders_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Cape" id="Item.battania_woodland_cloak" />
@@ -641,7 +645,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
       <equipment slot="Body" id="Item.battania_mercenary_armor" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -681,7 +685,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.reinforced_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
       <equipment slot="Head" id="Item.ridged_northernhelm" />
       <equipment slot="Body" id="Item.battania_noble_armor" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -721,7 +725,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.fine_pike_t4" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.reinforced_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
       <equipment slot="Item3" id="Item.western_javelin_1_t2" />
       <equipment slot="Head" id="Item.peaked_helmet_over_padded_cloth" />
       <equipment slot="Body" id="Item.battania_noble_armor" />
@@ -763,7 +767,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.fine_pike_t4" />
       <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.reinforced_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -891,7 +895,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
       <equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
       <equipment slot="Body" id="Item.battania_warlord_armor" />
       <equipment slot="Cape" id="Item.battania_cloak_furr" />
@@ -930,7 +934,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.reinforced_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
       <equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <equipment slot="Body" id="Item.battania_warlord_armor" />
       <equipment slot="Cape" id="Item.battania_warlord_pauldrons" />
@@ -969,7 +973,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.vlandia_polearm_1_t5" />
       <equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
-      <equipment slot="Item2" id="Item.reinforced_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
       <equipment slot="Item3" id="Item.western_javelin_1_t2" />
       <equipment slot="Head" id="Item.peaked_helmet_over_mail_coif" />
       <equipment slot="Body" id="Item.battania_warlord_armor" />
@@ -1010,7 +1014,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.fine_pike_t4" />
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
-      <equipment slot="Item2" id="Item.reinforced_kite_shield" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
       <equipment slot="Head" id="Item.ridged_northernhelm" />
       <equipment slot="Body" id="Item.battania_mercenary_armor" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -1105,4 +1109,257 @@
     </upgrade_targets>
   </NPCCharacter>
 <!-- Northern Pathfinder -->
+<!-- Stark Youth -->
+<NPCCharacter id="stark_youth"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Youth"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
+      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="60" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.rough_fur_armor" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_young_wolf" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Stark Young Wolf -->
+<NPCCharacter id="stark_young_wolf"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Young Wolf"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
+      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="80" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.ranger_mail" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_swordsman" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Stark Swordsman -->
+<NPCCharacter id="stark_swordsman"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Swordsman"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
+      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="130" />
+      <skill id="Polearm" value="130" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+      <equipment slot="Horse" id="Item.battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_swordmaster" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Stark Swordmaster -->
+<NPCCharacter id="stark_swordmaster"
+                default_group="Infantry"
+                level="26"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Swordmaster"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
+      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="150" />
+      <skill id="OneHanded" value="180" />
+      <skill id="TwoHanded" value="180" />
+      <skill id="Polearm" value="180" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+      <equipment slot="Body" id="Item.battania_mercenary_armor" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+      <equipment slot="Horse" id="Item.battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_wolfguard" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Stark Wolfguard -->
+<NPCCharacter id="stark_wolfguard"
+                default_group="Infantry"
+                level="31"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Wolfguard"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
+      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="245" />
+      <skill id="Riding" value="245" />
+      <skill id="OneHanded" value="240" />
+      <skill id="TwoHanded" value="240" />
+      <skill id="Polearm" value="240" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="25" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+      <equipment slot="Body" id="Item.battania_warlord_armor" />
+      <equipment slot="Leg" id="Item.battania_warlord_boots" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+    </equipmentSet>
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_dire_wolfguard" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Stark Dire Wolfguard -->
+<NPCCharacter id="stark_dire_wolfguard"
+                default_group="Infantry"
+                level="36"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Dire Wolfguard"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.northern">
+    <face>
+      <face_key_template value="NPCCharacter.villager_battania" />
+      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
+      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="320" />
+      <skill id="Riding" value="320" />
+      <skill id="OneHanded" value="320" />
+      <skill id="TwoHanded" value="320" />
+      <skill id="Polearm" value="320" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
+      <equipment slot="Body" id="Item.battania_warlord_armor" />
+      <equipment slot="Leg" id="Item.battania_warlord_boots" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.t2_battania_horse" />
+    <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
+    <upgrade_targets>
+    </upgrade_targets>
+</NPCCharacter>
 </NPCCharacters>
