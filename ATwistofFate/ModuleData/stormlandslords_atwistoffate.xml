@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<!-- HOUSE BARATHEON -->
+  <NPCCharacter id="baratheon_lord_1" name="Stannis Baratheon" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE BUCKLER -->
+  <NPCCharacter id="buckler_lord_1" name="Ralph Buckler" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE CONNINGTON -->
+  <NPCCharacter id="connington_lord_1" name="Jon Connington" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE ERROL -->
+  <NPCCharacter id="errol_lord_1" name="Shyla Errol" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE PENROSE -->
+  <NPCCharacter id="penrose_lord_1" name="Ronner Penrose" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE STAEDMON -->
+  <NPCCharacter id="staedmon_lord_1" name="Alesander Staedmon" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE WYLDE -->
+  <NPCCharacter id="wylde_lord_1" name="Casper Wylde" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE TARTH -->
+  <NPCCharacter id="tarth_lord_1" name="Selwyn Tarth" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE ESTERMONT -->
+  <NPCCharacter id="estermont_lord_1" name="Edwyn Estermont" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE MORRIGEN -->
+  <NPCCharacter id="morrigen_lord_1" name="Lester Morrigen" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE FELL -->
+  <NPCCharacter id="fell_lord_1" name="Harren Fell" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE GRANDISON -->
+  <NPCCharacter id="grandison_lord_1" name="Hugh Grandison" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE CARON -->
+  <NPCCharacter id="caron_lord_1" name="Bryce Caron" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE DONDARRION -->
+  <NPCCharacter id="dondarrion_lord_1" name="Beric Dondarrion" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE SELMY -->
+  <NPCCharacter id="selmy_lord_1" name="Arstan Selmy" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+<!-- HOUSE SWANN -->
+  <NPCCharacter id="swann_lord_1" name="Gulian Swann" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
+       </face> 
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+</NPCCharacters>

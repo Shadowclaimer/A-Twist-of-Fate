@@ -13,8 +13,6 @@
   <Hero id="starklord_4" is_noble="false" faction="Faction.clan_stark_1" text="Rodrik Cassel." />
 <!-- Jory Cassel -->
   <Hero id="starklord_5" is_noble="false" faction="Faction.clan_stark_1" text="Jory Cassel." />
-<!-- Maester Luwin -->
-  <Hero id="starklord_6" is_noble="false" faction="Faction.clan_stark_1" text="Maester Luwin." />
 <!--             -->
 <!-- HOUSE UMBER -->
 <!--             -->

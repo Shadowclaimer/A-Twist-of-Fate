@@ -16,7 +16,7 @@
   <SubModules>
   </SubModules>
   <Xmls>
-
+<!-- GEAR TEMPLATES -->
     <XmlNode>
       <XmlName id="NPCCharacters" path="northerngeartemplates_atwistoffate"/>
         <IncludedGameTypes>
@@ -25,7 +25,7 @@
           <GameType value = "CustomGame"/>
         </IncludedGameTypes>
     </XmlNode>
-
+<!-- CULTURES -->
     <XmlNode>
       <XmlName id="SPCultures" path="northerncultures_atwistoffate"/>
       <IncludedGameTypes>
@@ -35,6 +35,15 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
+      <XmlName id="SPCultures" path="stormlandscultures_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- CHARACTER TEMPLATES -->
+    <XmlNode>
       <XmlName id="NPCCharacters" path="northerncharactertemplates_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
@@ -42,6 +51,15 @@
         <GameType value = "CustomGame"/>
       </IncludedGameTypes>
     </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="stormlandscharactertemplates_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- NOTABLES -->
     <XmlNode>
       <XmlName id="NPCCharacters" path="northernnotables_atwistoffate"/>
       <IncludedGameTypes>
@@ -51,6 +69,15 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
+      <XmlName id="NPCCharacters" path="stormlandsnotables_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- TROOPS -->
+    <XmlNode>
       <XmlName id="NPCCharacters" path="northerntroops_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
@@ -58,6 +85,15 @@
         <GameType value = "CustomGame"/>
       </IncludedGameTypes>
     </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="stormlandstroops_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- PARTY TEMPLATES -->
   <XmlNode>
       <XmlName id="partyTemplates" path="northernpartyTemplates_atwistoffate"/>
       <IncludedGameTypes>
@@ -66,6 +102,15 @@
         <GameType value = "CustomGame"/>
       </IncludedGameTypes>
   </XmlNode>
+  <XmlNode>
+      <XmlName id="partyTemplates" path="stormlandspartyTemplates_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+  </XmlNode>
+<!-- HEROES -->
     <XmlNode>
       <XmlName id="Heroes" path="northernheroes_atwistoffate"/>
       <IncludedGameTypes>
@@ -75,6 +120,15 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
+      <XmlName id="Heroes" path="stormlandsheroes_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- LORDS -->
+    <XmlNode>
       <XmlName id="NPCCharacters" path="northernlords_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
@@ -82,6 +136,15 @@
         <GameType value = "CustomGame"/>
       </IncludedGameTypes>
     </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="stormlandslords_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- CLANS -->
     <XmlNode>
       <XmlName id="Factions" path="northernclans_atwistoffate"/>
       <IncludedGameTypes>
@@ -91,6 +154,15 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
+      <XmlName id="Factions" path="stormlandsclans_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- KINGDOMS -->
+    <XmlNode>
       <XmlName id="Kingdoms" path="kingdoms_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
@@ -98,6 +170,7 @@
         <GameType value = "CustomGame"/>
       </IncludedGameTypes>
     </XmlNode>
+<!-- SETTLEMENTS -->
     <XmlNode>
       <XmlName id="Settlements" path="northernsettlements_atwistoffate"/>
       <IncludedGameTypes>
@@ -106,6 +179,15 @@
         <GameType value = "CustomGame"/>
       </IncludedGameTypes>
     </XmlNode>
+    <XmlNode>
+      <XmlName id="Settlements" path="stormlandssettlements_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- MEETING SCENES -->
     <XmlNode>
       <XmlName id="MeetingScenes>" path="meeting_scenes_atwistoffate"/>
       <IncludedGameTypes>

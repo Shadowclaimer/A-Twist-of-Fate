@@ -31,6 +31,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -51,6 +53,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -71,6 +75,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -91,6 +97,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -111,6 +119,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -131,6 +141,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -149,6 +161,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -169,6 +183,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -189,6 +205,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -209,6 +227,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
   </NPCCharacter>
 <!-- NORTHERN LORD/LADY HEAVY -->
@@ -245,6 +265,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -265,6 +287,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -285,6 +309,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -305,6 +331,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -325,6 +353,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -345,6 +375,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -363,6 +395,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -383,6 +417,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -403,6 +439,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -423,6 +461,8 @@
                  id="Item.battania_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.battania_noble_bracers" />
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
     </equipmentSet>
   </NPCCharacter>
 </NPCCharacters>

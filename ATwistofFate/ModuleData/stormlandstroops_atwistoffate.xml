@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<!-- Begin Stormlands Units -->
+    <!-- Stormland Recruit I -->
+        <NPCCharacter id="stormlands_recruit"
+                        default_group="Infantry"
+                        level="6"
+                        civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                        name="Stormland Recruit"
+                        occupation="Soldier"
+                        is_basic_troop="true"
+                        culture="Culture.stormlands">
+            <face>
+            <face_key_template value="NPCCharacter.villager_stormlands" />
+                <BodyProperties version="4" age="22.82" weight="0.3531" build="0.3657" key="0000000000000001116107530004609400107303604127003112061370100020005550030553071000000000000000000000000000000000000000000E980000"  />
+                <BodyPropertiesMax version="4" age="59.47" weight="0.5447" build="0.6003" key="000B64058000338685844F59636679F73A87899B7381CE678DFB8E4B8757764705B980570B7BEEE4000000000000000000000000000000000000000067608105"  />
+            </face>
+            <skills>
+            <skill id="Athletics" value="20" />
+            <skill id="Riding" value="5" />
+            <skill id="OneHanded" value="20" />
+            <skill id="TwoHanded" value="20" />
+            <skill id="Polearm" value="10" />
+            <skill id="Bow" value="10" />
+            <skill id="Crossbow" value="10" />
+            <skill id="Throwing" value="10" />
+            </skills>
+            <equipmentSet>
+            <equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+            <equipment slot="Item1" id="Item.vlandia_mace_1_t2" />
+            <equipment slot="Item2" id="Item.small_heater_shield" />
+            <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+            <equipment slot="Leg" id="Item.strapped_shoes" />
+            <equipment slot="Gloves" id="Item.padded_vambrace" />
+            <equipment slot="Cape" id="Item.scarf" />
+            </equipmentSet>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.stormlands_minuteman" />
+                <upgrade_target id="NPCCharacter.stormlands_rider" />
+            </upgrade_targets>
+        </NPCCharacter>
+    <!-- Stormland Minuteman II -->
+        <NPCCharacter id="stormlands_minuteman"
+                        default_group="Infantry"
+                        level="11"
+                        civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                        name="Stormland Minuteman"
+                        occupation="Soldier"
+                        is_basic_troop="true"
+                        culture="Culture.stormlands">
+            <face>
+            <face_key_template value="NPCCharacter.villager_stormlands" />
+                <BodyProperties version="4" age="22.82" weight="0.3531" build="0.3657" key="0000000000000001116107530004609400107303604127003112061370100020005550030553071000000000000000000000000000000000000000000E980000"  />
+                <BodyPropertiesMax version="4" age="59.47" weight="0.5447" build="0.6003" key="000B64058000338685844F59636679F73A87899B7381CE678DFB8E4B8757764705B980570B7BEEE4000000000000000000000000000000000000000067608105"  />
+            </face>
+            <skills>
+            <skill id="Athletics" value="40" />
+            <skill id="Riding" value="15" />
+            <skill id="OneHanded" value="40" />
+            <skill id="TwoHanded" value="15" />
+            <skill id="Polearm" value="40" />
+            <skill id="Bow" value="15" />
+            <skill id="Crossbow" value="15" />
+            <skill id="Throwing" value="15" />
+            </skills>
+            <equipmentSet>
+            <equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+            <equipment slot="Item1" id="Item.vlandia_mace_1_t2" />
+            <equipment slot="Item2" id="Item.small_heater_shield" />
+            <equipment slot="Head" id="Item.laced_coif" />
+            <equipment slot="Body" id="Item.padded_short_coat" />
+            <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <equipment slot="Gloves" id="Item.padded_vambrace" />
+            <equipment slot="Cape" id="Item.woven_leather_shoulders" />
+            </equipmentSet>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.stormlands_soldier" />
+                <upgrade_target id="NPCCharacter.stormlands_woodsman" />
+            </upgrade_targets>
+        </NPCCharacter>
+    <!-- Stormland Rider II -->
+        <NPCCharacter id="stormlands_rider"
+                        default_group="Infantry"
+                        level="11"
+                        civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                        name="Stormland Rider"
+                        occupation="Soldier"
+                        is_basic_troop="true"
+                        culture="Culture.stormlands">
+            <face>
+            <face_key_template value="NPCCharacter.villager_stormlands" />
+                <BodyProperties version="4" age="22.82" weight="0.3531" build="0.3657" key="0000000000000001116107530004609400107303604127003112061370100020005550030553071000000000000000000000000000000000000000000E980000"  />
+                <BodyPropertiesMax version="4" age="59.47" weight="0.5447" build="0.6003" key="000B64058000338685844F59636679F73A87899B7381CE678DFB8E4B8757764705B980570B7BEEE4000000000000000000000000000000000000000067608105"  />
+            </face>
+            <skills>
+            <skill id="Athletics" value="40" />
+            <skill id="Riding" value="15" />
+            <skill id="OneHanded" value="15" />
+            <skill id="TwoHanded" value="15" />
+            <skill id="Polearm" value="15" />
+            <skill id="Bow" value="40" />
+            <skill id="Crossbow" value="15" />
+            <skill id="Throwing" value="40" />
+            </skills>
+            <equipmentSet>
+            <equipment slot="Item0" id="Item.vlandia_mace_1_t2" />
+            <equipment slot="Item1" id="Item.small_heater_shield" />
+            <equipment slot="Head" id="Item.padded_coif" />
+            <equipment slot="Body" id="Item.gambeson_b" />
+            <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <equipment slot="Gloves" id="Item.padded_vambrace" />
+            <equipment slot="Cape" id="Item.woven_leather_shoulders" />
+            </equipmentSet>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.stormlands_cavalry" />
+            </upgrade_targets>
+        </NPCCharacter>
+    <!-- Stormland Soldier III -->
+        <NPCCharacter id="stormlands_soldier"
+                        default_group="Infantry"
+                        level="16"
+                        civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                        name="Stormland Soldier"
+                        occupation="Soldier"
+                        is_basic_troop="true"
+                        culture="Culture.stormlands">
+            <face>
+            <face_key_template value="NPCCharacter.villager_stormlands" />
+                <BodyProperties version="4" age="22.82" weight="0.3531" build="0.3657" key="0000000000000001116107530004609400107303604127003112061370100020005550030553071000000000000000000000000000000000000000000E980000"  />
+                <BodyPropertiesMax version="4" age="59.47" weight="0.5447" build="0.6003" key="000B64058000338685844F59636679F73A87899B7381CE678DFB8E4B8757764705B980570B7BEEE4000000000000000000000000000000000000000067608105"  />
+            </face>
+            <skills>
+            <skill id="Athletics" value="70" />
+            <skill id="Riding" value="15" />
+            <skill id="OneHanded" value="70" />
+            <skill id="TwoHanded" value="60" />
+            <skill id="Polearm" value="70" />
+            <skill id="Bow" value="10" />
+            <skill id="Crossbow" value="10" />
+            <skill id="Throwing" value="40" />
+            </skills>
+            <equipmentSet>
+            <equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+            <equipment slot="Item1" id="Item.vlandia_mace_1_t2" />
+            <equipment slot="Item2" id="Item.small_heater_shield" />
+            <equipment slot="Head" id="Item.nasal_cervelliere_over_mail_coif" />
+            <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+            <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <equipment slot="Gloves" id="Item.padded_vambrace" />
+            <equipment slot="Cape" id="Item.woven_leather_shoulders" />
+            </equipmentSet>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.stormlands_guard" />
+                <upgrade_target id="NPCCharacter.stormlands_footman" />
+            </upgrade_targets>
+        </NPCCharacter>
+    <!-- Stormland Woodsman III -->
+        <NPCCharacter id="stormlands_woodsman"
+                        default_group="Infantry"
+                        level="16"
+                        civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                        name="Stormland Woodsman"
+                        occupation="Soldier"
+                        is_basic_troop="true"
+                        culture="Culture.stormlands">
+            <face>
+            <face_key_template value="NPCCharacter.villager_stormlands" />
+                <BodyProperties version="4" age="22.82" weight="0.3531" build="0.3657" key="0000000000000001116107530004609400107303604127003112061370100020005550030553071000000000000000000000000000000000000000000E980000"  />
+                <BodyPropertiesMax version="4" age="59.47" weight="0.5447" build="0.6003" key="000B64058000338685844F59636679F73A87899B7381CE678DFB8E4B8757764705B980570B7BEEE4000000000000000000000000000000000000000067608105"  />
+            </face>
+            <skills>
+            <skill id="Athletics" value="70" />
+            <skill id="Riding" value="15" />
+            <skill id="OneHanded" value="70" />
+            <skill id="TwoHanded" value="60" />
+            <skill id="Polearm" value="70" />
+            <skill id="Bow" value="10" />
+            <skill id="Crossbow" value="10" />
+            <skill id="Throwing" value="40" />
+            </skills>
+            <equipmentSet>
+            <equipment slot="Item0" id="Item.simple_pike_t2" />
+            <equipment slot="Item1" id="Item.western_javelin_1_t2" />
+            <equipment slot="Item2" id="Item.small_heater_shield" />
+            <equipment slot="Head" id="Item.segmented_cervelliere_over_mail" />
+            <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+            <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <equipment slot="Gloves" id="Item.padded_vambrace" />
+            <equipment slot="Cape" id="Item.woven_leather_shoulders" />
+            </equipmentSet>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.stormlands_ambusher" />
+                <upgrade_target id="NPCCharacter.stormlands_bowman" />
+            </upgrade_targets>
+        </NPCCharacter>
+    <!-- Stormland Cavalry III -->
+        <NPCCharacter id="stormlands_cavalry"
+                        default_group="Infantry"
+                        level="16"
+                        civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                        name="Stormland Cavalry"
+                        occupation="Soldier"
+                        is_basic_troop="true"
+                        culture="Culture.stormlands">
+            <face>
+            <face_key_template value="NPCCharacter.villager_stormlands" />
+                <BodyProperties version="4" age="22.82" weight="0.3531" build="0.3657" key="0000000000000001116107530004609400107303604127003112061370100020005550030553071000000000000000000000000000000000000000000E980000"  />
+                <BodyPropertiesMax version="4" age="59.47" weight="0.5447" build="0.6003" key="000B64058000338685844F59636679F73A87899B7381CE678DFB8E4B8757764705B980570B7BEEE4000000000000000000000000000000000000000067608105"  />
+            </face>
+            <skills>
+            <skill id="Athletics" value="15" />
+            <skill id="Riding" value="70" />
+            <skill id="OneHanded" value="70" />
+            <skill id="TwoHanded" value="10" />
+            <skill id="Polearm" value="70" />
+            <skill id="Bow" value="10" />
+            <skill id="Crossbow" value="10" />
+            <skill id="Throwing" value="10" />
+            </skills>
+            <equipmentSet>
+            <equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+            <equipment slot="Item1" id="Item.vlandia_mace_1_t2" />
+            <equipment slot="Item2" id="Item.jousting_shield" />
+            <equipment slot="Head" id="Item.nasal_cervelliere_over_mail_coif" />
+            <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+            <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+            <equipment slot="Gloves" id="Item.padded_vambrace" />
+            <equipment slot="Cape" id="Item.woven_leather_shoulders" />
+            </equipmentSet>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.stormlands_cavalier" />
+            </upgrade_targets>
+        </NPCCharacter>
+    <!-- Stormland Guard IV -->
+    <!-- Stormland Footman IV -->
+    <!-- Stormland Ambusher IV -->
+    <!-- Stormland Bowman IV -->
+    <!-- Stormland Cavalier IV -->
+    <!-- Stormland Sentinel V -->
+    <!-- Stormland Warrior V -->
+    <!-- Stormland Skirmisher V -->
+    <!-- Stormland Archer V -->
+    <!-- Stormland Charger V -->
+    <!-- Stormland Knight V -->
+    <!-- Stormland Warden VI -->
+    <!-- Stormland Brute VI -->
+    <!-- Stormland Pikeman VI -->
+    <!-- Stormland Yeoman VI -->
+    <!-- Stormland Thunderer VI -->
+    <!-- Stormland Gallant VI -->
+<!-- End Stormlands Units-->
+<!-- Begin Marcher Units -->
+    <!-- Marcher Recruit I -->
+    <!-- Marcher Waywatcher II -->
+    <!-- Marcher Scout II -->
+    <!-- Marcher Militia III -->
+    <!-- Marcher Watchman III -->
+    <!-- Marcher Lookout III -->
+    <!-- Marcher Guard IV -->
+    <!-- Marcher Swordsman IV -->
+    <!-- Marcher Sentry IV -->
+    <!-- Marcher Ambusher IV -->
+    <!-- Marcher Bowman IV -->
+    <!-- Marcher Defender V -->
+    <!-- Marcher Knight V -->
+    <!-- Marcher Voulger V -->
+    <!-- Marcher Skirmisher V -->
+    <!-- Marcher Archer V -->
+    <!-- Marcher Ranger V -->
+    <!-- Marcher Keeper VI -->
+    <!-- Marcher Champion VI -->
+    <!-- Marcher Halberdier VI -->
+    <!-- Marcher Waylayer VI -->
+    <!-- Marcher Longbow VI -->
+    <!-- Marcher Sentinel VI -->
+<!-- End Marcher Units -->
+<!-- Begin Baratheon Units -->
+    <!-- Baratheon Youth II -->
+    <!-- Baratheon Squire III -->
+    <!-- Baratheon Knight IV -->
+    <!-- Baratheon Heavy Knight V -->
+    <!-- Baratheon Stag Knight VI -->
+    <!-- Baratheon Stag Champion VII -->
+<!-- End Baratheon Units -->
+</NPCCharacters>

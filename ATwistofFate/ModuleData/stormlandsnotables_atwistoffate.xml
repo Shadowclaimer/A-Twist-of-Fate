@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="gear_practice_dummy_northern"
+  <NPCCharacter id="gear_practice_dummy_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Wanderer"
-                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern"
-                culture="Culture.northern"
-                name="Northern Gear Dummy"
+                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia"
+                culture="Culture.stormlands"
+                name="{=!}Stormlands Gear Dummy"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="NPCCharacter.guard" />
@@ -51,13 +51,13 @@
                  id="Item.battania_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="weapon_practice_stage_1_northern"
+  <NPCCharacter id="weapon_practice_stage_1_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Wanderer"
-                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern"
-                culture="Culture.northern"
-                name="Northern Weapon Dummy"
+                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia"
+                culture="Culture.stormlands"
+                name="{=!}Stormlands Weapon Dummy"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="NPCCharacter.guard" />
@@ -71,7 +71,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.northern_spear_1_t2" />
+                 id="Item.stormlands_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.southern_oval_shield" />
     </equipmentSet>
@@ -106,13 +106,13 @@
                  id="Item.default_arrows" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="weapon_practice_stage_2_northern"
+  <NPCCharacter id="weapon_practice_stage_2_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Wanderer"
-                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern"
-                culture="Culture.northern"
-                name="Northern Weapon Dummy"
+                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia"
+                culture="Culture.stormlands"
+                name="{=!}Stormlands Weapon Dummy"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="NPCCharacter.guard" />
@@ -165,13 +165,13 @@
                  id="Item.default_arrows" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="weapon_practice_stage_3_northern"
+  <NPCCharacter id="weapon_practice_stage_3_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Wanderer"
-                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern"
-                culture="Culture.northern"
-                name="Northern Weapon Dummy"
+                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia"
+                culture="Culture.stormlands"
+                name="{=!}Stormlands Weapon Dummy"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="NPCCharacter.guard" />
@@ -185,7 +185,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.northern_spear_3_t4" />
+                 id="Item.stormlands_spear_3_t4" />
       <equipment slot="Item1"
                  id="Item.southern_oval_shield" />
       <equipment slot="Item2"
@@ -224,13 +224,13 @@
                  id="Item.default_arrows" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="gear_dummy_northern"
+  <NPCCharacter id="gear_dummy_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Wanderer"
-                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern"
-                culture="Culture.northern"
-                name="Northern Gear Dummy"
+                civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia"
+                culture="Culture.stormlands"
+                name="{=!}Stormlands Gear Dummy"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="NPCCharacter.guard" />
@@ -247,7 +247,7 @@
                  id="Item.armwraps" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="caravan_leader_northern" default_group="Infantry" is_hero="false" is_mercenary="true" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania" culture="Culture.northern" occupation="Merchant" name="Northern Mercenaries Leader">
+  <NPCCharacter id="caravan_leader_stormlands" default_group="Infantry" is_hero="false" is_mercenary="true" civilianTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania" culture="Culture.stormlands" occupation="Merchant" name="Stormlands Mercenaries Leader">
     <face>
       <!--face_key value="00064c0c903c128d3378764a99782952967a8467a7a87bd7d7496cb5b3775ca50006833095b39736000000000000000000000000000000000000000000006000"/-->
       <BodyProperties version="4" age="43.18" weight="0.4591" build="0.4635" key="00064C0CD03C128D3378764A99772952967A8467A7A87BD7D7496CB5B3775CA50007733507B39736000000000000000000000000000000000000000000C86000" />
@@ -259,9 +259,9 @@
     <equipment slot="Body" id="Item.fur_armor_with_strap" />
     <equipment slot="Leg" id="Item.strapped_leather_boots" />
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_northern_0" name="the Rimed" voice="ironic" age="30" is_female="true" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_0" name="the Rimed" voice="ironic" age="30" is_female="true" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <!--<Hero id="spc_wanderer_battania_0" faction="Kingdom.battania" />-->
     <Traits>
@@ -274,9 +274,9 @@
     </Traits>
   </NPCCharacter>
   <!-- boastful, keeps a collection of his enemies' heads  -->
-  <NPCCharacter id="spc_wanderer_northern_1" name="the Snoweagle" voice="earnest" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_1" name="the Snoweagle" voice="earnest" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_wanderer_battania_1" faction="Kingdom.battania" />-->
     <Traits>
@@ -288,9 +288,9 @@
     </Traits>
   </NPCCharacter>
   <!--Set up to die in a duel by his stepfather, but won the duels -->
-  <NPCCharacter id="spc_wanderer_northern_2" name="Whitehair" voice="ironic" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_2" name="Whitehair" voice="ironic" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_wanderer_battania_2" faction="Kingdom.battania" />-->
     <Traits>
@@ -301,9 +301,9 @@
     </Traits>
   </NPCCharacter>
   <!-- the grey, professional veteran. fought for the empire -->
-  <NPCCharacter id="spc_wanderer_northern_3" name="Southron" voice="ironic" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_3" name="Southron" voice="ironic" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <Traits>
       <Trait id="PeltastFightingSkills" value="5" />
@@ -315,9 +315,9 @@
     </Traits>
   </NPCCharacter>
   <!-- horsethief, boastful -->
-  <NPCCharacter id="spc_wanderer_northern_4" name="Wolfskin" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_4" name="Wolfskin" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <Traits>
       <!--<Trait id="IsTemplate" value="1" />-->
@@ -329,9 +329,9 @@
     </Traits>
   </NPCCharacter>
   <!--loner, deserted the wolfskins -->
-  <NPCCharacter id="spc_wanderer_northern_5" name="the Dire Pup" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_5" name="the Dire Pup" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_wanderer_battania_5" faction="Kingdom.battania" />-->
     <Traits>
@@ -345,9 +345,9 @@
     </Traits>
   </NPCCharacter>
   <!--talkative bandit, of the hills -->
-  <NPCCharacter id="spc_wanderer_northern_6" name="Wolffang" voice="ironic" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_6" name="Wolffang" voice="ironic" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_wanderer_battania_6" faction="Kingdom.battania" />-->
     <Traits>
@@ -362,9 +362,9 @@
     </Traits>
   </NPCCharacter>
   <!--female, the wanderer. killed a chief's son who pestered her -->
-  <NPCCharacter id="spc_wanderer_northern_7" name="the Snowtracker" voice="ironic" age="21" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_7" name="the Snowtracker" voice="ironic" age="21" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <!--<Hero id="spc_wanderer_battania_7" faction="Kingdom.battania" />-->
     <Traits>
@@ -378,9 +378,9 @@
     </Traits>
   </NPCCharacter>
   <!-- The accursed, believed to be bad luck -->
-  <NPCCharacter id="spc_wanderer_northern_8" name="the Forgotten" voice="curt" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_8" name="the Forgotten" voice="curt" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <!--<Hero id="spc_wanderer_battania_8" faction="Kingdom.battania" />-->
     <Traits>
@@ -393,9 +393,9 @@
     </Traits>
   </NPCCharacter>
   <!-- 'Cowthief' - caught up in feud, raided cattle as revenge -->
-  <NPCCharacter id="spc_wanderer_northern_9" name="Ironblood" voice="ironic" age="22" is_female="false" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_companion_equipment_template_northern" civilianTemplate="NPCCharacter.npc_companion_equipment_template_northern" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_stormlands_9" name="Ironblood" voice="ironic" age="22" is_female="false" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Wanderer">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <!--<Hero id="spc_wanderer_battania_9" faction="Kingdom.battania" />-->
     <Traits>
@@ -408,9 +408,9 @@
       <Trait id="Mercy" value="-1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_merchant_1" name="Cautious Northern merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania" occupation="Merchant">
+  <NPCCharacter id="spc_notable_stormlands_merchant_1" name="{=Rp0gbdMM}Cautious Stormlands merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania" occupation="Merchant">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_merchant_1" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -420,9 +420,9 @@
       <Trait id="Calculating" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_0b" name="{FIRSTNAME} the Measurer" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Merchant">
+  <NPCCharacter id="spc_notable_stormlands_0b" name="{=iDxUTViN}{FIRSTNAME} the Measurer" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Merchant">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_0b" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -438,9 +438,9 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_0c" name="{FIRSTNAME} the Swiftspeaker" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Merchant">
+  <NPCCharacter id="spc_notable_stormlands_0c" name="{=FtpxQYf0}{FIRSTNAME} the Swiftspeaker" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Merchant">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_0c" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -456,9 +456,9 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_0d" name="{FIRSTNAME} the Woolseller" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Merchant">
+  <NPCCharacter id="spc_notable_stormlands_0d" name="{=4AKXWSGU}{FIRSTNAME} the Woolseller" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Merchant">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_0d" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -474,9 +474,9 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_0e" name="{FIRSTNAME} the Appraiser" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Merchant">
+  <NPCCharacter id="spc_notable_stormlands_0e" name="{=H5Uuazxj}{FIRSTNAME} the Appraiser" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Merchant">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_0e" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -492,9 +492,9 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_1" name="{FIRSTNAME} the Orphan" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Merchant">
+  <NPCCharacter id="spc_notable_stormlands_1" name="{=qP11ARtb}{FIRSTNAME} the Orphan" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Merchant">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <!--<Hero id="spc_notable_battania_1" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -509,9 +509,9 @@
       <equipment slot="Leg" id="Item.strapped_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_1b" name="{FIRSTNAME} the Freedwoman" voice="softspoken" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Merchant">
+  <NPCCharacter id="spc_notable_stormlands_1b" name="{=Kcax8j1W}{FIRSTNAME} the Freedwoman" voice="softspoken" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Merchant">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <!--<Hero id="spc_notable_battania_1b" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -527,9 +527,9 @@
       <equipment slot="Leg" id="Item.strapped_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_2" name="Northern mystic" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Preacher">
+  <NPCCharacter id="spc_notable_stormlands_2" name="{=cSkuDBgn}stormlands mystic" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Preacher">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_2" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -543,9 +543,9 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_3" name="Female preacher" voice="curt" is_template="true" default_group="Infantry" is_female="true" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Preacher">
+  <NPCCharacter id="spc_notable_stormlands_3" name="{=DLaXd9Bm}Female preacher" voice="curt" is_template="true" default_group="Infantry" is_female="true" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Preacher">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <!--<Hero id="spc_notable_battania_3" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -559,9 +559,9 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_4" name="Standard male gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="GangLeader">
+  <NPCCharacter id="spc_notable_stormlands_4" name="{=VmuTQm20}Standard male gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="GangLeader">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_4" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -608,9 +608,9 @@
       <equipment slot="Leg" id="Item.ragged_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northern_5" name="Female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="GangLeader">
+  <NPCCharacter id="spc_notable_stormlands_5" name="{=sUxhqvD1}Female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="GangLeader">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <!--<Hero id="spc_notable_battania_5" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -657,9 +657,9 @@
       <equipment slot="Leg" id="Item.ragged_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northernpreacher_0" name="Northern seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania" occupation="Preacher">
+  <NPCCharacter id="spc_notable_stormlandspreacher_0" name="Stormlands seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania" occupation="Preacher">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
     <Traits>
@@ -673,9 +673,9 @@
       <equipment slot="Leg" id="Item.leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_northerngangleader" name="Northern gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania" occupation="GangLeader">
+  <NPCCharacter id="spc_notable_stormlandsgangleader" name="Stormlands gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania" occupation="GangLeader">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_sturgia_6" faction="Kingdom.sturgia" />-->
     <Traits>
@@ -692,7 +692,7 @@
     <equipmentSet>
       <!--<equipment slot="Item0" id="Item.wrapped_axe" />-->
       <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
-      <equipment slot="Body" id="Item.northern_padded_gambeson" />
+      <equipment slot="Body" id="Item.stormlands_padded_gambeson" />
       <equipment slot="Leg" id="Item.leather_boots" />
     </equipmentSet>
     <equipmentSet>
@@ -704,13 +704,13 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
-      <equipment slot="Body" id="Item.northern_padded_gambeson" />
+      <equipment slot="Body" id="Item.stormlands_padded_gambeson" />
       <equipment slot="Leg" id="Item.battania_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_artisan_1" name="northern rebellious artisan" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Artisan">
+  <NPCCharacter id="spc_stormlands_artisan_1" name="{=QguTscz7}stormlands rebellious artisan" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Artisan">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_4" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -720,9 +720,9 @@
       <Trait id="Calculating" value="-1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_artisan_2" name="northern conservative artisan" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Artisan">
+  <NPCCharacter id="spc_stormlands_artisan_2" name="{=GEGnMwNK}stormlands conservative artisan" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Artisan">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_4" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -732,9 +732,9 @@
       <Trait id="Generosity" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_artisan_3" name="northern devious artisan" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania" occupation="Artisan">
+  <NPCCharacter id="spc_stormlands_artisan_3" name="{=ZFb9a3Rc}stormlands devious artisan" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania" occupation="Artisan">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_4" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -744,9 +744,9 @@
       <Trait id="Honor" value="-1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_headman_1" name="northern rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Headman">
+  <NPCCharacter id="spc_stormlands_headman_1" name="{=zCCuv0Bv}stormlands rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Headman">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_4" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -756,9 +756,9 @@
       <Trait id="Calculating" value="-1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_headman_2" name="northern conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Headman">
+  <NPCCharacter id="spc_stormlands_headman_2" name="{=NyJ6AvkI}stormlands conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Headman">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_4" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -768,9 +768,9 @@
       <Trait id="Generosity" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_headman_3" name="northern devious headman" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Headman">
+  <NPCCharacter id="spc_stormlands_headman_3" name="{=TI9qplRf}stormlands devious headman" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Headman">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_battania_4" faction="Kingdom.battania" />-->
     <skills></skills>
@@ -780,9 +780,9 @@
       <Trait id="Honor" value="-1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_rural_notable_1" name="Northern rural notable Fergus" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="RuralNotable">
+  <NPCCharacter id="spc_stormlands_rural_notable_1" name="{=w85UE1ki}stormlands rural notable Fergus" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="RuralNotable">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_notable_rural_notable_1" faction="Kingdom.battania" />-->
     <Traits>
@@ -790,9 +790,9 @@
       <Trait id="Calculating" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_rural_notable_2" name="Northern proud rural notable" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="RuralNotable">
+  <NPCCharacter id="spc_stormlands_rural_notable_2" name="{=LaDppi2W}stormlands proud rural notable" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="RuralNotable">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_battania_rural_notable_2" faction="Kingdom.battania" />-->
     <Traits>
@@ -801,9 +801,9 @@
       <Trait id="Calculating" value="-1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_outlaw_1" name="Northern bold outlaw" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Outlaw">
+  <NPCCharacter id="spc_stormlands_outlaw_1" name="{=5p8KHxxC}stormlands bold outlaw" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Outlaw">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_battania_outlaw_1" faction="Kingdom.battania" />-->
     <Traits>
@@ -812,9 +812,9 @@
       <Trait id="Honor" value="-1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_northern_outlaw_2" name="Northern menacing outlaw" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.northern" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_northern" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_northern" occupation="Outlaw">
+  <NPCCharacter id="spc_stormlands_outlaw_2" name="{=9CbxkUDb}stormlands menacing outlaw" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.stormlands" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia" occupation="Outlaw">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <!--<Hero id="spc_battania_outlaw_2" faction="Kingdom.battania" />-->
     <Traits>
@@ -823,15 +823,15 @@
       <Trait id="Calculating" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="prison_guard_northern"
+  <NPCCharacter id="prison_guard_stormlands"
                 default_group="Infantry"
                 level="4"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 occupation="PrisonGuard"
-                name="Prison Guard"
+                name="{=XgjXfmM1}Prison Guard"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills>
       <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
@@ -875,16 +875,16 @@
     <!---<equipment slot="Leg" id="Item.cape" />-->
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="guard_northern"
+  <NPCCharacter id="guard_stormlands"
                 default_group="Infantry"
                 level="4"
                 occupation="Soldier"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
-                culture="Culture.northern"
-                name="Guard"
+                culture="Culture.stormlands"
+                name="{=1sJcKkVP}Guard"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills>
       <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
@@ -903,7 +903,7 @@
     </skills>
     <equipmentSet civilian="true">
       <equipment slot="Item0"
-                 id="Item.northern_spear_2_t3" />
+                 id="Item.stormlands_spear_2_t3" />
       <equipment slot="Item1"
                  id="Item.highland_riders_shield" />
       <equipment slot="Body"
@@ -919,7 +919,7 @@
     </equipmentSet>
     <equipmentSet civilian="true">
       <equipment slot="Item0"
-                 id="Item.northern_spear_2_t3" />
+                 id="Item.stormlands_spear_2_t3" />
       <equipment slot="Body"
                  id="Item.ranger_mail" />
       <equipment slot="Gloves"
@@ -931,16 +931,16 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="blacksmith_northern"
+  <NPCCharacter id="blacksmith_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Blacksmith"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
-                culture="Culture.northern"
-                name="Blacksmith"
+                culture="Culture.stormlands"
+                name="{=bNnQt4jN}Blacksmith"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -974,16 +974,16 @@
                  id="Item.leather_gloves" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="weaponsmith_northern"
+  <NPCCharacter id="weaponsmith_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Weaponsmith"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
-                culture="Culture.northern"
-                name="Weaponsmith"
+                culture="Culture.stormlands"
+                name="{=UaN2lfwi}Weaponsmith"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -1017,16 +1017,16 @@
                  id="Item.leather_gloves" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="ransom_broker_northern"
+  <NPCCharacter id="ransom_broker_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
-                name="Ransom Broker"
+                name="{=W2WXkiAh}Ransom Broker"
                 occupation="RansomBroker"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -1062,14 +1062,14 @@
                  id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="steward_northern"
+  <NPCCharacter id="steward_stormlands"
                 default_group="Infantry"
                 level="21"
                 occupation="Judge"
-                culture="Culture.northern"
-                name="Judge">
+                culture="Culture.stormlands"
+                name="{=ZRkceJx3}Judge">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills>
       <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
@@ -1116,14 +1116,14 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="gangleader_bodyguard_northern"
+  <NPCCharacter id="gangleader_bodyguard_stormlands"
                 default_group="Infantry"
-                name="Gang Leader Bodyguard"
+                name="{=LNNXiPyV}Gang Leader Bodyguard"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -1239,15 +1239,15 @@
                  id="Item.highland_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="merchant_notary_northern"
+  <NPCCharacter id="merchant_notary_stormlands"
                 default_group="Infantry"
-                name="Merchant Notary"
-                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_northern"
+                name="{=reoVAtrE}Merchant Notary"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_vlandia"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -1425,15 +1425,15 @@
                  id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="artisan_notary_northern"
+  <NPCCharacter id="artisan_notary_stormlands"
                 default_group="Infantry"
-                name="Artisan Notary"
+                name="{=ECxiXTbF}Artisan Notary"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
       <hair_tags>
         <hair_tag name="Short" />
         <hair_tag name="SlickedLong" />
@@ -1619,15 +1619,15 @@
                  id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="preacher_notary_northern"
+  <NPCCharacter id="preacher_notary_stormlands"
                 default_group="Infantry"
-                name="PreacherNotary"
+                name="{=bLMGbLF8}PreacherNotary"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
       <hair_tags>
         <hair_tag name="Short" />
         <hair_tag name="SlickedLong" />
@@ -1813,15 +1813,15 @@
                  id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="rural_notable_notary_northern"
+  <NPCCharacter id="rural_notable_notary_stormlands"
                 default_group="Infantry"
-                name="RuralNotableNotary"
+                name="{=AlmaRAib}RuralNotableNotary"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
       <hair_tags>
         <hair_tag name="Short" />
         <hair_tag name="SlickedLong" />
@@ -2007,18 +2007,18 @@
                  id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="townsman_infant_northern"
-                name="Infant"
+  <NPCCharacter id="townsman_infant_stormlands"
+                name="{=9Di0NfG2}Infant"
                 age="3"
                 is_female="false"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Townsfolk"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -2027,18 +2027,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="townsman_child_northern"
-                name="Child"
+  <NPCCharacter id="townsman_child_stormlands"
+                name="{=pOCOS8um}Child"
                 age="6"
                 is_female="false"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Townsfolk"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -2055,18 +2055,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="townsman_teenager_northern"
-                name="Teenager"
+  <NPCCharacter id="townsman_teenager_stormlands"
+                name="{=o077j2j5}Teenager"
                 age="14"
                 is_female="false"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Townsfolk"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -2107,14 +2107,14 @@
                  id="Item.highland_gloves" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="townsman_northern"
+  <NPCCharacter id="townsman_stormlands"
                 default_group="Infantry"
-                name="Townsman"
+                name="{=muu5cofb}Townsman"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
       <hair_tags>
         <hair_tag name="Short" />
         <hair_tag name="SlickedLong" />
@@ -2290,15 +2290,15 @@
                  id="Item.highland_leg_wrappings" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="shop_worker_northern"
+  <NPCCharacter id="shop_worker_stormlands"
                 default_group="Infantry"
-                name="Shop Worker"
+                name="{=275LD0Gh}Shop Worker"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="ShopWorker"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -2332,16 +2332,16 @@
                  id="Item.strapped_shoes" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="tavernkeeper_northern"
+  <NPCCharacter id="tavernkeeper_stormlands"
                 default_group="Infantry"
                 is_hero="false"
-                name="Tavern Keeper"
+                name="{=CsjtWt1g}Tavern Keeper"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="Tavernkeeper"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -2367,16 +2367,16 @@
                  id="Item.strapped_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="taverngamehost_northern"
+  <NPCCharacter id="taverngamehost_stormlands"
                 default_group="Infantry"
                 is_hero="false"
-                name="Game Host"
+                name="{=twCIejxn}Game Host"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_empire"
                 occupation="TavernGameHost"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -2400,16 +2400,16 @@
                  id="Item.strapped_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="musician_northern"
+  <NPCCharacter id="musician_stormlands"
                 default_group="Infantry"
                 is_hero="false"
-                name="Musician"
+                name="{=zfCoeglY}Musician"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_empire"
                 occupation="Musician"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -2435,16 +2435,16 @@
                  id="Item.strapped_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="armorer_northern"
+  <NPCCharacter id="armorer_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Armorer"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
-                culture="Culture.northern"
-                name="Armorer"
+                culture="Culture.stormlands"
+                name="{=jx8ohENz}Armorer"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -2482,16 +2482,16 @@
                  id="Item.leather_gloves" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="horseMerchant_northern"
+  <NPCCharacter id="horseMerchant_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="HorseTrader"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
-                culture="Culture.northern"
-                name="Horse Trader"
+                culture="Culture.stormlands"
+                name="{=79ElOr2x}Horse Trader"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -2519,16 +2519,16 @@
                  id="Item.wrapped_shoes" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="merchant_northern"
+  <NPCCharacter id="merchant_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="GoodsTrader"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
-                culture="Culture.northern"
-                name="Trader"
+                culture="Culture.stormlands"
+                name="{=thbcgVVO}Trader"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -2564,16 +2564,16 @@
                  id="Item.strapped_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="tournament_master_northern"
+  <NPCCharacter id="tournament_master_stormlands"
                 default_group="Infantry"
                 is_hero="false"
                 civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="ArenaMaster"
-                culture="Culture.northern"
-                name="Tournament Master"
+                culture="Culture.stormlands"
+                name="{=IHKXNP9H}Tournament Master"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet>
@@ -2585,18 +2585,18 @@
                  id="Item.strapped_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="villager_infant_northern"
-                name="Infant"
+  <NPCCharacter id="villager_infant_stormlands"
+                name="{=9Di0NfG2}Infant"
                 age="3"
                 is_female="false"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Villager"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -2605,18 +2605,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="villager_child_northern"
-                name="Child"
+  <NPCCharacter id="villager_child_stormlands"
+                name="{=pOCOS8um}Child"
                 age="6"
                 is_female="false"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Villager"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -2633,18 +2633,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="villager_teenager_northern"
-                name="Teenager"
+  <NPCCharacter id="villager_teenager_stormlands"
+                name="{=o077j2j5}Teenager"
                 age="14"
                 is_female="false"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Villager"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -2685,15 +2685,15 @@
                  id="Item.highland_gloves" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="caravan_master_northern"
+  <NPCCharacter id="caravan_master_stormlands"
                 default_group="Infantry"
                 level="26"
-                name="Northern Caravan Master"
+                name="Stormlands Caravan Master"
                 occupation="CaravanGuard"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level26_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -2717,7 +2717,7 @@
       <equipment slot="Item0"
                  id="Item.battania_sword_2_t3" />
       <equipment slot="Head"
-                 id="Item.ridged_northernhelm" />
+                 id="Item.ridged_stormlandshelm" />
       <equipment slot="Body"
                  id="Item.ranger_mail" />
       <equipment slot="Cape"
@@ -2751,7 +2751,7 @@
      <equipment slot="Item0"
                  id="Item.battania_sword_2_t3" />
       <equipment slot="Head"
-                 id="Item.ridged_northernhelm" />
+                 id="Item.ridged_stormlandshelm" />
       <equipment slot="Body"
                  id="Item.ranger_mail" />
       <equipment slot="Cape"
@@ -2761,16 +2761,16 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="armed_trader_northern"
+  <NPCCharacter id="armed_trader_stormlands"
                 default_group="Ranged"
                 level="16"
-                name="Northern Armed Trader"
+                name="Stormlands Armed Trader"
                 occupation="CaravanGuard"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 is_basic_troop="true"
                 skill_template="NPCCharacter.ranged_skirmisher_level6_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -2870,16 +2870,16 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="caravan_guard_northern"
+  <NPCCharacter id="caravan_guard_stormlands"
                 default_group="Cavalry"
                 level="21"
-                name="Northern Caravan Guard"
+                name="Stormlands Caravan Guard"
                 upgrade_requires="ItemCategory.horse"
                 occupation="CaravanGuard"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -2903,7 +2903,7 @@
       <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_2_t3" />
+                 id="Item.stormlands_spear_2_t3" />
       <equipment slot="Item2"
                  id="Item.woodland_axe_t3" />
       <equipment slot="Item3"
@@ -2943,13 +2943,13 @@
       <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_2_t3" />
+                 id="Item.stormlands_spear_2_t3" />
       <equipment slot="Item2"
                  id="Item.woodland_axe_t3" />
       <equipment slot="Item3"
                  id="Item.desert_round_shield" />
       <equipment slot="Head"
-                 id="Item.ridged_northernhelm" />
+                 id="Item.ridged_stormlandshelm" />
       <equipment slot="Body"
                  id="Item.battania_woodland_chainmail" />
       <equipment slot="Leg"
@@ -2963,13 +2963,13 @@
      <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_2_t3" />
+                 id="Item.stormlands_spear_2_t3" />
       <equipment slot="Item2"
                  id="Item.woodland_axe_t3" />
       <equipment slot="Item3"
                  id="Item.desert_round_shield" />
       <equipment slot="Head"
-                 id="Item.ridged_northernhelm" />
+                 id="Item.ridged_stormlandshelm" />
       <equipment slot="Body"
                  id="Item.battania_woodland_chainmail" />
       <equipment slot="Leg"
@@ -2983,7 +2983,7 @@
      <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_2_t3" />
+                 id="Item.stormlands_spear_2_t3" />
       <equipment slot="Item2"
                  id="Item.woodland_axe_t3" />
       <equipment slot="Item3"
@@ -3005,16 +3005,16 @@
                id="Item.battania_horse_harness" />
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="veteran_caravan_guard_northern"
+  <NPCCharacter id="veteran_caravan_guard_stormlands"
                 default_group="Cavalry"
                 level="26"
-                name="Northern Veteran Caravan Guard"
+                name="Stormlands Veteran Caravan Guard"
                 upgrade_requires="ItemCategory.war_horse"
                 occupation="CaravanGuard"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.cavalry_lightcavalry_heavycavalry_level26_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -3038,13 +3038,13 @@
       <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_3_t4" />
+                 id="Item.stormlands_spear_3_t4" />
       <equipment slot="Item2"
                  id="Item.battania_sword_4_t4" />
       <equipment slot="Item3"
                  id="Item.desert_round_shield" />
       <equipment slot="Head"
-                 id="Item.ridged_northernhelm" />
+                 id="Item.ridged_stormlandshelm" />
       <equipment slot="Body"
                  id="Item.ranger_mail" />
       <equipment slot="Leg"
@@ -3058,7 +3058,7 @@
       <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_3_t4" />
+                 id="Item.stormlands_spear_3_t4" />
       <equipment slot="Item2"
                  id="Item.battania_sword_4_t4" />
       <equipment slot="Item3"
@@ -3078,13 +3078,13 @@
       <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_3_t4" />
+                 id="Item.stormlands_spear_3_t4" />
       <equipment slot="Item2"
                  id="Item.battania_sword_4_t4" />
       <equipment slot="Item3"
                  id="Item.desert_round_shield" />
       <equipment slot="Head"
-                 id="Item.ridged_northernhelm" />
+                 id="Item.ridged_stormlandshelm" />
       <equipment slot="Body"
                  id="Item.battania_woodland_chainmail" />
       <equipment slot="Leg"
@@ -3098,13 +3098,13 @@
     <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_3_t4" />
+                 id="Item.stormlands_spear_3_t4" />
       <equipment slot="Item2"
                  id="Item.battania_sword_4_t4" />
       <equipment slot="Item3"
                  id="Item.desert_round_shield" />
       <equipment slot="Head"
-                 id="Item.ridged_northernhelm" />
+                 id="Item.ridged_stormlandshelm" />
       <equipment slot="Body"
                  id="Item.battania_woodland_chainmail" />
       <equipment slot="Leg"
@@ -3118,7 +3118,7 @@
       <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_spear_3_t4" />
+                 id="Item.stormlands_spear_3_t4" />
       <equipment slot="Item2"
                  id="Item.battania_sword_4_t4" />
       <equipment slot="Item3"
@@ -3140,15 +3140,15 @@
                id="Item.battania_horse_harness" />
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="northern_militia_archer"
+  <NPCCharacter id="stormlands_militia_archer"
                 default_group="Ranged"
                 level="11"
-                name="Northern Militia Archer"
+                name="Stormlands Militia Archer"
                 occupation="Soldier"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.ranged_skirmisher_level11_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet>
@@ -3221,15 +3221,15 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="northern_militia_veteran_archer"
+  <NPCCharacter id="stormlands_militia_veteran_archer"
                 default_group="Ranged"
                 level="21"
-                name="Northern Militia Veteran Archer"
+                name="Stormlands Militia Veteran Archer"
                 occupation="Soldier"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet>
@@ -3306,20 +3306,20 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="northern_militia_spearman"
+  <NPCCharacter id="stormlands_militia_spearman"
                 default_group="Infantry"
                 level="11"
-                name="Northern Militia Spearman"
+                name="Stormlands Militia Spearman"
                 occupation="Soldier"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level11_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.northern_spear_1_t2" />
+                 id="Item.stormlands_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.battania_sword_1_t2" />
       <equipment slot="Item2"
@@ -3337,7 +3337,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.northern_spear_1_t2" />
+                 id="Item.stormlands_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.battania_mace_1_t2" />
       <equipment slot="Item2"
@@ -3393,15 +3393,15 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="northern_militia_veteran_spearman"
+  <NPCCharacter id="stormlands_militia_veteran_spearman"
                 default_group="Infantry"
                 level="21"
-                name="Northern Militia Veteran Spearman"
+                name="Stormlands Militia Veteran Spearman"
                 occupation="Soldier"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.villager_northern" />
+      <face_key_template value="NPCCharacter.villager_stormlands" />
     </face>
     <skills></skills>
     <equipmentSet>
@@ -3412,7 +3412,7 @@
       <equipment slot="Item2"
                  id="Item.emirs_oval_shield" />
       <equipment slot="Head"
-                 id="Item.ridged_northernhelm" />
+                 id="Item.ridged_stormlandshelm" />
       <equipment slot="Cape"
                  id="Item.battania_shoulder_strap" />
       <equipment slot="Body"
@@ -3476,18 +3476,18 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="townswoman_infant_northern"
-                name="Infant"
+  <NPCCharacter id="townswoman_infant_stormlands"
+                name="{=9Di0NfG2}Infant"
                 age="6"
                 is_female="true"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Townsfolk"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -3496,18 +3496,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="townswoman_child_northern"
-                name="Child"
+  <NPCCharacter id="townswoman_child_stormlands"
+                name="{=pOCOS8um}Child"
                 age="6"
                 is_female="true"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Townsfolk"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -3522,18 +3522,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="townswoman_teenager_northern"
-                name="Teenager"
+  <NPCCharacter id="townswoman_teenager_stormlands"
+                name="{=o077j2j5}Teenager"
                 age="14"
                 is_female="true"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Townsfolk"
                 battleTemplate="NPCCharacter.battania_lord_lady_battle_equipment"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -3562,17 +3562,17 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="tavern_wench_northern"
+  <NPCCharacter id="tavern_wench_stormlands"
                 default_group="Infantry"
-                name="Tavern Maid"
+                name="{=z6RMWTaA}Tavern Maid"
                 is_female="true"
                 is_hero="false"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="TavernWench"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -3604,17 +3604,17 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="female_beggar_northern"
+  <NPCCharacter id="female_beggar_stormlands"
                 default_group="Infantry"
                 is_female="true"
                 level="1"
-                name="Beggar"
+                name="{=HZRKBDyB}Beggar"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -3633,17 +3633,17 @@
     </equipmentSet>
     <!-- Uses village hair -->
   </NPCCharacter>
-  <NPCCharacter id="female_dancer_northern"
+  <NPCCharacter id="female_dancer_stormlands"
                 default_group="Infantry"
-                name="Dancer"
+                name="{=X3KYysuv}Dancer"
                 is_female="true"
                 is_hero="false"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -3659,18 +3659,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="village_woman_infant_northern"
-                name="Infant"
+  <NPCCharacter id="village_woman_infant_stormlands"
+                name="{=9Di0NfG2}Infant"
                 age="3"
                 is_female="true"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Villager"
                 battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -3679,18 +3679,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="village_woman_child_northern"
-                name="Child"
+  <NPCCharacter id="village_woman_child_stormlands"
+                name="{=pOCOS8um}Child"
                 age="6"
                 is_female="true"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Villager"
                 battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -3707,18 +3707,18 @@
                  id="Item.ladys_shoe" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="village_woman_teenager_northern"
-                name="Teenager"
+  <NPCCharacter id="village_woman_teenager_stormlands"
+                name="{=o077j2j5}Teenager"
                 age="14"
                 is_female="true"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Villager"
                 battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_battania"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <equipmentSet civilian="true">
       <equipment slot="Body"
@@ -3759,16 +3759,16 @@
                  id="Item.highland_gloves" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="village_woman_northern"
+  <NPCCharacter id="village_woman_stormlands"
                 default_group="Infantry"
                 is_female="true"
                 level="1"
-                name="Northern Peasant"
+                name="{=BmYpwIYi}Stormlands Peasant"
                 occupation="Villager"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="NPCCharacter.townswoman_northern" />
+      <face_key_template value="NPCCharacter.townswoman_battania" />
     </face>
     <skills></skills>
     <equipmentSet civilian="true">
@@ -3884,12 +3884,12 @@
                  id="Item.battania_civil_cloak" />
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="beggar_northern"
+  <NPCCharacter id="beggar_stormlands"
                 default_group="Infantry"
-                name="Beggar"
+                name="{=HZRKBDyB}Beggar"
                 battleTemplate="NPCCharacter.npc_wanderer_equipment_template_battania"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <!--face_key value="000507400600141300000000000000100000000000000000000000000000000000010bacf10000000000000000000000000000000000000000000000000000c1" max_value="001cffffd50034d4fffffffffff0fffffffffffffffffffffffffeffffffffff00010baff1ffffff000000000000000000000000000000000000000000008101" /-->
@@ -3923,285 +3923,13 @@
     </equipmentSet>
     <!-- Uses village hair -->
   </NPCCharacter>
-  <NPCCharacter id="villager_northern"
-                default_group="Infantry"
-                level="1"
-                name="Northern Peasant"
-                occupation="Villager"
-                culture="Culture.northern"
-                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
-    <face>
-      <!--face_key value="0000014440fc1000171771708710887070071888108071070017100010010110000a06550000001000000000000000000000000000000000fffffffffc740000" max_value="000b7ff880fc3914efefe7ffff6feefff77fffee67f6feeff7ef6ffffeffffff000ff65fffefffff000000000000000000000000000000000000000001f41140" /-->
-      <BodyProperties    version="4" 
-                         age="24.29" 
-                         weight="0.162" 
-                         build="0.3657"  
-                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
-      <BodyPropertiesMax version="4" 
-                         age="52.82" 
-                         weight="0.6104" 
-                         build="0.62046"  
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />
-      <!--<hair_tags>
-        <hair_tag name="Short" />
-        <hair_tag name="SlickedLong" />
-        <hair_tag name="LongAndBushy" />
-      </hair_tags>
-      <beard_tags>
-        <beard_tag name="DroopyMustache" />
-        <beard_tag name="MediumMustache" />
-      </beard_tags>-->
-    </face>
-    <skills></skills>
-    <equipmentSet civilian="true">
-      <equipment slot="Item0"
-                 id="Item.peasant_sickle_1_t1" />
-      <equipment slot="Body"
-                 id="Item.battania_civil_a" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />
-      <equipment slot="Leg"
-                 id="Item.strapped_shoes" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_civil_b" />
-      <equipment slot="Head"
-                 id="Item.battania_civil_hood" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cloak" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_civil_c" />
-      <equipment slot="Leg"
-                 id="Item.strapped_leather_boots" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_woodland_outfit" />
-      <equipment slot="Leg"
-                 id="Item.battania_woodland_boots" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cloak" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-      <equipment slot="Head"
-                 id="Item.battania_civil_hood" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_civil_a" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cloak" />
-      <equipment slot="Leg"
-                 id="Item.strapped_shoes" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_civil_b" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_civil_c" />
-      <equipment slot="Leg"
-                 id="Item.strapped_leather_boots" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_woodland_outfit" />
-      <equipment slot="Leg"
-                 id="Item.battania_woodland_boots" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_woodland_outfit" />
-      <equipment slot="Leg"
-                 id="Item.battania_woodland_boots" />
-      <equipment slot="Cape"
-                 id="Item.battania_cloak" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Item0"
-                 id="Item.peasant_sickle_1_t1" />
-      <equipment slot="Body"
-                 id="Item.battania_civil_a" />
-      <equipment slot="Cape"
-                 id="Item.battania_cloak" />
-      <equipment slot="Leg"
-                 id="Item.strapped_shoes" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_civil_b" />
-      <equipment slot="Cape"
-                 id="Item.battania_cloak" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_civil_c" />
-      <equipment slot="Leg"
-                 id="Item.strapped_leather_boots" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_woodland_outfit" />
-      <equipment slot="Leg"
-                 id="Item.battania_woodland_boots" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cape" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Item0"
-                 id="Item.peasant_sickle_1_t1" />
-      <equipment slot="Body"
-                 id="Item.battania_civil_a" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cape" />
-      <equipment slot="Leg"
-                 id="Item.strapped_shoes" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet civilian="true">
-      <equipment slot="Body"
-                 id="Item.battania_civil_b" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cape" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.peasant_2haxe_1_t1" />
-      <equipment slot="Item1"
-                 id="Item.throwing_stone" />
-      <equipment slot="Body"
-                 id="Item.battania_civil_a" />
-      <equipment slot="Cape"
-                 id="Item.battania_cloak" />
-      <equipment slot="Leg"
-                 id="Item.strapped_shoes" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.peasant_2haxe_1_t1" />
-      <equipment slot="Item1"
-                 id="Item.throwing_stone" />
-      <equipment slot="Body"
-                 id="Item.battania_civil_b" />
-      <equipment slot="Cape"
-                 id="Item.battania_cloak" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.peasant_2haxe_1_t1" />
-      <equipment slot="Item1"
-                 id="Item.throwing_stone" />
-      <equipment slot="Body"
-                 id="Item.battania_civil_c" />
-      <equipment slot="Leg"
-                 id="Item.strapped_leather_boots" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.peasant_polearm_1_t1" />
-      <equipment slot="Item1"
-                 id="Item.throwing_stone" />
-      <equipment slot="Body"
-                 id="Item.battania_woodland_outfit" />
-      <equipment slot="Leg"
-                 id="Item.battania_woodland_boots" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cape" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.peasant_polearm_1_t1" />
-      <equipment slot="Item1"
-                 id="Item.throwing_stone" />
-      <equipment slot="Item0"
-                 id="Item.peasant_sickle_1_t1" />
-      <equipment slot="Body"
-                 id="Item.battania_civil_a" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cape" />
-      <equipment slot="Leg"
-                 id="Item.strapped_shoes" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.peasant_polearm_1_t1" />
-      <equipment slot="Item1"
-                 id="Item.throwing_stone" />
-      <equipment slot="Body"
-                 id="Item.battania_civil_b" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cape" />
-      <equipment slot="Gloves"
-                 id="Item.highland_gloves" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.mercenary_1" />
-    </upgrade_targets>
-  </NPCCharacter>
-  <NPCCharacter id="townswoman_northern"
+  <NPCCharacter id="townswoman_stormlands"
                 default_group="Infantry"
                 is_female="true"
                 level="1"
-                name="Northern Townswoman"
+                name="Stormlands Townswoman"
                 occupation="Townsfolk"
-                culture="Culture.northern"
+                culture="Culture.stormlands"
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <face>
       <BodyProperties version="4"

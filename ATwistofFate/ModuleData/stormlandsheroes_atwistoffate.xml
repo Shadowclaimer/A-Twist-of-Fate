@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+<!-- HOUSE BARATHEON -->
+<!-- Lord - Stannis Baratheon -->
+  <Hero id="baratheon_lord_1" is_noble="true" faction="Faction.house_baratheon" text="The current lord of House Baratheon, Stannis Baratheon." />
+<!-- HOUSE BUCKLER -->
+  <Hero id="buckler_lord_1" is_noble="true" faction="Faction.house_buckler" text="The current lord of House Buckler, Ralph Buckler." />
+<!-- HOUSE CONNINGTON -->
+  <Hero id="connington_lord_1" is_noble="true" faction="Faction.house_connington" text="The current lord of House Connington, Jon Connington." />
+<!-- HOUSE ERROL -->
+  <Hero id="errol_lord_1" is_noble="true" faction="Faction.house_errol" text="The current lady of House Errol, Shyla Errol." />
+<!-- HOUSE PENROSE -->
+  <Hero id="penrose_lord_1" is_noble="true" faction="Faction.house_penrose" text="The current lord of House Penrose, Ronner Penrose." />
+<!-- HOUSE STAEDMON -->
+  <Hero id="staedmon_lord_1" is_noble="true" faction="Faction.house_staedmon" text="The current lord of House Staedmon, Alesander Staedmon." />
+<!-- HOUSE WYLDE -->
+  <Hero id="wylde_lord_1" is_noble="true" faction="Faction.house_wylde" text="The current lord of House Wylde, Casper Wylde." />
+<!-- HOUSE TARTH -->
+  <Hero id="tarth_lord_1" is_noble="true" faction="Faction.house_tarth" text="The current lord of House Tarth, Selwyn Tarth." />
+<!-- HOUSE ESTERMONT -->
+  <Hero id="estermont_lord_1" is_noble="true" faction="Faction.house_estermont" text="The current lord of House Estermont, Edwyn Estermont." />
+<!-- HOUSE MORRIGEN -->
+  <Hero id="morrigen_lord_1" is_noble="true" faction="Faction.house_morrigen" text="The current lord of House Morrigen, Lester Morrigen." />
+<!-- HOUSE FELL -->
+  <Hero id="fell_lord_1" is_noble="true" faction="Faction.house_fell" text="The current lord of House Fell, Harren Fell." />
+<!-- HOUSE GRANDISON -->
+  <Hero id="grandison_lord_1" is_noble="true" faction="Faction.house_grandison" text="The current lord of House Grandison, Hugh Grandison." />
+<!-- HOUSE CARON -->
+  <Hero id="caron_lord_1" is_noble="true" faction="Faction.house_caron" text="The current lord of House Caron, Bryce Caron." />
+<!-- HOUSE DONDARRION -->
+  <Hero id="dondarrion_lord_1" is_noble="true" faction="Faction.house_dondarrion" text="The current lord of House Dondarrion, Beric Dondarrion." />
+<!-- HOUSE SELMY -->
+  <Hero id="selmy_lord_1" is_noble="true" faction="Faction.house_selmy" text="The current lord of House Selmy, Arstan Selmy." />
+<!-- HOUSE SWANN -->
+  <Hero id="swann_lord_1" is_noble="true" faction="Faction.house_swann" text="The current lord of House Swann, Gulian Swann." />
+</Heroes>
