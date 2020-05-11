@@ -2,7 +2,7 @@
 <Factions>
 <!-- Core Houses -->
   <!-- House Baratheon -->
-    <Faction id="house_baratheon"
+    <Faction id="house_baratheon_1"
             initial_posX="480"
             initial_posY="290"
             name="House Baratheon"
@@ -21,7 +21,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Buckler -->
-    <Faction id="house_buckler"
+    <Faction id="house_buckler_1"
             initial_posX="480"
             initial_posY="290"
             name="House Buckler"
@@ -40,7 +40,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Connington -->
-    <Faction id="house_connington"
+    <Faction id="house_connington_1"
             initial_posX="480"
             initial_posY="290"
             name="House Connington"
@@ -59,7 +59,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Errol -->
-    <Faction id="house_errol"
+    <Faction id="house_errol_1"
             initial_posX="480"
             initial_posY="290"
             name="House Errol"
@@ -78,7 +78,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Estermont (ISLAND HOUSE)-->
-    <Faction id="house_estermont"
+    <Faction id="house_estermont_1"
             initial_posX="480"
             initial_posY="290"
             name="House Estermont"
@@ -97,7 +97,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Penrose -->
-    <Faction id="house_penrose"
+    <Faction id="house_penrose_1"
             initial_posX="480"
             initial_posY="290"
             name="House Penrose"
@@ -116,7 +116,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Staedmon -->
-    <Faction id="house_staedmon"
+    <Faction id="house_staedmon_1"
             initial_posX="480"
             initial_posY="290"
             name="House Staedmon"
@@ -135,7 +135,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Tarth (ISLAND HOUSE) -->
-    <Faction id="house_tarth"
+    <Faction id="house_tarth_1"
             initial_posX="480"
             initial_posY="290"
             name="House Tarth"
@@ -154,7 +154,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Wylde -->
-    <Faction id="house_wylde"
+    <Faction id="house_wylde_1"
             initial_posX="480"
             initial_posY="290"
             name="House Wylde"
@@ -173,7 +173,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Morrigen -->
-    <Faction id="house_morrigen"
+    <Faction id="house_morrigen_1"
             initial_posX="480"
             initial_posY="290"
             name="House Morrigen"
@@ -192,7 +192,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Fell -->
-    <Faction id="house_fell"
+    <Faction id="house_fell_1"
             initial_posX="480"
             initial_posY="290"
             name="House Fell"
@@ -211,7 +211,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Grandison -->
-    <Faction id="house_grandison"
+    <Faction id="house_grandison_1"
             initial_posX="480"
             initial_posY="290"
             name="House Grandison"
@@ -232,7 +232,7 @@
 <!-- End Core Houses-->
 <!-- Marcher Houses-->
   <!-- House Caron -->
-    <Faction id="house_caron"
+    <Faction id="house_caron_1"
             initial_posX="480"
             initial_posY="290"
             name="House Caron"
@@ -251,7 +251,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Dondarrion -->
-    <Faction id="house_dondarrion"
+    <Faction id="house_dondarrion_1"
             initial_posX="480"
             initial_posY="290"
             name="House Dondarrion"
@@ -270,7 +270,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Selmy -->
-      <Faction id="house_selmy"
+      <Faction id="house_selmy_1"
             initial_posX="480"
             initial_posY="290"
             name="House Selmy"
@@ -289,7 +289,7 @@
             settlement_banner_mesh="encounter_flag_f">
     </Faction>
   <!-- House Swann -->
-      <Faction id="house_swann"
+      <Faction id="house_swann_1"
             initial_posX="480"
             initial_posY="290"
             name="House Swann"

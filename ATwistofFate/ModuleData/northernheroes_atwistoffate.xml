@@ -1,42 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Heroes>
-<!--             -->
 <!-- HOUSE STARK -->
-<!--             -->
-<!-- Lord - Benjen Stark -->
-  <Hero id="starklord_1" is_noble="true" faction="Faction.clan_stark_1" text="The current lord of House Stark, Benjen Stark." />
-<!-- Lady - Catelyn Stark -->
-  <Hero id="starklord_2" is_noble="true" faction="Faction.clan_stark_1" text="Catelyn Stark." />
-<!-- Heir - Edwyle Stark -->
-  <Hero id="starklord_3" is_noble="true" faction="Faction.clan_stark_1" text="Edwyle Stark." />
-<!-- Castellan - Rodrik Cassel -->
-  <Hero id="starklord_4" is_noble="false" faction="Faction.clan_stark_1" text="Rodrik Cassel." />
-<!-- Jory Cassel -->
-  <Hero id="starklord_5" is_noble="false" faction="Faction.clan_stark_1" text="Jory Cassel." />
-<!--             -->
+  <!-- Dead  historical people -->
+  <Hero id="stark_dead_lord_1" alive="false" is_noble="true" faction="Faction.house_stark_1" text="The former Lord of House Stark, Rickard Stark." />
+  <Hero id="stark_dead_lord_2" alive="false" is_noble="true" faction="Faction.house_stark_1" text="The former Lady of House Stark, Lyarra Stark." />
+  <Hero id="stark_dead_lord_3" alive="false" is_noble="true" faction="Faction.house_stark_1" text="Benjen's eldest brother Brandon Stark, slain by the mad King Aerys II Targaryen." />
+  <Hero id="stark_dead_lord_4" alive="false" is_noble="true" faction="Faction.house_stark_1" text="Benjen's elder brother, Eddard Stark. After Robert's Rebellion Eddard chose to take the black for his dishonor and part in the rebellion." />
+  <!-- Lord and Lady -->
+  <Hero id="stark_lord_1" is_noble="true" faction="Faction.house_stark_1" spouse="Hero.stark_lord_2" father="Hero.stark_dead_lord_1" mother="Hero.stark_dead_lord_2" text="The current lord of House Stark, Benjen Stark." />
+  <Hero id="stark_lord_2" is_noble="true" faction="Faction.house_stark_1" spouse="Hero.stark_lord_1" text="Catelyn Stark." />
+  <!-- Noble Children -->
+  <Hero id="stark_lord_3" is_noble="true" faction="Faction.house_stark_1" father="Hero.stark_lord_1" mother="Hero.stark_lord_2" text="Edwyle Stark." />
+  <Hero id="stark_lord_4" is_noble="true" faction="Faction.house_stark_1" father="Hero.stark_lord_1" mother="Hero.stark_lord_2" text="Marna Stark." />
+  <Hero id="stark_lord_5" is_noble="true" faction="Faction.house_stark_1" father="Hero.stark_lord_1" mother="Hero.stark_lord_2" text="Artos Stark." />
+  <Hero id="stark_lord_6" is_noble="true" faction="Faction.house_stark_1" father="Hero.stark_lord_1" mother="Hero.stark_lord_2" text="Erron Stark." />
+  <!-- Bastards -->
+  <Hero id="stark_bastard_1" is_noble="true" faction="Faction.house_stark_1" father="Hero.stark_dead_lord_3" text="Edd Snow." />
+  <Hero id="stark_bastard_2" is_noble="true" faction="Faction.house_stark_1" father="Hero.stark_dead_lord_3" text="Lya Snow." />
+<!-- HOUSE CASSEL -->
+  <!-- Castellan - Rodrik Cassel -->
+  <Hero id="cassel_lord_1" is_noble="false" faction="Faction.house_cassel_1" text="Rodrik Cassel." />
+  <!-- Jory Cassel -->
+  <Hero id="cassel_lord_2" is_noble="false" faction="Faction.house_cassel_1" text="Jory Cassel." />
+<!-- HOUSE KARKSTARK -->
+  <!-- Lord - Rickard Karstark -->
+  <Hero id="karstark_lord_1" is_noble="true" faction="Faction.house_karstark_1" text="The current lord of House Karstark, Rickard Karstark." />
 <!-- HOUSE UMBER -->
-<!--             -->
-<!-- Lord - Jon "Greatjon" Umber -->
-  <Hero id="umberlord_1" is_noble="true" faction="Faction.clan_umber_1" text="The current lord of House Umber, Jon 'Greatjon' Umber." />
-<!--             -->
-<!-- HOUSE TALLHART -->
-<!--             -->
-<!-- Lord - Benfred Tallhart -->
-  <Hero id="tallhartlord_1" is_noble="true" faction="Faction.clan_tallhart_1" text="The current lord of House Tallhart, Benfred Tallhart." />
-<!--              -->
-<!-- HOUSE BOLTON -->
-<!--              -->
-<!-- Lord - Roose Bolton -->
-  <Hero id="boltonlord_1" is_noble="true" faction="Faction.clan_bolton_1" text="The current lord of House Bolton, Roose Bolton." />
-<!--              -->
-<!-- HOUSE GLOVER -->
-<!--              -->
-<!-- Lord - Galbart Glover -->
-  <Hero id="gloverlord_1" is_noble="true" faction="Faction.clan_glover_1" text="The current lord of House Glover, Galbert Glover." />
-<!--              -->
-<!-- HOUSE MANDERLY -->
-<!--              -->
-<!-- Lord - Wyman Manderly -->
-  <Hero id="manderlylord_1" is_noble="true" faction="Faction.clan_manderly_1" text="The current lord of House Manderly, Wyman Manderly." />
+  <!-- Dead  historical people -->
+  <Hero id="umber_dead_lord_1" is_noble="true" alive="false" faction="Faction.house_umber_1" text="Hoarfrost Umber, grandfather of Greatjon Umber, and father of Horen Umber, Mors Umber, and Hother Umber." />
+  <Hero id="umber_dead_lord_2" is_noble="true" alive="false" faction="Faction.house_umber_1" father="Hero.umber_dead_lord_1" text="Horen Umber, the father of Greatjon Umber." />
+  <Hero id="umber_dead_lord_3" is_noble="true" alive="false" faction="Faction.house_umber_1" text="Lysa Umber, the mother of Greatjon Umber." />
+  <!-- Lord and Lady -->
+  <Hero id="umber_lord_1" is_noble="true" faction="Faction.house_umber_1" father="Hero.umber_dead_lord_2" mother="Hero.umber_dead_lord_3" spouse="Hero.umber_lord_2" text="The current lord of House Umber, Jon 'Greatjon' Umber." />
+  <Hero id="umber_lord_2" is_noble="true" faction="Faction.house_umber_1" spouse="Hero.umber_lord_1" text="The current lady of House Umber, Helan Umber." />
+  <!-- Noble Children -->
+  <Hero id="umber_lord_3" is_noble="true" faction="Faction.house_umber_1" father="Hero.umber_lord_1" mother="Hero.umber_lord_2" text="The eldest son of Greatjon Umber and Lysa Umber, Smalljon Umber." />
+  <Hero id="umber_lord_4" is_noble="true" faction="Faction.house_umber_1" father="Hero.umber_lord_1" mother="Hero.umber_lord_2" text="The son of Greatjon Umber and Lysa Umber, Hors Umber." />
+  <Hero id="umber_lord_5" is_noble="true" faction="Faction.house_umber_1" father="Hero.umber_lord_1" mother="Hero.umber_lord_2" text="The son of Greatjon Umber and Lysa Umber, Harmond Umber." />
+  <Hero id="umber_lord_6" is_noble="true" faction="Faction.house_umber_1" father="Hero.umber_lord_1" mother="Hero.umber_lord_2" text="The daughter of Greatjon Umber and Lysa Umber, Myra Umber." />
+  <Hero id="umber_lord_7" is_noble="true" faction="Faction.house_umber_1" father="Hero.umber_lord_1" mother="Hero.umber_lord_2" text="The daughter of Greatjon Umber and Lysa Umber, Sara Umber." />
+  <!-- Bastards -->
+  <!-- Maesters -->
+  <!-- Castellans/Household -->
+  <Hero id="umber_household_1" is_noble="true" faction="Faction.house_umber_1" father="Hero.umber_dead_lord_1" text="One of the castellans of Last Hearth, Mors 'Crowfood' Umber" />
+  <Hero id="umber_household_2" is_noble="true" faction="Faction.house_umber_1" father="Hero.umber_dead_lord_1" text="One of the castellans of Last Hearth, Hother Umber" /> 
 
+
+
+<!-- HOUSE BOLTON -->
+  <!-- Lord - Roose Bolton -->
+  <Hero id="bolton_lord_1" is_noble="true" faction="Faction.house_bolton_1" text="The current lord of House Bolton, Roose Bolton." />
+<!-- HOUSE CERWYN -->
+  <!-- Lord - Medger Cerwyn -->
+  <Hero id="cerwyn_lord_1" is_noble="true" faction="Faction.house_cerwyn_1" text="The current lord of House Cerwyn, Medger Cerwyn." />
+<!-- HOUSE DUSTIN -->
+  <!-- Lord - Willam Dustin -->
+  <Hero id="dustin_lord_1" is_noble="true" faction="Faction.house_dustin_1" text="The current lord of House Dustin, Willam Dustin." />
+<!-- HOUSE GLOVER -->
+  <!-- Lord - Galbart Glover -->
+  <Hero id="glover_lord_1" is_noble="true" faction="Faction.house_glover_1" text="The current lord of House Glover, Galbert Glover." />
+<!-- HOUSE MANDERLY -->
+  <!-- Lord - Wyman Manderly -->
+  <Hero id="manderly_lord_1" is_noble="true" faction="Faction.house_manderly_1" text="The current lord of House Manderly, Wyman Manderly." />
+<!-- HOUSE MORMONT -->
+  <!-- Lord - Jorah Mormont -->
+  <Hero id="mormont_lord_1" is_noble="true" faction="Faction.house_mormont_1" text="The current lord of House Mormont, Jorah Mormont." />
+<!-- HOUSE TALLHART -->
+  <!-- Lord - Helman Tallhart -->
+  <Hero id="tallhart_lord_1" is_noble="true" faction="Faction.house_tallhart_1" text="The current lord of House Tallhart, Helman Tallhart." />
+<!-- HOUSE FLINT -->
+  <!-- Lord - Lyessa Flint -->
+  <Hero id="flint_lord_1" is_noble="true" faction="Faction.house_flint_1" text="The current lord of House Flint, Lyessa Flint." />
+<!-- HOUSE RYSWELL -->
+  <!-- Lord - Rodrik Ryswell -->
+  <Hero id="ryswell_lord_1" is_noble="true" faction="Faction.house_ryswell_1" text="The current lord of House Ryswell, Rodrik Ryswell." />
+<!-- HOUSE HORNWOOD -->
+  <!-- Lord - Halys Hornwood -->
+  <Hero id="hornwood_lord_1" is_noble="true" faction="Faction.house_hornwood_1" text="The current lord of House Hornwood, Halys Hornwood." />
+<!-- HOUSE REED -->
+  <!-- Lord - Howland Reed -->
+  <Hero id="reed_lord_1" is_noble="true" faction="Faction.house_reed_1" text="The current lord of House Reed, Howland Reed." />
+<!-- HOUSE LOCKE -->
+  <!-- Lord - Ondrew Locke -->
+  <Hero id="locke_lord_1" is_noble="true" faction="Faction.house_locke_1" text="The current lord of House Locke, Ondrew Locke." />
+<!-- HOUSE SLATE -->
+  <!-- Lord - Roger Slate -->
+  <Hero id="slate_lord_1" is_noble="true" faction="Faction.house_slate_1" text="The current lord of House Slate, Roger Slate." />
 </Heroes>

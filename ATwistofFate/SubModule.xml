@@ -1,7 +1,7 @@
 ﻿<Module>
   <Name value="A Twist of Fate"/>
   <Id value="ATwistofFate"/>
-  <Version value="a1.0.6"/>
+  <Version value="a1.0.7"/>
 <DefaultModule value="false"/>
 <SingleplayerModule value="true"/>
 <MultiplayerModule value="false"/>
@@ -16,6 +16,23 @@
   <SubModules>
   </SubModules>
   <Xmls>
+<!-- PARTY TEMPLATES -->
+  <XmlNode>
+      <XmlName id="partyTemplates" path="northernpartyTemplates_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+  </XmlNode>
+  <XmlNode>
+      <XmlName id="partyTemplates" path="stormlandspartyTemplates_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+  </XmlNode>
 <!-- GEAR TEMPLATES -->
     <XmlNode>
       <XmlName id="NPCCharacters" path="northerngeartemplates_atwistoffate"/>
@@ -24,23 +41,6 @@
           <GameType value = "CampaignStoryMode"/>
           <GameType value = "CustomGame"/>
         </IncludedGameTypes>
-    </XmlNode>
-<!-- CULTURES -->
-    <XmlNode>
-      <XmlName id="SPCultures" path="northerncultures_atwistoffate"/>
-      <IncludedGameTypes>
-        <GameType value = "Campaign"/>
-        <GameType value = "CampaignStoryMode"/>
-        <GameType value = "CustomGame"/>
-      </IncludedGameTypes>
-    </XmlNode>
-    <XmlNode>
-      <XmlName id="SPCultures" path="stormlandscultures_atwistoffate"/>
-      <IncludedGameTypes>
-        <GameType value = "Campaign"/>
-        <GameType value = "CampaignStoryMode"/>
-        <GameType value = "CustomGame"/>
-      </IncludedGameTypes>
     </XmlNode>
 <!-- CHARACTER TEMPLATES -->
     <XmlNode>
@@ -93,23 +93,6 @@
         <GameType value = "CustomGame"/>
       </IncludedGameTypes>
     </XmlNode>
-<!-- PARTY TEMPLATES -->
-  <XmlNode>
-      <XmlName id="partyTemplates" path="northernpartyTemplates_atwistoffate"/>
-      <IncludedGameTypes>
-        <GameType value = "Campaign"/>
-        <GameType value = "CampaignStoryMode"/>
-        <GameType value = "CustomGame"/>
-      </IncludedGameTypes>
-  </XmlNode>
-  <XmlNode>
-      <XmlName id="partyTemplates" path="stormlandspartyTemplates_atwistoffate"/>
-      <IncludedGameTypes>
-        <GameType value = "Campaign"/>
-        <GameType value = "CampaignStoryMode"/>
-        <GameType value = "CustomGame"/>
-      </IncludedGameTypes>
-  </XmlNode>
 <!-- HEROES -->
     <XmlNode>
       <XmlName id="Heroes" path="northernheroes_atwistoffate"/>
@@ -138,6 +121,23 @@
     </XmlNode>
     <XmlNode>
       <XmlName id="NPCCharacters" path="stormlandslords_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+<!-- CULTURES -->
+    <XmlNode>
+      <XmlName id="SPCultures" path="northerncultures_atwistoffate"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="SPCultures" path="stormlandscultures_atwistoffate"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
         <GameType value = "CampaignStoryMode"/>

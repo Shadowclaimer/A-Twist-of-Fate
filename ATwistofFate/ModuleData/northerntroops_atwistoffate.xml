@@ -5,17 +5,17 @@
   <NPCCharacter id="northern_recruit"
                 default_group="Infantry"
                 level="6"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Recruit"
                 occupation="Soldier"
                 is_basic_troop="true"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="20" />
@@ -41,23 +41,24 @@
         <upgrade_target id="NPCCharacter.northern_militia" />
         <upgrade_target id="NPCCharacter.northern_woodsman" />
     </upgrade_targets>
-  </NPCCharacter>
+</NPCCharacter>
+
 <!-- Tier 2 Troops -->
 <!-- Northern Militia -->
 <NPCCharacter id="northern_militia"
                 default_group="Infantry"
                 level="11"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Militia"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="40" />
@@ -88,17 +89,17 @@
 <NPCCharacter id="northern_woodsman"
                 default_group="Infantry"
                 level="11"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Woodsman"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="40" />
@@ -124,23 +125,24 @@
       <upgrade_target id="NPCCharacter.northern_scout" />
       <upgrade_target id="NPCCharacter.northern_hunter" />
     </upgrade_targets>
-  </NPCCharacter>
+</NPCCharacter>
+
 <!-- Tier 3 -->
 <!-- Northern Fighter -->
 <NPCCharacter id="northern_fighter"
                 default_group="Infantry"
                 level="16"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Fighter"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                      key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="70" />
@@ -171,17 +173,17 @@
 <NPCCharacter id="northern_sentry"
                 default_group="Infantry"
                 level="16"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Sentry"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="70" />
@@ -211,17 +213,17 @@
 <NPCCharacter id="northern_scout"
                 default_group="Cavalry"
                 level="16"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Scout"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="15" />
@@ -255,17 +257,17 @@
 <NPCCharacter id="northern_hunter"
                 default_group="Ranged"
                 level="16"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Hunter"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="70" />
@@ -288,25 +290,26 @@
       <equipment slot="Gloves" id="Item.highland_gloves" />
     </equipmentSet>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_bowman" />
+      <upgrade_target id="NPCCharacter.northern_archer" />
     </upgrade_targets>
-  </NPCCharacter>
+</NPCCharacter>
+
 <!-- Tier 4 -->
 <!-- Northern Warrior -->
 <NPCCharacter id="northern_warrior"
                 default_group="Infantry"
                 level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Warrior"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="100" />
@@ -321,7 +324,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Item2" id="Item.strapped_round_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.ranger_mail" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -329,24 +332,24 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_veteran" />
+      <upgrade_target id="NPCCharacter.northern_sworn_sword" />
     </upgrade_targets>
-  </NPCCharacter>
+</NPCCharacter>
 <!-- Northern Guard -->
 <NPCCharacter id="northern_guard"
                 default_group="Infantry"
                 level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Guard"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="100" />
@@ -361,7 +364,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Item2" id="Item.strapped_round_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -369,24 +372,24 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_houseguard" />
+      <upgrade_target id="NPCCharacter.northern_warden" />
     </upgrade_targets>
-  </NPCCharacter>
+</NPCCharacter>
 <!-- Northern Spearman -->
 <NPCCharacter id="northern_spearman"
                 default_group="Infantry"
                 level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Spearman"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="100" />
@@ -401,7 +404,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.simple_pike_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Item2" id="Item.strapped_round_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.ranger_mail" />
       <equipment slot="Cape" id="Item.bearskin" />
@@ -411,61 +414,22 @@
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.northern_pikeman" />
     </upgrade_targets>
-  </NPCCharacter>
-<!-- Northern Watchman -->
-<!--<NPCCharacter id="northern_watchman"
-                default_group="Infantry"
-                level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Watchman"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="100" />
-      <skill id="Riding" value="15" />
-      <skill id="OneHanded" value="110" />
-      <skill id="TwoHanded" value="15" />
-      <skill id="Polearm" value="110" />
-      <skill id="Bow" value="15" />
-      <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="15" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.simple_pike_t2" />
-      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_scouts_shield" />
-      <equipment slot="Head" id="Item.battania_fur_helmet" />
-      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
-      <equipment slot="Cape" id="Item.bearskin" />
-      <equipment slot="Gloves" id="Item.highland_gloves" />
-      <equipment slot="Leg" id="Item.battania_woodland_boots" />
-    </equipmentSet>
-    <upgrade_targets>
-    </upgrade_targets>
-  </NPCCharacter>-->
+</NPCCharacter>
 <!-- Northern Cavalry -->
 <NPCCharacter id="northern_cavalry"
                 default_group="Cavalry"
                 level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Cavalry"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="65" />
@@ -479,7 +443,7 @@
     </skills>
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item1" id="Item.highland_riders_shield" />
+      <equipment slot="Item1" id="Item.strapped_round_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Cape" id="Item.battania_woodland_cloak" />
@@ -489,24 +453,24 @@
     <equipment slot="Horse" id="Item.battania_horse" />
     <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_charger" />
+      <upgrade_target id="NPCCharacter.northern_vanguard" />
     </upgrade_targets>
 </NPCCharacter>
 <!-- Northern Spotter -->
 <NPCCharacter id="northern_spotter"
                 default_group="HorseArcher"
                 level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Spotter"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="15" />
@@ -535,21 +499,21 @@
       <upgrade_target id="NPCCharacter.northern_outrider" />
     </upgrade_targets>
 </NPCCharacter>
-<!-- Northern Bowman -->
-<NPCCharacter id="northern_bowman"
+<!-- Northern Archer -->
+<NPCCharacter id="northern_archer"
                 default_group="Ranged"
                 level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Bowman"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                name="Northern Archer"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="100" />
@@ -572,65 +536,26 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <upgrade_targets>
-          <upgrade_target id="NPCCharacter.northern_archer" />
+          <upgrade_target id="NPCCharacter.northern_longbowman" />
     </upgrade_targets>
-  </NPCCharacter>
-<!-- Northern Tracker -->
-<!---->
-<!--<NPCCharacter id="northern_tracker"
-                default_group="Ranged"
-                level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Tracker"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="100" />
-      <skill id="Riding" value="15" />
-      <skill id="OneHanded" value="110" />
-      <skill id="TwoHanded" value="15" />
-      <skill id="Polearm" value="15" />
-      <skill id="Bow" value="110" />
-      <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="15" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.composite_bow" />
-      <equipment slot="Item1" id="Item.steppe_arrows" />
-      <equipment slot="Item2" id="Item.sturgia_sword_1_t2" />
-      <equipment slot="Head" id="Item.battania_civil_hood" />
-      <equipment slot="Body" id="Item.long_hemp_tunic" />
-      <equipment slot="Gloves" id="Item.highland_gloves" />
-      <equipment slot="Leg" id="Item.battania_woodland_boots" />
-      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
-    </equipmentSet>
-    <upgrade_targets>
-    </upgrade_targets>
-  </NPCCharacter> -->
-<!-- Tier 5 -->
-<!-- Northern Veteran -->
-<NPCCharacter id="northern_veteran"
+</NPCCharacter>
+
+<!-- TIER 5 -->
+<!-- Northern Sworn Sword -->
+<NPCCharacter id="northern_sworn_sword"
                 default_group="Infantry"
                 level="26"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Veteran"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                name="Northern Sworn Sword"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="130" />
@@ -645,7 +570,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Item2" id="Item.strapped_round_shield" />
       <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
       <equipment slot="Body" id="Item.battania_mercenary_armor" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -653,24 +578,23 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_sworn_sword" />
     </upgrade_targets>
-  </NPCCharacter>
-<!-- Northern Houseguard -->
-<NPCCharacter id="northern_houseguard"
+</NPCCharacter>
+<!-- Northern Warden -->
+<NPCCharacter id="northern_warden"
                 default_group="Infantry"
                 level="26"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Houseguard"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                name="Northern Warden"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="130" />
@@ -685,7 +609,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Item2" id="Item.strapped_round_shield" />
       <equipment slot="Head" id="Item.ridged_northernhelm" />
       <equipment slot="Body" id="Item.battania_noble_armor" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -693,24 +617,23 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_warden" />
     </upgrade_targets>
-  </NPCCharacter>
+</NPCCharacter>
 <!-- Northern Pikeman -->
 <NPCCharacter id="northern_pikeman"
                 default_group="Infantry"
                 level="26"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Pikeman"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="130" />
@@ -725,7 +648,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.fine_pike_t4" />
       <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Item2" id="Item.strapped_round_shield" />
       <equipment slot="Item3" id="Item.western_javelin_1_t2" />
       <equipment slot="Head" id="Item.peaked_helmet_over_padded_cloth" />
       <equipment slot="Body" id="Item.battania_noble_armor" />
@@ -734,25 +657,23 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_halberdier" />
     </upgrade_targets>
-  </NPCCharacter>
-<!-- Northern Defender -->
-<!-- Northern Charger -->
-<NPCCharacter id="northern_charger"
+</NPCCharacter>
+<!-- Northern Vanguard -->
+<NPCCharacter id="northern_vanguard"
                 default_group="Cavalry"
                 level="26"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Charger"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                name="Northern Vanguard"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="20" />
@@ -767,7 +688,7 @@
     <equipmentSet>
       <equipment slot="Item0" id="Item.fine_pike_t4" />
       <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Item2" id="Item.strapped_round_shield" />
       <equipment slot="Head" id="Item.battania_fur_helmet" />
       <equipment slot="Body" id="Item.battania_woodland_chainmail" />
       <equipment slot="Cape" id="Item.armored_bearskin" />
@@ -777,24 +698,23 @@
     <equipment slot="Horse" id="Item.battania_horse" />
     <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_vanguard" />
     </upgrade_targets>
 </NPCCharacter>
 <!-- Northern Outrider -->
 <NPCCharacter id="northern_outrider"
                 default_group="HorseArcher"
                 level="26"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
                 name="Northern Outrider"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="20" />
@@ -821,24 +741,23 @@
     <equipment slot="Horse" id="Item.battania_horse" />
     <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_freerider" />
     </upgrade_targets>
 </NPCCharacter>
 <!-- Northern Archer -->
-<NPCCharacter id="northern_archer"
+<NPCCharacter id="northern_longbowman"
                 default_group="Ranged"
                 level="26"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Archer"
+                civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                name="Northern Longbowman"
                 occupation="Soldier"
                 is_basic_troop="false"
                 culture="Culture.northern">
     <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
+      <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties    version="4" age="24.29" weight="0.162" build="0.3657"  
+                         key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+      <BodyPropertiesMax version="4" age="52.82" weight="0.6104" build="0.62046"  
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
     </face>
     <skills>
       <skill id="Athletics" value="130" />
@@ -861,505 +780,443 @@
       <equipment slot="Leg" id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.northern_longbowman" />
     </upgrade_targets>
+</NPCCharacter>
+
+<!-- ELITE TROOPS -->
+<!-- House Stark -->
+  <!-- Stark Youth -->
+  <NPCCharacter id="stark_youth"
+                  default_group="Infantry"
+                  level="11"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Stark Youth"
+                  occupation="Soldier"
+                  is_basic_troop="true"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+        <BodyProperties    version="4" age="20.29" weight="0.162" build="0.3657"  
+                          key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+        <BodyPropertiesMax version="4" age="24.82" weight="0.6104" build="0.62046"  
+                          key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
+      </face>
+      <skills>
+        <skill id="Athletics" value="60" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="60" />
+        <skill id="TwoHanded" value="15" />
+        <skill id="Polearm" value="60" />
+        <skill id="Bow" value="15" />
+        <skill id="Crossbow" value="15" />
+        <skill id="Throwing" value="15" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+        <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+        <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+        <equipment slot="Item3" id="Item.strapped_round_shield" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.rough_fur_armor" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Cape" id="Item.battania_cloak_furr" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </equipmentSet>
+      <upgrade_targets>
+        <upgrade_target id="NPCCharacter.stark_young_wolf" />
+      </upgrade_targets>
   </NPCCharacter>
-<!-- Northern Ranger -->
-<!-- Tier 6 -->
-<!-- Northern Sworn Sword -->
-<NPCCharacter id="northern_sworn_sword"
-                default_group="Infantry"
-                level="31"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Sworn Sword"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="225" />
-      <skill id="Riding" value="25" />
-      <skill id="OneHanded" value="220" />
-      <skill id="TwoHanded" value="220" />
-      <skill id="Polearm" value="25" />
-      <skill id="Bow" value="25" />
-      <skill id="Crossbow" value="25" />
-      <skill id="Throwing" value="25" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
-      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_scouts_shield" />
-      <equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
-      <equipment slot="Body" id="Item.battania_warlord_armor" />
-      <equipment slot="Cape" id="Item.battania_cloak_furr" />
-      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
-      <equipment slot="Leg" id="Item.battania_warlord_boots" />
-    </equipmentSet>
-    <upgrade_targets>
-    </upgrade_targets>
+  <!-- Stark Young Wolf -->
+  <NPCCharacter id="stark_young_wolf"
+                  default_group="Infantry"
+                  level="16"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Stark Young Wolf"
+                  occupation="Soldier"
+                  is_basic_troop="false"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+        <BodyProperties    version="4" age="20.29" weight="0.162" build="0.3657"  
+                          key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+        <BodyPropertiesMax version="4" age="28.82" weight="0.6104" build="0.62046"  
+                          key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
+      </face>
+      <skills>
+        <skill id="Athletics" value="90" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="90" />
+        <skill id="TwoHanded" value="80" />
+        <skill id="Polearm" value="90" />
+        <skill id="Bow" value="15" />
+        <skill id="Crossbow" value="15" />
+        <skill id="Throwing" value="15" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+        <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+        <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+        <equipment slot="Item3" id="Item.strapped_round_shield" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Cape" id="Item.battania_cloak_furr" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </equipmentSet>
+      <upgrade_targets>
+        <upgrade_target id="NPCCharacter.stark_swordsman" />
+      </upgrade_targets>
   </NPCCharacter>
-<!-- Northern Warden -->
-<NPCCharacter id="northern_warden"
-                default_group="Infantry"
-                level="31"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Warden"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="225" />
-      <skill id="Riding" value="25" />
-      <skill id="OneHanded" value="220" />
-      <skill id="TwoHanded" value="25" />
-      <skill id="Polearm" value="25" />
-      <skill id="Bow" value="25" />
-      <skill id="Crossbow" value="25" />
-      <skill id="Throwing" value="220" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
-      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item2" id="Item.highland_riders_shield" />
-      <equipment slot="Head" id="Item.battanian_crowned_helmet" />
-      <equipment slot="Body" id="Item.battania_warlord_armor" />
-      <equipment slot="Cape" id="Item.battania_warlord_pauldrons" />
-      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
-      <equipment slot="Leg" id="Item.battania_warlord_boots" />
-    </equipmentSet>
-    <upgrade_targets>
-    </upgrade_targets>
+  <!-- Stark Swordsman -->
+  <NPCCharacter id="stark_swordsman"
+                  default_group="Infantry"
+                  level="21"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Stark Swordsman"
+                  occupation="Soldier"
+                  is_basic_troop="false"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+        <BodyProperties    version="4" age="20.29" weight="0.162" build="0.3657"  
+                          key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+        <BodyPropertiesMax version="4" age="30.82" weight="0.6104" build="0.62046"  
+                          key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
+      </face>
+      <skills>
+        <skill id="Athletics" value="120" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="130" />
+        <skill id="TwoHanded" value="130" />
+        <skill id="Polearm" value="130" />
+        <skill id="Bow" value="15" />
+        <skill id="Crossbow" value="15" />
+        <skill id="Throwing" value="15" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+        <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+        <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+        <equipment slot="Item3" id="Item.strapped_round_shield" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.battania_cloak_furr" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </equipmentSet>
+      <upgrade_targets>
+        <upgrade_target id="NPCCharacter.stark_wolfguard" />
+      </upgrade_targets>
   </NPCCharacter>
-<!-- Northern Halberdier-->
-<NPCCharacter id="northern_halberdier"
-                default_group="Infantry"
-                level="31"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Halberdier"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="225" />
-      <skill id="Riding" value="25" />
-      <skill id="OneHanded" value="110" />
-      <skill id="TwoHanded" value="25" />
-      <skill id="Polearm" value="220" />
-      <skill id="Bow" value="25" />
-      <skill id="Crossbow" value="25" />
-      <skill id="Throwing" value="110" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.vlandia_polearm_1_t5" />
-      <equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
-      <equipment slot="Item2" id="Item.highland_riders_shield" />
-      <equipment slot="Item3" id="Item.western_javelin_1_t2" />
-      <equipment slot="Head" id="Item.peaked_helmet_over_mail_coif" />
-      <equipment slot="Body" id="Item.battania_warlord_armor" />
-      <equipment slot="Cape" id="Item.battania_warlord_pauldrons" />
-      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
-      <equipment slot="Leg" id="Item.battania_warlord_boots" />
-    </equipmentSet>
-    <upgrade_targets>
-    </upgrade_targets>
+  <!-- Stark Wolfguard -->
+  <NPCCharacter id="stark_wolfguard"
+                  default_group="Infantry"
+                  level="26"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Stark Wolfguard"
+                  occupation="Soldier"
+                  is_basic_troop="false"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+        <BodyProperties    version="4" age="20.29" weight="0.162" build="0.3657"  
+                          key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+        <BodyPropertiesMax version="4" age="36.82" weight="0.6104" build="0.62046"  
+                          key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
+      </face>
+      <skills>
+        <skill id="Athletics" value="150" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="180" />
+        <skill id="TwoHanded" value="180" />
+        <skill id="Polearm" value="180" />
+        <skill id="Bow" value="20" />
+        <skill id="Crossbow" value="20" />
+        <skill id="Throwing" value="20" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+        <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+        <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+        <equipment slot="Item3" id="Item.strapped_round_shield" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.battania_mercenary_armor" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.battania_cloak_furr" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </equipmentSet>
+      <upgrade_targets>
+        <upgrade_target id="NPCCharacter.stark_dire_wolfguard" />
+      </upgrade_targets>
   </NPCCharacter>
-<!-- Northern Sentinel -->
-<!-- Northern Vanguard -->
-<NPCCharacter id="northern_vanguard"
-                default_group="Cavalry"
-                level="31"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Vanguard"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="25" />
-      <skill id="Riding" value="225" />
-      <skill id="OneHanded" value="220" />
-      <skill id="TwoHanded" value="25" />
-      <skill id="Polearm" value="220" />
-      <skill id="Bow" value="25" />
-      <skill id="Crossbow" value="25" />
-      <skill id="Throwing" value="25" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.fine_pike_t4" />
-      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
-      <equipment slot="Item2" id="Item.highland_riders_shield" />
-      <equipment slot="Head" id="Item.ridged_northernhelm" />
-      <equipment slot="Body" id="Item.battania_mercenary_armor" />
-      <equipment slot="Cape" id="Item.armored_bearskin" />
-      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
-      <equipment slot="Leg" id="Item.battania_warlord_boots" />
-    </equipmentSet>
-    <equipment slot="Horse" id="Item.battania_horse" />
-    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
-    <upgrade_targets>
-    </upgrade_targets>
-</NPCCharacter>
-<!-- Northern Freerider -->
-<NPCCharacter id="northern_freerider"
-                default_group="HorseArcher"
-                level="31"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Freerider"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="25" />
-      <skill id="Riding" value="225" />
-      <skill id="OneHanded" value="25" />
-      <skill id="TwoHanded" value="25" />
-      <skill id="Polearm" value="25" />
-      <skill id="Bow" value="220" />
-      <skill id="Crossbow" value="25" />
-      <skill id="Throwing" value="220" />
-      <skill id="Scouting" value="80" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.composite_bow" />
-      <equipment slot="Item1" id="Item.steppe_arrows" />
-      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item3" id="Item.western_javelin_1_t2" />
-      <equipment slot="Head" id="Item.battania_fur_helmet" />
-      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
-      <equipment slot="Cape" id="Item.padded_leather_shoulders" />
-      <equipment slot="Gloves" id="Item.highland_gloves" />
-      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <equipment slot="Horse" id="Item.battania_horse" />
-    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
-    <upgrade_targets>
-    </upgrade_targets>
-</NPCCharacter>
-<!-- Northern Longbowman -->
-<NPCCharacter id="northern_longbowman"
-                default_group="Ranged"
-                level="31"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Northern Longbowman"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="32.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="48.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="225" />
-      <skill id="Riding" value="25" />
-      <skill id="OneHanded" value="220" />
-      <skill id="TwoHanded" value="25" />
-      <skill id="Polearm" value="25" />
-      <skill id="Bow" value="220" />
-      <skill id="Crossbow" value="25" />
-      <skill id="Throwing" value="220" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.woodland_longbow" />
-      <equipment slot="Item1" id="Item.steppe_arrows" />
-      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" /> 
-      <equipment slot="Head" id="Item.imperial_nasal_helm" />
-      <equipment slot="Body" id="Item.rough_fur_over_chain" />
-      <equipment slot="Cape" id="Item.padded_leather_shoulders" />
-      <equipment slot="Gloves" id="Item.highland_gloves" />
-      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <upgrade_targets>
-    </upgrade_targets>
+  <!-- Stark Dire Wolfguard -->
+  <NPCCharacter id="stark_dire_wolfguard"
+                  default_group="Infantry"
+                  level="31"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Stark Dire Wolfguard"
+                  occupation="Soldier"
+                  is_basic_troop="false"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+        <BodyProperties    version="4" age="20.29" weight="0.162" build="0.3657"  
+                          key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+        <BodyPropertiesMax version="4" age="36.82" weight="0.6104" build="0.62046"  
+                          key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
+      </face>
+      <skills>
+        <skill id="Athletics" value="245" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="240" />
+        <skill id="TwoHanded" value="240" />
+        <skill id="Polearm" value="240" />
+        <skill id="Bow" value="25" />
+        <skill id="Crossbow" value="25" />
+        <skill id="Throwing" value="25" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+        <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+        <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+        <equipment slot="Item3" id="Item.strapped_round_shield" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.battania_warlord_armor" />
+        <equipment slot="Leg" id="Item.battania_warlord_boots" />
+        <equipment slot="Cape" id="Item.battania_cloak_furr" />
+        <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+      </equipmentSet>
+      <upgrade_targets>
+      </upgrade_targets>
   </NPCCharacter>
-<!-- Northern Pathfinder -->
-<!-- Stark Youth -->
-<NPCCharacter id="stark_youth"
-                default_group="Infantry"
-                level="11"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Stark Youth"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="60" />
-      <skill id="Riding" value="15" />
-      <skill id="OneHanded" value="60" />
-      <skill id="TwoHanded" value="15" />
-      <skill id="Polearm" value="60" />
-      <skill id="Bow" value="15" />
-      <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="15" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
-      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
-      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
-      <equipment slot="Item3" id="Item.highland_scouts_shield" />
-      <equipment slot="Head" id="Item.battania_fur_helmet" />
-      <equipment slot="Body" id="Item.rough_fur_armor" />
-      <equipment slot="Leg" id="Item.battania_woodland_boots" />
-      <equipment slot="Cape" id="Item.battania_cloak_furr" />
-      <equipment slot="Gloves" id="Item.highland_gloves" />
-    </equipmentSet>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.stark_young_wolf" />
-    </upgrade_targets>
+
+<!-- House Umber -->
+  <!-- Umber Youth -->
+  <NPCCharacter id="umber_youth"
+                  default_group="Infantry"
+                  level="11"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Umber Youth"
+                  occupation="Soldier"
+                  is_basic_troop="true"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties version="4"
+                      age="20.29"
+                      weight="0.562"
+                      build="0.5657"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000" />
+      <BodyPropertiesMax version="4"
+                         age="24.82"
+                         weight="0.8104"
+                         build="0.82046"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105" />    
+      </face>
+      <skills>
+        <skill id="Athletics" value="60" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="60" />
+        <skill id="TwoHanded" value="15" />
+        <skill id="Polearm" value="60" />
+        <skill id="Bow" value="15" />
+        <skill id="Crossbow" value="15" />
+        <skill id="Throwing" value="60" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </equipmentSet>
+      <upgrade_targets>
+        <upgrade_target id="NPCCharacter.umber_berserker" />
+      </upgrade_targets>
   </NPCCharacter>
-<!-- Stark Young Wolf -->
-<NPCCharacter id="stark_young_wolf"
-                default_group="Infantry"
-                level="16"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Stark Young Wolf"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="90" />
-      <skill id="Riding" value="15" />
-      <skill id="OneHanded" value="90" />
-      <skill id="TwoHanded" value="80" />
-      <skill id="Polearm" value="90" />
-      <skill id="Bow" value="15" />
-      <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="15" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
-      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
-      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
-      <equipment slot="Item3" id="Item.highland_scouts_shield" />
-      <equipment slot="Head" id="Item.battania_fur_helmet" />
-      <equipment slot="Body" id="Item.ranger_mail" />
-      <equipment slot="Leg" id="Item.battania_woodland_boots" />
-      <equipment slot="Cape" id="Item.battania_cloak_furr" />
-      <equipment slot="Gloves" id="Item.highland_gloves" />
-    </equipmentSet>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.stark_swordsman" />
-    </upgrade_targets>
-</NPCCharacter>
-<!-- Stark Swordsman -->
-<NPCCharacter id="stark_swordsman"
-                default_group="Infantry"
-                level="21"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Stark Swordsman"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Riding" value="120" />
-      <skill id="OneHanded" value="130" />
-      <skill id="TwoHanded" value="130" />
-      <skill id="Polearm" value="130" />
-      <skill id="Bow" value="15" />
-      <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="15" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
-      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
-      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
-      <equipment slot="Item3" id="Item.highland_scouts_shield" />
-      <equipment slot="Head" id="Item.battania_fur_helmet" />
-      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
-      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
-      <equipment slot="Cape" id="Item.battania_cloak_furr" />
-      <equipment slot="Gloves" id="Item.highland_gloves" />
-    </equipmentSet>
-      <equipment slot="Horse" id="Item.battania_horse" />
-      <equipment slot="HorseHarness" id="Item.battania_horse_harness" />
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.stark_swordmaster" />
-    </upgrade_targets>
-</NPCCharacter>
-<!-- Stark Swordmaster -->
-<NPCCharacter id="stark_swordmaster"
-                default_group="Infantry"
-                level="26"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Stark Swordmaster"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="150" />
-      <skill id="Riding" value="150" />
-      <skill id="OneHanded" value="180" />
-      <skill id="TwoHanded" value="180" />
-      <skill id="Polearm" value="180" />
-      <skill id="Bow" value="20" />
-      <skill id="Crossbow" value="20" />
-      <skill id="Throwing" value="20" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
-      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
-      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
-      <equipment slot="Item3" id="Item.highland_riders_shield" />
-      <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
-      <equipment slot="Body" id="Item.battania_mercenary_armor" />
-      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
-      <equipment slot="Cape" id="Item.battania_cloak_furr" />
-      <equipment slot="Gloves" id="Item.highland_gloves" />
-    </equipmentSet>
-      <equipment slot="Horse" id="Item.battania_horse" />
-      <equipment slot="HorseHarness" id="Item.battania_horse_harness" />
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.stark_wolfguard" />
-    </upgrade_targets>
-</NPCCharacter>
-<!-- Stark Wolfguard -->
-<NPCCharacter id="stark_wolfguard"
-                default_group="Infantry"
-                level="31"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Stark Wolfguard"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="245" />
-      <skill id="Riding" value="245" />
-      <skill id="OneHanded" value="240" />
-      <skill id="TwoHanded" value="240" />
-      <skill id="Polearm" value="240" />
-      <skill id="Bow" value="25" />
-      <skill id="Crossbow" value="25" />
-      <skill id="Throwing" value="25" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
-      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
-      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
-      <equipment slot="Item3" id="Item.highland_riders_shield" />
-      <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
-      <equipment slot="Body" id="Item.battania_warlord_armor" />
-      <equipment slot="Leg" id="Item.battania_warlord_boots" />
-      <equipment slot="Cape" id="Item.battania_cloak_furr" />
-      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
-    </equipmentSet>
-      <equipment slot="Horse" id="Item.t2_battania_horse" />
-      <equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.stark_dire_wolfguard" />
-    </upgrade_targets>
-</NPCCharacter>
-<!-- Stark Dire Wolfguard -->
-<NPCCharacter id="stark_dire_wolfguard"
-                default_group="Infantry"
-                level="36"
-                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
-                name="Stark Dire Wolfguard"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.northern">
-    <face>
-      <face_key_template value="NPCCharacter.villager_battania" />
-      <BodyProperties version="4" age="22.08" weight="0.5" build="0.5"
-                      key="00000002C00003410560061000115164100574100001224225564603800101000279902407431101000000000000000000000000000000000000000000F01000" />
-      <BodyPropertiesMax version="4" age="36.18" weight="0.5" build="0.5"
-                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705FDC0570FABEC96000000000000000000000000000000000000000001F88105" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="320" />
-      <skill id="Riding" value="320" />
-      <skill id="OneHanded" value="320" />
-      <skill id="TwoHanded" value="320" />
-      <skill id="Polearm" value="320" />
-      <skill id="Bow" value="30" />
-      <skill id="Crossbow" value="30" />
-      <skill id="Throwing" value="30" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
-      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
-      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
-      <equipment slot="Item3" id="Item.highland_riders_shield" />
-      <equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
-      <equipment slot="Body" id="Item.battania_warlord_armor" />
-      <equipment slot="Leg" id="Item.battania_warlord_boots" />
-      <equipment slot="Cape" id="Item.battania_cloak_furr" />
-      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
-    </equipmentSet>
-    <equipment slot="Horse" id="Item.t2_battania_horse" />
-    <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
-    <upgrade_targets>
-    </upgrade_targets>
-</NPCCharacter>
+  <!-- Umber Berserker -->
+    <NPCCharacter id="umber_berserker"
+                  default_group="Infantry"
+                  level="16"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Umber Berserker"
+                  occupation="Soldier"
+                  is_basic_troop="false"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties version="4"
+                      age="20.29"
+                      weight="0.562"
+                      build="0.5657"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000" />
+      <BodyPropertiesMax version="4"
+                         age="28.82"
+                         weight="0.8104"
+                         build="0.82046"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105" />      
+      </face>
+      <skills>
+        <skill id="Athletics" value="90" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="90" />
+        <skill id="TwoHanded" value="80" />
+        <skill id="Polearm" value="90" />
+        <skill id="Bow" value="15" />
+        <skill id="Crossbow" value="15" />
+        <skill id="Throwing" value="90" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item3" id="Item.worn_kite_shield" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.scale_armor" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </equipmentSet>
+      <upgrade_targets>
+        <upgrade_target id="NPCCharacter.umber_greataxe" />
+      </upgrade_targets>
+  </NPCCharacter>
+  <!-- Umber Greataxe -->
+    <NPCCharacter id="umber_greataxe"
+                  default_group="Infantry"
+                  level="21"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Umber Greataxe"
+                  occupation="Soldier"
+                  is_basic_troop="false"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties version="4"
+                      age="20.29"
+                      weight="0.562"
+                      build="0.5657"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000" />
+      <BodyPropertiesMax version="4"
+                         age="30.82"
+                         weight="0.8104"
+                         build="0.82046"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105" />     
+      </face>
+      <skills>
+        <skill id="Athletics" value="120" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="130" />
+        <skill id="TwoHanded" value="130" />
+        <skill id="Polearm" value="130" />
+        <skill id="Bow" value="15" />
+        <skill id="Crossbow" value="15" />
+        <skill id="Throwing" value="130" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item3" id="Item.leather_bound_kite_shield" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </equipmentSet>
+      <upgrade_targets>
+        <upgrade_target id="NPCCharacter.umber_giant" />
+      </upgrade_targets>
+  </NPCCharacter>
+  <!-- Umber Giant -->
+    <NPCCharacter id="umber_giant"
+                  default_group="Infantry"
+                  level="26"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Umber Giant"
+                  occupation="Soldier"
+                  is_basic_troop="false"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+      <BodyProperties version="4"
+                      age="20.29"
+                      weight="0.562"
+                      build="0.5657"
+                      key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000" />
+      <BodyPropertiesMax version="4"
+                         age="34.82"
+                         weight="0.8104"
+                         build="0.82046"
+                         key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105" />     
+      </face>
+      <skills>
+        <skill id="Athletics" value="150" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="180" />
+        <skill id="TwoHanded" value="180" />
+        <skill id="Polearm" value="180" />
+        <skill id="Bow" value="20" />
+        <skill id="Crossbow" value="20" />
+        <skill id="Throwing" value="180" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </equipmentSet>
+      <upgrade_targets>
+        <upgrade_target id="NPCCharacter.umber_titan" />
+      </upgrade_targets>
+  </NPCCharacter>
+  <!-- Umber Titan -->
+  <NPCCharacter id="umber_titan"
+                  default_group="Infantry"
+                  level="31"
+                  civilianTemplate="NPCCharacter.northern_troop_civilian_template_t1"
+                  name="Umber Titan"
+                  occupation="Soldier"
+                  is_basic_troop="false"
+                  culture="Culture.northern">
+      <face>
+        <face_key_template value="NPCCharacter.villager_northern" />
+        <BodyProperties    version="4" age="20.29" weight="0.162" build="0.3657"  
+                          key="00000002C00003410560061000115164100574100001224225564603800101000255202405431101000000000000000000000000000000000000000000A01000"  />
+        <BodyPropertiesMax version="4" age="36.82" weight="0.6104" build="0.62046"  
+                          key="000580070000354AFE722D3D7685EEF98CAB7DFFAFC1FFCC99ABAF8A833C4B5705BBA0570BABEC96000000000000000000000000000000000000000001788105"  />      
+      </face>
+      <skills>
+        <skill id="Athletics" value="245" />
+        <skill id="Riding" value="15" />
+        <skill id="OneHanded" value="240" />
+        <skill id="TwoHanded" value="240" />
+        <skill id="Polearm" value="240" />
+        <skill id="Bow" value="25" />
+        <skill id="Crossbow" value="25" />
+        <skill id="Throwing" value="245" />
+      </skills>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item3" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.battania_mercenary_armor" />
+        <equipment slot="Leg" id="Item.battania_warlord_boots" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+      </equipmentSet>
+      <upgrade_targets>
+      </upgrade_targets>
+  </NPCCharacter>
+
 </NPCCharacters>

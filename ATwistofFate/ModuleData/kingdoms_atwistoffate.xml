@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Kingdoms>
-  <Kingdom id="thenorth" owner="Hero.starklord_1" culture="Culture.northern" banner_key="11.35.35.1836.1836.768.788.1.0.-30.505.149.149.517.1253.764.764.1.0.0.505.19.32.517.1253.207.762.1.0.0.505.19.32.517.1253.1330.762.1.0.0.505.35.20.648.1253.765.779.1.0.0.145.99.19.500.500.782.764.1.0.0" settlement_banner_mesh="encounter_flag_a" label_color="FF453e38" color="FF111111" color2="FF666666" alternative_color="FF453e38" alternative_color2="FFf5f5f5" flag_mesh="info_screen_flags_a" name="The North" short_name="Northerners" title="The North" ruler_title="Warden of the North" text="This is the Northern Kingdom Data description.">
+  <Kingdom id="thenorth" owner="Hero.stark_lord_1" culture="Culture.northern" banner_key="11.35.35.1836.1836.768.788.1.0.-30.505.149.149.517.1253.764.764.1.0.0.505.19.32.517.1253.207.762.1.0.0.505.19.32.517.1253.1330.762.1.0.0.505.35.20.648.1253.765.779.1.0.0.145.99.19.500.500.782.764.1.0.0" settlement_banner_mesh="encounter_flag_a" label_color="FF453e38" color="FF111111" color2="FF666666" alternative_color="FF453e38" alternative_color2="FFf5f5f5" flag_mesh="info_screen_flags_a" name="The North" short_name="Northerners" title="The North" ruler_title="Warden of the North" text="Harsh and wild, the North is the largest of the regions of the Seven Kingdoms consisting of nearly a third of the landmass controlled by the Iron Throne. The Northerners are a hearty yet chilly people who mirror their lands and hold to old traditions and older gods.">
     <relationships>
     </relationships>
     <policies>
     </policies>
   </Kingdom>
-  <Kingdom id="thestormlands" owner="Hero.baratheon_lord_1" culture="Culture.stormlands" banner_key="11.143.143.1836.1836.768.788.1.0.-30.133.116.116.500.500.770.776.0.0.0" settlement_banner_mesh="encounter_flag_a" label_color="FFf4ca16" color="FFf4ca16" color2="FF211f1f" alternative_color="FFf4ca16" alternative_color2="FFf4ca16" flag_mesh="info_screen_flags_a" name="The Stormlands" short_name="Stormlanders" title="The Stormlands" ruler_title="Lord Paramount of the Stormlands" text="This is the Stormlands Kingdom Data description.">
+  <Kingdom id="thestormlands" owner="Hero.baratheon_lord_1" culture="Culture.stormlands" banner_key="11.143.143.1836.1836.768.788.1.0.-30.133.116.116.500.500.770.776.0.0.0" settlement_banner_mesh="encounter_flag_a" label_color="FFe6bc0b" color="FFe6bc0b" color2="FF211f1f" alternative_color="FFe6bc0b" alternative_color2="FFe6bc0b" flag_mesh="info_screen_flags_a" name="The Stormlands" short_name="Stormlanders" title="The Stormlands" ruler_title="Lord Paramount of the Stormlands" text="Named after the savage seasonal storms that wrack the lands, the Stormlands are a land of savage mountains, cliffed shores, and dense woods. The stormlanders mirror their land having heavy martial traditions and a fierce demeanor.">
     <relationships>
     </relationships>
     <policies>

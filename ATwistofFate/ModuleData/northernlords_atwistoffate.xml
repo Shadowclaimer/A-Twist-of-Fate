@@ -1,288 +1,977 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-<!--             -->
 <!-- HOUSE STARK -->
-<!--             -->
-<!-- Lord - Benjen Stark -->
-  <NPCCharacter id="starklord_1" name="Benjen Stark" age="33" voice="curt" is_hero="true" spouse="Hero.starklord_2" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.4" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-  <!-- Lady - Catelyn Stark -->
-  <NPCCharacter id="starklord_2" name="Catelyn Stark " age="35" voice="curt" spouse="Hero.starklord_1" is_hero="true" is_female="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.5" build="0.5"  key="000B0807008830047859865877878940675C767663783508C753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000038EC2083"  />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-  <!-- Heir - Edwyle Stark -->
-  <NPCCharacter id="starklord_3" name="Edwyle Stark" age="16" father="Hero.starklord_1" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.5" build="0.5"  key="000B7C0CC0880009986EDA8C6179915D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082"  />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-<!-- Castellan - Rodrik Cassel -->
-  <NPCCharacter id="starklord_4" name="Rodrik Cassel" age="52" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.5" build="0.5"  key="000B3C0CC05802C55B8673A4620A874647767848A68772E177374696AB7A66850177761307D54C9A000000000000000000000000000000000000000028F43004"  /></face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-<!-- Jory Cassel -->
-  <NPCCharacter id="starklord_5" name="Jory Cassel" age="27" father="Hero.starklord_4" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.4" build="0.5"  key="0000AC0B4000060979892B797397B7FA7676866655A296647441DA8986DBE6300177761307A7B7A500000000000000000000000000000000000000003CFC1002"  />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-<!--             -->
+       <!-- Dead Stark Characters -->
+       <NPCCharacter id="stark_dead_lord_1" name="Rickard Stark" age="60" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+              <BodyProperties version="4" weight="0.4" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_dead_lord_2" name="Lyarra Stark" age="60" voice="curt" is_hero="true" is_female="true" default_group="Infantry" battleTemplate="NPCCharacter.noncombatant_battle_template_northern_noblewoman" civilianTemplate="NPCCharacter.noncombatant_template_northern_noblewoman" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+              <BodyProperties version="4" weight="0.4" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_dead_lord_3" name="Brandon Stark" age="38" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+              <BodyProperties version="4" weight="0.4" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_dead_lord_4" name="Eddard Stark" age="37" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+              <BodyProperties version="4" weight="0.4" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+
+       <!-- Nobles -->
+       <NPCCharacter id="stark_lord_1" name="Benjen Stark" age="33" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+              <BodyProperties version="4" weight="0.4" build="0.5" key="000B7C0CC0880342986EDA8C6179916D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082" />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_lord_2" name="Catelyn Stark " age="35" voice="curt" is_hero="true" is_female="true" default_group="Infantry"  battleTemplate="NPCCharacter.noncombatant_battle_template_northern_noblewoman" civilianTemplate="NPCCharacter.noncombatant_template_northern_catelyn" culture="Culture.northern" occupation="Lord">
+              <face>
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B0807008830047859865877878940675C767663783508C753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000038EC2083"  />
+              </face>
+              <skills>
+              </skills>
+              <Traits>
+                    <!--NONCOMBATANT FEMALE-->
+                     <Trait id="Politician" value="4" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Valor" value="-1" />
+                     <Trait id="Honor" value="1" />
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_lord_3" name="Edwyle Stark" age="16" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B7C0CC0880009986EDA8C6179915D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082"  />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_lord_4" name="Marna Stark" age="14" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.noncombatant_battle_template_northern_noblewoman" civilianTemplate="NPCCharacter.noncombatant_template_northern_catelyn"  culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B7C0CC0880009986EDA8C6179915D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082"  />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_lord_5" name="Artos Stark" age="10" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B7C0CC0880009986EDA8C6179915D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082"  />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_lord_6" name="Erron Stark" age="2" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B7C0CC0880009986EDA8C6179915D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082"  />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <!-- Bastards -->
+       <NPCCharacter id="stark_bastard_1" name="Edd Snow" age="20" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B7C0CC0880009986EDA8C6179915D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082"  />
+              </face>
+              <skills>
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="stark_bastard_2" name="Lya Snow" age="19" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.noncombatant_battle_template_northern_noblewoman" civilianTemplate="NPCCharacter.noncombatant_template_northern_noblewoman" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B7C0CC0880009986EDA8C6179915D675C76B6A378354EC753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000052EC4082"  />
+              </face>
+              <skills>
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+
+<!-- HOUSE CASSEL -->
+       <!-- Castellan - Rodrik Cassel -->
+       <NPCCharacter id="cassel_lord_1" name="Rodrik Cassel" age="52" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B3C0CC05802C55B8673A4620A874647767848A68772E177374696AB7A66850177761307D54C9A000000000000000000000000000000000000000028F43004"  /></face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <!-- Jory Cassel -->
+       <NPCCharacter id="cassel_lord_2" name="Jory Cassel" age="27" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.4" build="0.5"  key="0000AC0B4000060979892B797397B7FA7676866655A296647441DA8986DBE6300177761307A7B7A500000000000000000000000000000000000000003CFC1002"  />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE KARSTARK -->
+       <!-- Lord - Rickard Karstark -->
+       <NPCCharacter id="karstark_lord_1" name="Rickard Karstark" age="60" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="0011B800007014C29577C89A5D761C95DB7376285A8D493B24D87385385479B9669566130B5979A2B6277BAC686B4D490000000000001B77000000002B748006"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
 <!-- HOUSE UMBER -->
-<!--             -->
-<!-- Lord - Jon Greatjon Umber -->
-  <NPCCharacter id="umberlord_1" name="Jon 'Greatjon' Umber" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-<!--                -->
-<!-- HOUSE TALLHART -->
-<!--                -->
-<!-- Lord - Benfred Tallhart -->
-  <NPCCharacter id="tallhartlord_1" name="Benfred Tallhart" age="21" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.5" build="0.4"  key="00056402C0B406486B5822669649D8C660358D56A3B4735CAB65D6AB5768742A0167761306D3BBA700000000000000000000000000000000000000004AC44104"  />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-<!--                -->
+       <!-- Dead Lords -->
+       <NPCCharacter id="umber_dead_lord_1" name="Hoarfrost Umber" age="80" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="umber_dead_lord_2" name="Horen Umber" age="80" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="umber_dead_lord_3" name="Lysa Umber" age="80" voice="curt" is_hero="true" is_female="true" default_group="Infantry"  battleTemplate="NPCCharacter.noncombatant_battle_template_northern_noblewoman" civilianTemplate="NPCCharacter.noncombatant_template_northern_noblewoman" culture="Culture.northern" occupation="Lord">
+              <face>
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B0807008830047859865877878940675C767663783508C753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000038EC2083"  />
+              </face>
+              <skills>
+              </skills>
+              <Traits>
+                    <!--NONCOMBATANT FEMALE-->
+                     <Trait id="Politician" value="4" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Valor" value="-1" />
+                     <Trait id="Honor" value="1" />
+              </Traits>
+       </NPCCharacter>
+       <!-- Lord and Lady -->
+       <NPCCharacter id="umber_lord_1" name="Jon 'Greatjon' Umber" age="48" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="umber_lord_2" name="Helan Umber" age="45" voice="curt" is_hero="true" is_female="true" default_group="Infantry"  battleTemplate="NPCCharacter.noncombatant_battle_template_northern_noblewoman" civilianTemplate="NPCCharacter.noncombatant_template_northern_noblewoman" culture="Culture.northern" occupation="Lord">
+              <face>
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B0807008830047859865877878940675C767663783508C753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000038EC2083"  />
+              </face>
+              <skills>
+              </skills>
+              <Traits>
+                    <!--NONCOMBATANT FEMALE-->
+                     <Trait id="Politician" value="4" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Valor" value="-1" />
+                     <Trait id="Honor" value="1" />
+              </Traits>
+       </NPCCharacter>
+       <!-- Noble Children -->
+       <NPCCharacter id="umber_lord_3" name="Jon 'Smalljon' Umber" age="27" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="umber_lord_4" name="Hors Umber" age="25" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="umber_lord_5" name="Harmond Umber" age="23" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="umber_lord_6" name="Myra Umber" age="20" voice="curt" is_hero="true" is_female="true" default_group="Infantry"  battleTemplate="NPCCharacter.noncombatant_battle_template_northern_noblewoman" civilianTemplate="NPCCharacter.noncombatant_template_northern_noblewoman" culture="Culture.northern" occupation="Lord">
+              <face>
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B0807008830047859865877878940675C767663783508C753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000038EC2083"  />
+              </face>
+              <skills>
+              </skills>
+              <Traits>
+                    <!--NONCOMBATANT FEMALE-->
+                     <Trait id="Politician" value="4" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Valor" value="-1" />
+                     <Trait id="Honor" value="1" />
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="umber_lord_7" name="Sara Umber" age="20" voice="curt" is_hero="true" is_female="true" default_group="Infantry"  battleTemplate="NPCCharacter.noncombatant_battle_template_northern_noblewoman" civilianTemplate="NPCCharacter.noncombatant_template_northern_noblewoman" culture="Culture.northern" occupation="Lord">
+              <face>
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B0807008830047859865877878940675C767663783508C753A2C9DBDD43750177761307B4BB73000000000000000000000000000000000000000038EC2083"  />
+              </face>
+              <skills>
+              </skills>
+              <Traits>
+                    <!--NONCOMBATANT FEMALE-->
+                     <Trait id="Politician" value="4" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Valor" value="-1" />
+                     <Trait id="Honor" value="1" />
+              </Traits>
+       </NPCCharacter>
+       <!-- Bastards -->
+       <!-- Maesters -->
+       <!-- Castellans and Household -->
+       <NPCCharacter id="umber_household_1" name="Mors 'Crowfood' Umber" age="62" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+       <NPCCharacter id="umber_household_2" name="Hother Umber" age="59" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="000B6C0A00582A0244A67A6AC3875618693B778A3487776888BC757D38847A9A01D776130D2A6EB700000000000000000000000000000000000000000BAC30C4"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+
 <!-- HOUSE BOLTON -->
-<!--                -->
-<!-- Lord - Roose Bolton -->
-  <NPCCharacter id="boltonlord_1" name="Roose Bolton" age="40" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="0.4" build="0.4"  key="00004C0CC00020028176643447609E33134E7602B845090550073164717780130197761309C7A70500000000000000000000000000000000000000003D343002"  />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-<!--                -->
+       <!-- Lord - Roose Bolton -->
+       <NPCCharacter id="bolton_lord_1" name="Roose Bolton" age="40" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.4" build="0.4"  key="00004C0CC00020028176643447609E33134E7602B845090550073164717780130197761309C7A70500000000000000000000000000000000000000003D343002"  />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE CERWYN -->
+       <!-- Lord - Medgar Cerwyn -->
+       <NPCCharacter id="cerwyn_lord_1" name="Medger Cerwyn" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="001C640C002C13CFA55488924A989785D7A7C978E8834B868737478164589847989B9613074E866646B5597CD48C66770000000000001777000000002AEC30C6"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE DUSTIN -->
+       <!-- Lord - Willam Dustin -->
+       <NPCCharacter id="dustin_lord_1" name="Willam Dustin" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="000B840600A014C2A5A438789DAA9ABAD774A4C81533445747D787CA8E58A3C668A4B6130A5EC4638AAA68A574669BE50000000000001A7700000000435C4106"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
 <!-- HOUSE GLOVER -->
-<!--                -->
-<!-- Lord - Galbert Glover -->
-  <NPCCharacter id="gloverlord_1" name="Galbert Glover" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-      <BodyProperties version="4" weight="0.5" build="0.5"  key="00114C0700CC33424B75A887777777763E662D5B4744D7C76AC78427B77D8794017776130747A75C000000000000000000000000000000000000000020F43044"  />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
-<!--                -->
+       <!-- Lord - Galbert Glover -->
+       <NPCCharacter id="glover_lord_1" name="Galbert Glover" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="00114C0700CC33424B75A887777777763E662D5B4744D7C76AC78427B77D8794017776130747A75C000000000000000000000000000000000000000020F43044"  />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
 <!-- HOUSE MANDERLY -->
-<!--                -->
-<!-- Lord - Wyman Manderly -->
-  <NPCCharacter id="manderlylord_1" name="Wyman Manderly" age="60" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
-    <face>
-      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
-       <BodyProperties version="4" weight="1.0" build="0.5"  key="00058001400033CDD7989591EECFE78FCAAB8798A45A9C7576BD8BFDB3A6D6870167761306B67696000000000000000000000000000000000000000056C41104"  /></face>
-    <skills>
-      <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="100" />
-    </skills>
-    <Traits>
-    </Traits>
-  </NPCCharacter>
+       <!-- Lord - Wyman Manderly -->
+       <NPCCharacter id="manderly_lord_1" name="Wyman Manderly" age="60" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="1.0" build="0.5"  key="00058001400033CDD7989591EECFE78FCAAB8798A45A9C7576BD8BFDB3A6D6870167761306B67696000000000000000000000000000000000000000056C41104"  /></face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE MORMONT -->
+       <!-- Lord - Jorah Mormont -->
+       <NPCCharacter id="mormont_lord_1" name="Jorah Mormont" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="0016540C0000034D2733569677D657682C64C76A85775568395B7BA556A993479D7E761305C3A3A57FFF799A9CA729940000000000001577000000001CBC70C6"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE TALLHART -->
+       <!-- Lord - Helman Tallhart -->
+       <NPCCharacter id="tallhart_lord_1" name="Helman Tallhart" age="21" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.4"  key="00056402C0B406486B5822669649D8C660358D56A3B4735CAB65D6AB5768742A0167761306D3BBA700000000000000000000000000000000000000004AC44104"  />
+              </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE FLINT -->
+       <!-- Lord - Lyessa Flint -->
+       <NPCCharacter id="flint_lord_1" name="Lyessa Flint" age="36" voice="curt" is_hero="true" is_female="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="001C840D40CC3001C6EC9888438898216853E2CB6BAAB9B866DCA22889C7487D5538961307E5496CD4CD66A811CB999500000000000017770000000052DC10C3"  /> 
+                     </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE RYSWELL -->
+       <!-- Lord - Rodrik Ryswell -->
+       <NPCCharacter id="ryswell_lord_1" name="Rodrik Ryswell" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="001CAC0D4014090372579687796943926858217317889977448617796BC89A487797A61307C9867767846B754887B89800000000000017770000000028F42043"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE HORNWOOD -->
+       <!-- Lord - Halys Hornwood -->
+       <NPCCharacter id="hornwood_lord_1" name="Halys Hornwood" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="001C3C0D40583A4055A76C9A8728A69657D975A7448A3651677EB71894A3289EE77A861309889A457246A596D38877B20000000000001977000000003B244043"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE REED -->
+       <!-- Lord - Howland Reed -->
+       <NPCCharacter id="reed_lord_1" name="Howland Reed" age="40" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.5"  key="0005B404C000324285645741D47A46687BD37E5769526B57677A7B587499A455EAD2A613038597726589A89EB685767A000000000000137700000000365460C3"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE LOCKE -->
+       <!-- Lord - Ondrew Locke -->
+       <NPCCharacter id="locke_lord_1" name="Ondrew Locke" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="001C980740FC1441156757B598B5CAD3AAAC2B79993BA264678937A3B898C815C8A766130A6D6B1C858B84AADB88EE540000000000001A770000000049543003"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
+<!-- HOUSE SLATE -->
+       <!-- Lord - Roger Slate -->
+       <NPCCharacter id="slate_lord_1" name="Roger Slate" age="36" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.northern_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.northern_unarmored_noble_equipment" culture="Culture.northern" occupation="Lord">
+              <face>
+              <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+                     <BodyProperties version="4" weight="0.5" build="0.8"  key="00114004C0583946E9C74687A45A98788A98A54381996679A7C38AB4897A6754B34DA6130789C556276487585647B8470000000000001777000000002EE46083"  /> </face>
+              <skills>
+              <skill id="Athletics"
+                     value="60" />
+              <skill id="Riding"
+                     value="100" />
+              <skill id="OneHanded"
+                     value="60" />
+              <skill id="TwoHanded"
+                     value="100" />
+              <skill id="Polearm"
+                     value="45" />
+              <skill id="Bow"
+                     value="45" />
+              <skill id="Crossbow"
+                     value="15" />
+              <skill id="Throwing"
+                     value="100" />
+              </skills>
+              <Traits>
+              </Traits>
+       </NPCCharacter>
 </NPCCharacters>

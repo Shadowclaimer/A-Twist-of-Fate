@@ -3,26 +3,25 @@
       <MBPartyTemplate id="kingdom_hero_party_baratheon_template" >
     <stacks>
     <!-- Normal Troops -->
-      <PartyTemplateStack min_value="12" max_value="16" troop="NPCCharacter.northern_recruit" /> 
-      <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.northern_militia" /> 
-      <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.northern_woodsman" /> 
-      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.northern_fighter" /> 
-      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.northern_sentry" /> 
-      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.northern_scout" /> 
-      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.northern_hunter" /> 
-      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.northern_warrior" /> 
-      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.northern_guard" />
-      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.northern_spearman" />
-      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.northern_cavalry" />
-      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.northern_spotter" />
-      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.northern_bowman" />
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.northern_veteran" />
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.northern_houseguard" />
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.northern_pikeman" />   
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.northern_charger" />     
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.northern_outrider" /> 
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.northern_archer" /> -->
-    <!-- Youth Tree
+      <PartyTemplateStack min_value="12" max_value="16" troop="NPCCharacter.stormlands_recruit" /> 
+      <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.stormlands_minuteman" /> 
+      <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.stormlands_rider" /> 
+      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.stormlands_soldier" /> 
+      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.stormlands_woodsman" /> 
+      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.stormlands_cavalry" /> 
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.stormlands_sentinel" /> 
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.stormlands_warrior" />
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.stormlands_skirmisher" />
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.stormlands_bowman" />
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.stormlands_charger" />
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.stormlands_knight" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.stormlands_warden" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.stormlands_brute" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.stormlands_pikeman" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.stormlands_yeoman" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.stormlands_thunderer" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.stormlands_gallant" />
+   <!-- Youth Tree
       <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.imperial_equite" />
       <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.imperial_equite" />
       <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.imperial_heavy_horseman" />

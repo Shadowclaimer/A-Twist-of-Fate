@@ -82,7 +82,7 @@
     </Traits>
   </NPCCharacter>
 <!-- HOUSE ERROL -->
-  <NPCCharacter id="errol_lord_1" name="Shyla Errol" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
+  <NPCCharacter id="errol_lord_1" name="Shyra Errol" age="34" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.vlandia_lord_lady_battle_equipment_heavy" civilianTemplate="NPCCharacter.battania_unarmored_noble_equipment" culture="Culture.stormlands" occupation="Lord">
     <face>
       <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
        <BodyProperties version="4" weight="0.5" build="0.5"  key="0011000C0000134E0676648E6874B83353FB662377150E114C7101778764509357AB76130AAA949500000000000000000000000000001A77000000003F447003"  />
